@@ -1,0 +1,241 @@
+{
+ "date": "2026-10-19",
+ "lead": {
+  "title": "Engineered plant immune receptors recognize two blast fungus effectors at once",
+  "url": "https://www.sciencedaily.com/releases/2026/10/261014015501.htm",
+  "summary": "John Innes Centre and Kobe University researchers re-engineered the effector-binding HMA domains of tandem kinase protein (TKP) receptors so that a single receptor detects two distinct <i>Magnaporthe oryzae</i> effectors linked to wheat and barley blast (<i>Science Advances</i>, 15 October). Dual recognition is rare in natural receptors and offers a design route for durable resistance; the result is so far limited to wheat protoplasts.",
+  "notes": [
+   {
+    "label": "Also notable",
+    "text": "two-layer editing of <i>HPPD</i> (coding plus cis-regulatory edits) produced transgene-free herbicide-tolerant rice and wheat (Nature Plants)."
+   },
+   {
+    "label": "Regulatory",
+    "text": "Brazil approved a stacked GM soybean from China's DBN; the EU authorised seven GE crops for import; USDA deregulated a red-flowered GE marigold."
+   },
+   {
+    "label": "Prairies",
+    "text": "Saskatchewan harvest 93% complete, field peas 37 bu/ac and canola 40 bu/ac; Western canola yields average to below average."
+   }
+  ]
+ },
+ "sections": {
+  "plant": [
+   {
+    "date": "2026-10-15",
+    "source": "ScienceDaily (John Innes Centre; Science Advances)",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261014015501.htm",
+    "title": "A fungus is threatening the world&#x27;s food supply. Scientists just found a new defense",
+    "summary": "John Innes Centre researchers, working with Kobe University, showed that the HMA domains of tandem kinase protein (TKP) immune receptors bind effectors from the blast fungus <i>Magnaporthe oryzae</i>. Engineered TKP receptors recognized two distinct fungal effectors linked to wheat and barley infection, a dual recognition rarely seen in natural receptors. Testing so far is limited to wheat protoplasts; whole-plant and field resistance remain to be shown."
+   },
+   {
+    "date": "2026-10-14",
+    "source": "EurekAlert! (Salk Institute; Science Advances)",
+    "url": "https://www.eurekalert.org/news-releases/1147627",
+    "title": "Plant cell receptor balances signals from food and foe",
+    "summary": "Salk Institute researchers report that the <i>Arabidopsis</i> receptor SRF3 detects microbes and promotes reactive oxygen species production, which depletes cellular iron. As iron falls, SRF3 clusters into nanodomains, is ubiquitinated and internalized, which halts further ROS output and restores iron balance. The work is confined to <i>Arabidopsis</i>, and relevance to crops has not been tested."
+   },
+   {
+    "date": "2026-10-14",
+    "source": "Bioengineer.org (report on a Nature Plants paper)",
+    "url": "https://bioengineer.org/two-layer-gene-editing-delivers-elite-herbicide-tolerant-crops/",
+    "title": "Two-layer gene editing delivers elite herbicide-tolerant crops",
+    "summary": "The study combined structure-guided amino acid substitutions in <i>HPPD</i> with cis-regulatory edits at the native locus to raise expression, producing transgene-free rice and wheat tolerant to HPPD-inhibiting herbicides. Neither edit layer alone gave the strongest tolerance; a CRISPR newsletter reports rice tolerance at four times the field rate. Multi-season field validation, fitness costs and weed resistance management remain open; the paper DOI should be checked against Nature Plants."
+   },
+   {
+    "date": "2026-10-14",
+    "source": "Donald Danforth Plant Science Center (The Plant Journal)",
+    "url": "https://www.danforthcenter.org/news/corn-heat-drought-stress/",
+    "title": "Early heat and drought stress can have lasting effects on corn",
+    "summary": "Researchers imaged 47 diverse maize lines daily through 13 days of drought, heat or combined stress beginning shortly after emergence. For most lines, combined stress reduced plant size more than single stresses predicted, and drought response alone did not predict combined-stress response. Plants exposed to combined stress were still smaller at 61 days after planting; field results are pending."
+   },
+   {
+    "date": "2026-10-16",
+    "source": "bioRxiv preprint (John Innes Centre)",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759101v1",
+    "title": "A blast fungus effector targets a Tubby-like F-box protein to suppress plant immunity",
+    "summary": "The <i>M. oryzae</i> zinc finger effector Tie1 binds several rice Tubby-like proteins and relocates the Tubby-like domain of OsTLP7 from the plasma membrane to the cytoplasm and nucleus. Tie1 overexpression in <i>Arabidopsis</i> upregulated repressors of jasmonic acid signalling, consistent with suppression of JA-mediated immunity. This is a preprint that has not been peer reviewed, and the binding interface is an AlphaFold3 prediction."
+   },
+   {
+    "date": "2026-10-17",
+    "source": "Mundo Agropecuario (Flinders University; Molecular Ecology)",
+    "url": "https://mundoagropecuario.com/hongos-suelo-recuperacion-restauracion-australia/",
+    "title": "Restoration plantings promote functional recovery of soil fungi",
+    "summary": "Flinders University researchers sampled soil fungi at replanted sites at Mount Bold, South Australia, in 2014 and again in 2020. Pathotrophic fungi declined in relative dominance, indicating partial functional recovery, but community composition moved little toward natural reference sites. Legacy phosphorus from past farming was the soil property most strongly associated with the differences (correlational; Spanish-language source)."
+   },
+   {
+    "date": "2026-10-09",
+    "source": "Botany One (on Hussain, Boussardon and Keech, Nature Plants)",
+    "url": "https://www.botany.one/how-does-a-leaf-know-when-to-die/",
+    "title": "How does a leaf know when to die?",
+    "summary": "A Swedish team supplied single amino acids to dark-incubated <i>Arabidopsis</i> leaf discs and found that arginine more than doubled green tissue retention. Normal leaves activate arginine-clearing genes, stay-green mutants do not, and restoring those genes made mutant leaves senesce again. The authors propose that the cytosolic arginine pool gates senescence progression; the write-up date postdates the paper itself."
+   },
+   {
+    "date": "2026-10-09",
+    "source": "Communications Biology",
+    "url": "https://www.nature.com/articles/s42003-026-11106-x",
+    "title": "A telomere-to-telomere reference genome for Rosa roxburghii",
+    "summary": "A gap-free 494.57 Mb assembly of <i>Rosa roxburghii</i> 'Guinong No. 5' has a contig N50 of 51.44 Mb, with 99.9% anchored to seven pseudo-chromosomes. Multi-omics profiling of eight triterpenoids pointed to <i>OSC</i>, <i>CYP</i> and <i>UGT</i> genes and candidate regulators <i>MYB30</i> and <i>MYB31</i>. Gene roles are association-based candidates pending functional validation."
+   },
+   {
+    "date": "2026-10-13",
+    "source": "Botany One (on Oliveira et al., Restoration Ecology)",
+    "url": "https://www.botany.one/can-small-pellets-help-mosses-rebuild-degraded-soils/",
+    "title": "Can small pellets help mosses rebuild degraded soils?",
+    "summary": "Sand, clay and biodegradable-glue pellets carrying fragments of the moss <i>Hyophila involuta</i> established in over 90% of cases within weeks in the laboratory. In field trials in Belo Horizonte, Brazil, no establishment was observed over eight weeks, and many pellets were displaced or buried. Only one species was tested."
+   },
+   {
+    "date": "2026-10-09",
+    "source": "Botany One (on Peñaloza-Bojacá et al.)",
+    "url": "https://www.botany.one/when-does-a-partnership-stop-working-hornworts-reveal-the-hidden-complexity-of-symbiosis-with-cyanobacteria/",
+    "title": "Hornworts reveal the hidden complexity of symbiosis with cyanobacteria",
+    "summary": "Two Brazilian Atlantic Forest hornwort species were grown for 154 days with or without a <i>Nostoc</i> strain. <i>Dendroceros crispus</i> grew well throughout, whereas <i>Nothoceros vincentianus</i> showed lower survival and growth with <i>Nostoc</i>, even though the strain came from that species. The proposed explanation, resource competition during germination, was not tested directly."
+   }
+  ],
+  "biotech": [
+   {
+    "date": "2026-10-14",
+    "source": "Global Agriculture",
+    "url": "https://www.global-agriculture.com/latam-agriculture/brazil-approves-new-stacked-trait-gm-soybean-from-chinas-dbn/",
+    "title": "Brazil approves new stacked-trait GM soybean from China&#x27;s DBN",
+    "summary": "CTNBio approved the stacked soybean event DBN9004 x DBN8002 x DBN8205 from Beijing Dabeinong's Brazilian unit on 12 October 2026. The stack combines glyphosate and glufosinate tolerance with three Bt genes (<i>cry1Ac</i>, <i>cry2Ab2</i>, <i>mVip3Aa</i>) targeting fall armyworm and related pests. The decision is a regulatory milestone; no commercial launch timeline was given."
+   },
+   {
+    "date": "2026-10-12",
+    "source": "OFI Magazine",
+    "url": "https://www.ofimagazine.com/news/european-commission-authorises-seven-ge-crops-for-food-and-feed-use",
+    "title": "European Commission authorises seven GE crops for food and feed use",
+    "summary": "The Commission authorised seven GE crops for import and processing, each for 10 years: four new approvals (three soybean, one maize) and three renewals. Events include Bayer's MON 94637 and MON 94313 soybeans and BASF's GMB151 x DAS-44406-6 soybean. The authorisations exclude cultivation, and all seven received favourable EFSA assessments."
+   },
+   {
+    "date": "2026-10-13",
+    "source": "SeedQuest (USDA APHIS)",
+    "url": "https://www.seedquest.com/news.php?type=news&id_article=172002&id_region=&id_category=2450&id_crop=",
+    "title": "USDA APHIS deregulates African marigold engineered to produce red flowers",
+    "summary": "APHIS approved a Ball Horticultural Company petition to deregulate a genetically engineered African marigold with red petals. The agency concluded it is unlikely to pose greater plant pest risk than its unmodified comparator. The decision drew on petition data, literature and public comments (docket APHIS-2026-0001)."
+   },
+   {
+    "date": "2026-10-15",
+    "source": "Global Agriculture",
+    "url": "https://www.global-agriculture.com/biologicals/deep-tech-pioneer-switch-bioworks-announces-collaboration-with-global-agriculture-leader-bayer-crop-science-to-advance-biological-nitrogen/",
+    "title": "Switch Bioworks and Bayer Crop Science collaborate on biological nitrogen",
+    "summary": "Switch Bioworks' engineered microbes colonize roots before a genetic switch activates nitrogen production. In grow-room studies they produced five times more nitrogen than always-on control strains. The company holds USDA and EPA authorization for Midwest field trials, so field performance data are still to come."
+   },
+   {
+    "date": "2026-10-13",
+    "source": "AgNavigator",
+    "url": "https://www.agnavigator.com/Article/2026/10/13/hudson-rivers-latest-tie-up-signals-europes-gene-editing-ambitions/",
+    "title": "Hudson River&#x27;s latest tie-up signals Europe&#x27;s gene-editing ambitions",
+    "summary": "Semillas Fito (Spain) and Hudson River Biotechnology (Netherlands) agreed a long-term partnership to generate new variation in tomato breeding lines using the BioMaas platform. Initial targets include disease and pest resistance, shelf life and nutritional value. European breeders are positioning for NGT rules expected to take effect in 2028."
+   },
+   {
+    "date": "2026-10-15",
+    "source": "AgNavigator",
+    "url": "https://www.agnavigator.com/Article/2026/10/15/could-gene-editing-open-the-door-to-broader-gmo-acceptance-in-europe/",
+    "title": "Could gene editing open the door to broader GMO acceptance in Europe?",
+    "summary": "Bayer's Matthias Berninger argued that NGT deployment under the new EU framework could soften resistance to some GMOs, given that the EU imports large volumes of GM feed while restricting cultivation. A cited Bayer and Oxford Economics report finds EU crop production grew 0.1% per year from 2011 to 2023, versus 1% in the US and 3.3% in Brazil. The view is that of an industry stakeholder."
+   },
+   {
+    "date": "2026-10-16",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/china-looks-ban-foreign-acquisitions-critical-biopharma-platforms",
+    "title": "China looks to ban foreign acquisitions of key biotech platforms",
+    "summary": "A draft update to China's export control catalogue would bar foreign acquisition of proprietary cell and gene therapy, siRNA and pathogen gain-of-function platforms. Full transfers of related target identification technologies would require approval, while out-licensing and outsourced services are excluded. Comments are open until 15 November."
+   },
+   {
+    "date": "2026-10-14",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts/",
+    "title": "Colossal Biosciences announces AI platform to accelerate de-extinction efforts",
+    "summary": "GenoMorph combines 3D shape analysis, comparative genomics and developmental biology to choose editing targets where genomic data are scarce. Built on data from more than 70 bird species, it flagged about 2,300 candidate edits linked to dodo cranial shape for laboratory testing. Colossal also reported a lipid nanoparticle method for delivering editors into bird embryos."
+   },
+   {
+    "date": "2026-10-15",
+    "source": "BioSpace",
+    "url": "https://www.biospace.com/business/astrazeneca-bulks-up-mash-cardio-work-in-up-to-1-5b-ai-partnership-with-insitro",
+    "title": "AstraZeneca bulks up MASH and cardio work in up to $1.5B AI partnership with insitro",
+    "summary": "AstraZeneca will pay insitro $40 million upfront and up to $1.46 billion in milestones to apply its AI platform to target discovery in MASH and cardiomyopathies. insitro identifies targets and AstraZeneca carries candidates through development. The deal is one of several large AI-discovery partnerships signed this week."
+   },
+   {
+    "date": "2026-10-16",
+    "source": "BioSpace",
+    "url": "https://www.biospace.com/deals/estuary-sails-into-kidney-disease-space-with-103m-for-gene-therapies",
+    "title": "Estuary sails into kidney disease space with $103M for gene therapies",
+    "summary": "Estuary Biotherapeutics launched with $103 million, including a $93 million Series A led by RA Capital, to develop AAV gene therapies for autosomal dominant polycystic kidney disease. The programs build on Yale mouse work showing that restoring polycystin expression can reverse cystic disease. Lead candidate EST-201 (full-length <i>PKD2</i>) is expected in the clinic in 2027."
+   }
+  ],
+  "ag": [
+   {
+    "date": "2026-10-15",
+    "source": "Government of Saskatchewan (via EIN Presswire)",
+    "url": "https://www.einpresswire.com/article/949983714/crop-report-for-the-period-october-6-to-october-12-2026",
+    "title": "Saskatchewan crop report, October 6 to 12, 2026",
+    "summary": "Saskatchewan's harvest was 93% complete, with canola at 89%, field peas and lentils at 99% and spring wheat at 96%. Estimated yields were 53 bu/ac for hard red spring wheat, 40 bu/ac for canola, 37 bu/ac for field peas and 1,440 lb/ac for lentils. Most crops were at or above historical averages."
+   },
+   {
+    "date": "2026-10-18",
+    "source": "The Western Producer (via 620 CKRM)",
+    "url": "https://www.620ckrm.com/2026/10/18/canola-yields-in-2026-like-getting-socks-for-christmas/",
+    "title": "Canola yields in 2026 like getting socks for Christmas",
+    "summary": "Canola yields across Western Canada are average to below average. Saskatchewan's provincial estimate is 40 bu/ac and Alberta's 38.1 bu/ac, down from 42.6 bu/ac in 2025, with northern Alberta at 32 to 36 bu/ac. Canola futures stood at $813 per tonne on 13 October."
+   },
+   {
+    "date": "2026-10-15",
+    "source": "Manitoba Co-operator",
+    "url": "https://www.manitobacooperator.ca/daily/manitoba-crop-report-harvest-nearly-80-per-cent-complete-despite-rains/",
+    "title": "Manitoba crop report: harvest nearly 80 per cent complete despite rains",
+    "summary": "Manitoba's harvest reached 79% for the week ended 14 October despite 10 to 30 mm of rain in the south. Canola was 86% harvested with below-average to average yields; soybeans were 61% harvested with average to above-average yields. Some late spring cereals were downgraded for sprouting and weathering."
+   },
+   {
+    "date": "2026-10-13",
+    "source": "Alberta Seed Guide",
+    "url": "https://www.seed.ab.ca/alberta-harvest-progress-october-2026-canola/",
+    "title": "Alberta harvest nears 80% but canola is another story",
+    "summary": "The 6 October Alberta Crop Report showed harvest 79.5% complete, near the 10-year average but behind the five-year average of 94%. Canola was 56% harvested with another 23% swathed, versus 99.6% for dry peas. The dryland yield index was 121.2, about 21% above the five-year average, and 89% of canola graded No. 1 Canada."
+   },
+   {
+    "date": "2026-10-17",
+    "source": "Farm Progress",
+    "url": "https://www.farmprogress.com/week-agribusiness/this-week-in-agribusiness-oct-17-2026",
+    "title": "This Week in Agribusiness, Oct. 17, 2026",
+    "summary": "USDA reported ARC and PLC payments of about $13.8 billion, compared with $1.9 billion last year. Market analysis covered an October yield surprise centred on Nebraska, Minnesota's record corn crop, record Brazilian crops and tightening global stocks. The programme also covered fall herbicide planning and new strip-till equipment."
+   },
+   {
+    "date": "2026-10-16",
+    "source": "USDA Farm Service Agency",
+    "url": "https://www.fsa.usda.gov/news-events/news/10-16-2026/usda-boosts-texas-agricultural-economy-12-billion-safety-net",
+    "title": "USDA announces $13.8 billion in ARC and PLC payments; $1.2 billion to Texas",
+    "summary": "USDA announced $13.8 billion in gross ARC and PLC payments for the 2025 crop year plus $1.8 billion in 2026 CRP payments. A 5.7% sequestration rate applies, and the payment limit rises from $125,000 to $155,000. About 30 million new base acres are being allocated nationwide."
+   },
+   {
+    "date": "2026-10-17",
+    "source": "Global Agriculture",
+    "url": "https://www.global-agriculture.com/crop-protection/new-analysis-identifies-86-crop-protection-substances-facing-increased-renewal-risk-under-proposed-eu-data-rules/",
+    "title": "86 crop-protection substances face increased renewal risk under proposed EU data rules",
+    "summary": "A CropLife Europe-commissioned analysis reviewed 180 active substances due for renewal from 2030 and found 86 could be particularly affected by data protection changes in the Commission's Food and Feed Safety Omnibus. Renewing one active substance can require EUR 5 to 20 million in studies. The analysis was commissioned by an industry body."
+   },
+   {
+    "date": "2026-10-17",
+    "source": "Global Agriculture (CGIAR GENDER Accelerator)",
+    "url": "https://www.global-agriculture.com/ag-tech-research-news/pressure-on-global-food-systems-risks-exacerbating-gender-gap-by-2050-without-targeted-interventions-finds-new-report/",
+    "title": "Food system pressure risks widening the gender gap by 2050",
+    "summary": "A CGIAR report released on the International Day of Rural Women projects how food-system pressures may widen gender gaps by 2050. Reduced water availability could increase the time women spend collecting water by 30%. In Kenya, women are up to 25% less likely than men to access digital climate advisory services."
+   },
+   {
+    "date": "2026-10-16",
+    "source": "Farm Progress",
+    "url": "https://www.farmprogress.com/soil-health/could-your-soil-test-be-lying-to-you",
+    "title": "Could your soil test be lying to you?",
+    "summary": "Conventional soil tests focus on pH, N, P and K and often miss biological and physical indicators. The article recommends comprehensive soil health tests such as the Haney test or PLFA analysis, with consistent sampling depth and timing. A 6-inch depth is cited as the benchmark for tracking soil carbon."
+   },
+   {
+    "date": "2026-10-18",
+    "source": "AgriNews",
+    "url": "https://agrinews-pubs.com/community-contributed/2026/10/18/illinois-crop-progress-for-week-ending-oct-11",
+    "title": "Illinois crop progress for week ending Oct. 11",
+    "summary": "Illinois had harvested 51% of corn, ahead of the five-year average of 44%, and 48% of soybeans against an average of 46%. Sixty percent of both corn and soybeans was rated good to excellent."
+   }
+  ]
+ },
+ "methods": "Coverage window: items published 9 to 18 October 2026; the 24 to 48 hour window spanned a weekend, so the most recent week was included. Each source was opened and its date confirmed when compiled. Preprints and press summaries are flagged in the text."
+}
