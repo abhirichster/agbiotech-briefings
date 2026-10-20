@@ -1,0 +1,289 @@
+"""Render every data/briefing_YYYY_MM_DD.json into briefings/*.html and rebuild index.html.
+
+Usage: python3 scripts/render.py
+Each daily page is fully self-contained (inline CSS and JS); only the Newsreader web font
+is loaded from Google Fonts, with Georgia as the fallback.
+"""
+import datetime as dt
+import html
+import json
+import pathlib
+import re
+from urllib.parse import urlparse
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+OUT = ROOT / "briefings"
+SITE = "https://abhirichster.github.io/agbiotech-briefings/"
+SECTIONS = [
+    ("plant", "Plant Sciences", "Physiology, genomics, pathology and development"),
+    ("biotech", "Biotechnology", "Gene editing, biologicals, regulation and industry"),
+    ("ag", "Agriculture", "Crops, markets, policy and the prairie harvest"),
+]
+FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
+         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+         '<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">')
+
+CSS = r"""
+:root{--paper:#f7f5ef;--paper-2:#efece3;--ink:#1c1e1a;--ink-2:#3b3f38;--muted:#6b7066;--rule:#d9d5c9;--rule-strong:#1c1e1a;--accent:#2f5d3a;--accent-ink:#244a2e;--accent-wash:#e4ebe1;--focus:#2f5d3a;
+--serif:"Newsreader",Georgia,"Times New Roman",serif;--sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#141613;--paper-2:#1b1e1a;--ink:#ecebe4;--ink-2:#c9c9c0;--muted:#979b91;--rule:#30342e;--rule-strong:#ecebe4;--accent:#8fc39a;--accent-ink:#a9d4b2;--accent-wash:#1f2b21;--focus:#8fc39a}}
+:root[data-theme="dark"]{--paper:#141613;--paper-2:#1b1e1a;--ink:#ecebe4;--ink-2:#c9c9c0;--muted:#979b91;--rule:#30342e;--rule-strong:#ecebe4;--accent:#8fc39a;--accent-ink:#a9d4b2;--accent-wash:#1f2b21;--focus:#8fc39a}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:72px}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.6 var(--serif);font-optical-sizing:auto;text-rendering:optimizeLegibility}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.sc{font:600 .72rem/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.topbar{border-bottom:1px solid var(--rule)}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:48px}
+.topbar a{text-decoration:none;color:var(--muted)} .topbar a:hover{color:var(--ink)}
+.topbar nav{display:flex;align-items:center;gap:18px}
+.theme{appearance:none;border:1px solid var(--rule);background:none;color:var(--muted);border-radius:999px;width:32px;height:32px;display:grid;place-items:center;cursor:pointer}
+.theme:hover{color:var(--ink);border-color:var(--ink-2)}
+.theme svg{width:16px;height:16px}
+.mast{text-align:center;padding:36px 0 18px;border-bottom:3px double var(--rule-strong)}
+.mast .name{margin:0;font:500 clamp(2.1rem,6vw,3.6rem)/1 var(--serif);letter-spacing:-.02em}
+.mast .name a{text-decoration:none}
+.mast .tag{margin:10px 0 0;font-style:italic;color:var(--muted);font-size:1rem}
+.dateline{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;padding:10px 0;border-bottom:1px solid var(--rule);color:var(--muted)}
+.lead{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:40px;padding:40px 0 36px;border-bottom:1px solid var(--rule)}
+.kicker{color:var(--accent)}
+.lead h2{margin:10px 0 14px;font:500 clamp(1.8rem,4.2vw,2.9rem)/1.08 var(--serif);letter-spacing:-.015em;text-wrap:balance}
+.lead h2 a{text-decoration:none} .lead h2 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.lead .dek{margin:0;font-size:1.15rem;line-height:1.55;color:var(--ink-2)}
+.lead .more{display:inline-block;margin-top:16px;color:var(--accent-ink);text-decoration:none}
+.lead .more:hover{text-decoration:underline}
+.also{border-left:1px solid var(--rule);padding-left:28px}
+.also h3{margin:4px 0 14px;color:var(--muted)}
+.also ul{list-style:none;margin:0;padding:0}
+.also li{padding:12px 0;border-top:1px solid var(--rule);font-size:.98rem;line-height:1.5}
+.also li:first-child{border-top:0;padding-top:0}
+.also b{display:block;margin-bottom:3px;color:var(--accent);font:600 .7rem/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.tabs{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:saturate(1.2) blur(8px);-webkit-backdrop-filter:saturate(1.2) blur(8px);border-bottom:1px solid var(--rule)}
+.tabs [role=tablist]{display:flex;gap:28px;overflow-x:auto;scrollbar-width:none}
+.tabs [role=tablist]::-webkit-scrollbar{display:none}
+[role=tab]{appearance:none;background:none;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;padding:16px 0 13px;font:500 1.08rem/1 var(--serif);color:var(--muted);cursor:pointer;white-space:nowrap}
+[role=tab]:hover{color:var(--ink)}
+[role=tab][aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+[role=tab] .n{margin-left:7px;font:600 .68rem/1 var(--sans);color:var(--accent);vertical-align:2px}
+.panel{padding:30px 0 10px}
+.panel>header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 20px;padding-bottom:14px;border-bottom:1px solid var(--rule-strong)}
+.panel>header h2{margin:0;font:400 italic 1.9rem/1.1 var(--serif)}
+.panel>header p{margin:0;color:var(--muted);font-size:.95rem}
+.items{list-style:none;margin:0;padding:0}
+.item{display:grid;grid-template-columns:56px minmax(0,1fr);gap:0 20px;padding:26px 0;border-bottom:1px solid var(--rule)}
+.item .no{font:400 2rem/1 var(--serif);color:var(--accent);font-variant-numeric:oldstyle-nums;padding-top:4px}
+.item .meta{display:flex;flex-wrap:wrap;gap:4px 14px;color:var(--muted)}
+.item .meta time{font-variant-numeric:tabular-nums}
+.item h3{margin:8px 0 8px;font:500 1.38rem/1.25 var(--serif);letter-spacing:-.005em;text-wrap:pretty;max-width:46ch}
+.item h3 a{text-decoration:none;background-image:linear-gradient(currentColor,currentColor);background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .2s}
+.item h3 a:hover{background-size:100% 1px}
+.item p{margin:0;max-width:68ch;color:var(--ink-2)}
+.item .src{display:inline-block;margin-top:10px;color:var(--accent-ink);text-decoration:none;font:500 .8rem/1.2 var(--sans)}
+.item .src:hover{text-decoration:underline}
+.colophon{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:32px;margin:40px 0 0;padding:26px 0 56px;border-top:3px double var(--rule-strong);color:var(--muted);font-size:.95rem}
+.colophon h4{margin:0 0 8px;color:var(--ink)}
+.colophon p{margin:0}
+.issuenav{display:flex;flex-direction:column;gap:10px}
+.issuenav a{display:block;padding:12px 14px;border:1px solid var(--rule);border-radius:6px;text-decoration:none;color:var(--ink)}
+.issuenav a:hover{border-color:var(--accent);background:var(--accent-wash)}
+.issuenav span{display:block;color:var(--muted)}
+.feature{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:40px;padding:40px 0;border-bottom:1px solid var(--rule)}
+.feature .stats{border-left:1px solid var(--rule);padding-left:28px;display:grid;gap:14px;align-content:start}
+.feature .stats div{border-top:1px solid var(--rule);padding-top:12px}
+.feature .stats div:first-child{border-top:0;padding-top:0}
+.feature .stats strong{display:block;font:500 1.9rem/1 var(--serif);letter-spacing:0;text-transform:none;color:var(--ink)}
+.month{padding:30px 0 0}
+.month>h2{margin:0;padding-bottom:12px;border-bottom:1px solid var(--rule-strong);font:400 italic 1.6rem/1.1 var(--serif)}
+.issue{display:grid;grid-template-columns:150px minmax(0,1fr);gap:4px 24px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.issue .when{color:var(--muted)}
+.issue .when strong{display:block;margin-top:4px;font:500 1.05rem/1.2 var(--serif);letter-spacing:0;text-transform:none;color:var(--ink)}
+.issue h3{margin:0;font:500 1.3rem/1.28 var(--serif);text-wrap:pretty}
+.issue h3 a{text-decoration:none} .issue h3 a:hover{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.issue p{margin:6px 0 0;color:var(--muted);font-size:.95rem}
+@media (max-width:760px){
+ body{font-size:17px}
+ .lead,.feature,.colophon{grid-template-columns:1fr;gap:26px}
+ .also,.feature .stats{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+ .item{grid-template-columns:34px minmax(0,1fr);gap:0 12px}
+ .item .no{font-size:1.5rem}
+ .issue{grid-template-columns:1fr}
+ .tabs [role=tablist]{gap:18px}
+ [role=tab]{font-size:.98rem}
+ [role=tab] .n{margin-left:5px}
+}
+@media print{
+ .tabs,.topbar,.issuenav,.theme{display:none!important}
+ [role=tabpanel][hidden]{display:block!important}
+ body{background:#fff;color:#000;font-size:11pt}
+ .item{break-inside:avoid}
+ .item h3 a::after{content:" (" attr(href) ")";font:8pt var(--sans);color:#555;word-break:break-all}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+"""
+
+THEME_JS = r"""
+(function(){var r=document.documentElement,b=document.querySelector('.theme');
+try{var t=localStorage.getItem('abt-theme');if(t)r.dataset.theme=t}catch(e){}
+function dark(){return r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches}
+function label(){if(b)b.setAttribute('aria-label',dark()?'Switch to light theme':'Switch to dark theme')}
+label();if(b)b.addEventListener('click',function(){r.dataset.theme=dark()?'light':'dark';try{localStorage.setItem('abt-theme',r.dataset.theme)}catch(e){}label()});})();
+"""
+
+TABS_JS = r"""
+(function(){var tabs=[].slice.call(document.querySelectorAll('[role=tab]'));if(!tabs.length)return;
+function show(t,focus){tabs.forEach(function(x){var on=x===t;x.setAttribute('aria-selected',on);x.tabIndex=on?0:-1;document.getElementById('p-'+x.dataset.k).hidden=!on});
+if(focus)t.focus();try{history.replaceState(null,'','#'+t.dataset.k)}catch(e){}}
+tabs.forEach(function(t,i){t.addEventListener('click',function(){show(t);var bar=document.querySelector('.tabs');if(bar&&bar.getBoundingClientRect().top<=0)bar.scrollIntoView()});
+t.addEventListener('keydown',function(e){var j={ArrowRight:i+1,ArrowLeft:i-1,Home:0,End:tabs.length-1}[e.key];if(j===undefined)return;e.preventDefault();show(tabs[(j+tabs.length)%tabs.length],true)})});
+document.addEventListener('keydown',function(e){if(e.metaKey||e.ctrlKey||e.altKey||/input|textarea/i.test(e.target.tagName))return;var n=+e.key;if(n>=1&&n<=tabs.length)show(tabs[n-1])});
+var h=(location.hash||'').slice(1);tabs.forEach(function(t){if(t.dataset.k===h)show(t)})})();
+"""
+
+THEME_BTN = ('<button class="theme" type="button" aria-label="Toggle theme">'
+             '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">'
+             '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>')
+
+
+def plain(s):
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", s))).strip()
+
+
+def domain(url):
+    d = urlparse(url).netloc.lower()
+    return d[4:] if d.startswith("www.") else d
+
+
+def fmt(d, long=True):
+    return d.strftime("%A, %-d %B %Y") if long else d.strftime("%-d %b %Y")
+
+
+def words(data):
+    txt = plain(data["lead"]["summary"]) + " " + " ".join(plain(i["summary"]) for v in data["sections"].values() for i in v)
+    return len(txt.split())
+
+
+def page(title, desc, body, canonical, scripts):
+    return f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{html.escape(title)}</title><meta name="description" content="{html.escape(desc)}">
+<link rel="canonical" href="{canonical}"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}"><meta property="og:type" content="website">
+<meta name="theme-color" content="#f7f5ef" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#141613" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232f5d3a'/%3E%3Cpath d='M16 25c0-7 2-12 8-15-7 0-11 4-12 9-1-3-3-5-6-6 2 3 4 7 4 12z' fill='%23f7f5ef'/%3E%3C/svg%3E">
+{FONTS}
+<style>{CSS}</style></head><body>
+{body}
+<script>{THEME_JS}{scripts}</script></body></html>"""
+
+
+def topbar(prefix):
+    return (f'<div class="topbar"><div class="wrap"><a class="sc" href="{prefix}index.html">The AgBioTech Briefing</a>'
+            f'<nav><a class="sc" href="{prefix}index.html#archive">Archive</a>{THEME_BTN}</nav></div></div>')
+
+
+def masthead(prefix, tag="Plant sciences, biotechnology and agriculture, read daily"):
+    return (f'<header class="mast"><p class="name"><a href="{prefix}index.html">The AgBioTech Briefing</a></p>'
+            f'<p class="tag">{tag}</p></header>')
+
+
+def render_issue(data, no, prev, nxt):
+    d = dt.date.fromisoformat(data["date"])
+    total = sum(len(v) for v in data["sections"].values())
+    mins = max(1, round(words(data) / 230))
+    lead = data["lead"]
+    notes = "".join(f'<li><b>{n["label"]}</b>{n["text"]}</li>' for n in lead.get("notes", []))
+    tabs, panels = [], []
+    for j, (k, name, sub) in enumerate(SECTIONS):
+        items = data["sections"].get(k, [])
+        tabs.append(f'<button role="tab" id="t-{k}" aria-controls="p-{k}" aria-selected="{"true" if j == 0 else "false"}"'
+                    f'{"" if j == 0 else " tabindex=\"-1\""} data-k="{k}">{name}<span class="n">{len(items)}</span></button>')
+        lis = []
+        for i, it in enumerate(items, 1):
+            idate = dt.date.fromisoformat(it["date"])
+            u = html.escape(it["url"], quote=True)
+            lis.append(f'<li class="item"><div class="no" aria-hidden="true">{i}</div><div>'
+                       f'<div class="meta sc"><span>{it["source"]}</span><time datetime="{it["date"]}">{fmt(idate, False)}</time></div>'
+                       f'<h3><a href="{u}" target="_blank" rel="noopener">{it["title"]}</a></h3><p>{it["summary"]}</p>'
+                       f'<a class="src" href="{u}" target="_blank" rel="noopener">Read at {html.escape(domain(it["url"]))} &#8599;</a></div></li>')
+        panels.append(f'<section class="panel" role="tabpanel" id="p-{k}" aria-labelledby="t-{k}"{"" if j == 0 else " hidden"}>'
+                      f'<header><h2>{name}</h2><p>{sub}</p></header><ol class="items">{"".join(lis)}</ol></section>')
+    nav = []
+    if nxt:
+        nav.append(f'<a href="{nxt[0]}"><span class="sc">Next issue</span>{nxt[1]}</a>')
+    if prev:
+        nav.append(f'<a href="{prev[0]}"><span class="sc">Previous issue</span>{prev[1]}</a>')
+    nav.append('<a href="../index.html#archive"><span class="sc">Archive</span>All briefings</a>')
+    body = f"""{topbar('../')}
+<div class="wrap">
+{masthead('../')}
+<div class="dateline sc"><span>No. {no}</span><span>{fmt(d)}</span><span>{total} items</span><span>{mins} min read</span></div>
+<article class="lead"><div><span class="kicker sc">Lead story</span>
+<h2><a href="{html.escape(lead['url'], quote=True)}" target="_blank" rel="noopener">{lead['title']}</a></h2>
+<p class="dek">{lead['summary']}</p>
+<a class="more sc" href="{html.escape(lead['url'], quote=True)}" target="_blank" rel="noopener">Read at {html.escape(domain(lead['url']))} &#8599;</a></div>
+<aside class="also" aria-label="Also in this issue"><h3 class="sc">Also in this issue</h3><ul>{notes}</ul></aside></article>
+</div>
+<nav class="tabs" aria-label="Sections"><div class="wrap"><div role="tablist" aria-label="Briefing sections">{''.join(tabs)}</div></div></nav>
+<main class="wrap">{''.join(panels)}
+<footer class="colophon"><div><h4 class="sc">Methods</h4><p>{data.get('methods', '')} Compiled automatically by Claude. Keys 1, 2 and 3 switch sections.</p></div>
+<nav class="issuenav" aria-label="Issues">{''.join(nav)}</nav></footer>
+</main>"""
+    title = f"{plain(lead['title'])} | The AgBioTech Briefing, {fmt(d, False)}"
+    desc = plain(lead["summary"])[:200]
+    return page(title, desc, body, f"{SITE}briefings/briefing_{d:%Y_%m_%d}.html", TABS_JS)
+
+
+def render_index(issues):
+    latest = issues[-1]
+    d = dt.date.fromisoformat(latest["date"])
+    total_items = sum(sum(len(v) for v in i["sections"].values()) for i in issues)
+    feat = f"""<section class="feature"><div><span class="kicker sc">Latest issue &middot; No. {len(issues)} &middot; {fmt(d)}</span>
+<h2 class="lead-h" style="margin:10px 0 14px;font:500 clamp(1.8rem,4.2vw,2.9rem)/1.08 var(--serif);letter-spacing:-.015em;text-wrap:balance"><a href="briefings/briefing_{d:%Y_%m_%d}.html" style="text-decoration:none">{latest['lead']['title']}</a></h2>
+<p style="margin:0;font-size:1.15rem;color:var(--ink-2)">{latest['lead']['summary']}</p>
+<a class="sc" style="display:inline-block;margin-top:16px;color:var(--accent-ink);text-decoration:none" href="briefings/briefing_{d:%Y_%m_%d}.html">Read issue No. {len(issues)} &#8594;</a></div>
+<div class="stats sc" style="color:var(--muted)"><div><strong>{len(issues)}</strong>issues</div><div><strong>{total_items}</strong>items reviewed</div><div><strong>{fmt(dt.date.fromisoformat(issues[0]["date"]), False)}</strong>first issue</div></div></section>"""
+    months = {}
+    for no, i in reversed(list(enumerate(issues, 1))):
+        di = dt.date.fromisoformat(i["date"])
+        months.setdefault(di.strftime("%B %Y"), []).append((no, di, i))
+    arch = []
+    for m, lst in months.items():
+        rows = "".join(
+            f'<article class="issue"><div class="when sc">No. {no}<strong>{di:%a %-d %b}</strong></div><div>'
+            f'<h3><a href="briefings/briefing_{di:%Y_%m_%d}.html">{i["lead"]["title"]}</a></h3>'
+            f'<p>{" &middot; ".join(f"{len(i["sections"].get(k, []))} {n.lower()}" for k, n, _ in SECTIONS)}</p></div></article>'
+            for no, di, i in lst)
+        arch.append(f'<section class="month"><h2>{m}</h2>{rows}</section>')
+    body = f"""{topbar('')}
+<div class="wrap">
+{masthead('')}
+<div class="dateline sc"><span>Updated {fmt(d)}</span><span>Published daily at 9:00 CST</span></div>
+{feat}
+<main id="archive">{''.join(arch)}
+<footer class="colophon"><div><h4 class="sc">About</h4><p>A daily reading list of new research and news in plant sciences, biotechnology and agriculture, with an emphasis on crop genomics and the Canadian prairies. Each source is opened and dated when compiled; summaries flag preprints, company-reported figures and model-system limits. Compiled automatically by Claude.</p></div>
+<nav class="issuenav" aria-label="Latest"><a href="briefings/briefing_{d:%Y_%m_%d}.html"><span class="sc">Latest</span>{fmt(d)}</a></nav></footer>
+</main></div>"""
+    return page("The AgBioTech Briefing", "Daily briefings on plant sciences, biotechnology and agriculture.", body, SITE, "")
+
+
+def main():
+    files = sorted(DATA.glob("briefing_*.json"))
+    issues = [json.loads(f.read_text(encoding="utf-8")) for f in files]
+    OUT.mkdir(exist_ok=True)
+    for idx, data in enumerate(issues):
+        no = idx + 1
+        def ref(j):
+            if 0 <= j < len(issues):
+                dj = dt.date.fromisoformat(issues[j]["date"])
+                return (f"briefing_{dj:%Y_%m_%d}.html", f"No. {j + 1}, {fmt(dj, False)}")
+            return None
+        d = dt.date.fromisoformat(data["date"])
+        (OUT / f"briefing_{d:%Y_%m_%d}.html").write_text(render_issue(data, no, ref(idx - 1), ref(idx + 1)), encoding="utf-8")
+    (ROOT / "index.html").write_text(render_index(issues), encoding="utf-8")
+    print(f"rendered {len(issues)} issues and index.html")
+
+
+if __name__ == "__main__":
+    main()
