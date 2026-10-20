@@ -1,34 +1,126 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AgBioTech Briefings</title><style>:root{--bg:#f6f7f4;--surface:#fff;--ink:#1d2420;--muted:#5b665f;--line:#dfe4dc;--accent:#2f6b3f;--accent-soft:#e6f0e8;--key:#fff8e6;--key-line:#e4c56b}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121513;--surface:#1b201c;--ink:#e6ebe6;--muted:#9aa69e;--line:#2c342e;--accent:#7cc48e;--accent-soft:#1f2d23;--key:#2a2617;--key-line:#8a7535}}
-:root[data-theme="dark"]{--bg:#121513;--surface:#1b201c;--ink:#e6ebe6;--muted:#9aa69e;--line:#2c342e;--accent:#7cc48e;--accent-soft:#1f2d23;--key:#2a2617;--key-line:#8a7535}
+<title>The AgBioTech Briefing</title><meta name="description" content="Daily briefings on plant sciences, biotechnology and agriculture.">
+<link rel="canonical" href="https://abhirichster.github.io/agbiotech-briefings/"><meta property="og:title" content="The AgBioTech Briefing"><meta property="og:description" content="Daily briefings on plant sciences, biotechnology and agriculture."><meta property="og:type" content="website">
+<meta name="theme-color" content="#f7f5ef" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#141613" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232f5d3a'/%3E%3Cpath d='M16 25c0-7 2-12 8-15-7 0-11 4-12 9-1-3-3-5-6-6 2 3 4 7 4 12z' fill='%23f7f5ef'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f7f5ef;--paper-2:#efece3;--ink:#1c1e1a;--ink-2:#3b3f38;--muted:#6b7066;--rule:#d9d5c9;--rule-strong:#1c1e1a;--accent:#2f5d3a;--accent-ink:#244a2e;--accent-wash:#e4ebe1;--focus:#2f5d3a;
+--serif:"Newsreader",Georgia,"Times New Roman",serif;--sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#141613;--paper-2:#1b1e1a;--ink:#ecebe4;--ink-2:#c9c9c0;--muted:#979b91;--rule:#30342e;--rule-strong:#ecebe4;--accent:#8fc39a;--accent-ink:#a9d4b2;--accent-wash:#1f2b21;--focus:#8fc39a}}
+:root[data-theme="dark"]{--paper:#141613;--paper-2:#1b1e1a;--ink:#ecebe4;--ink-2:#c9c9c0;--muted:#979b91;--rule:#30342e;--rule-strong:#ecebe4;--accent:#8fc39a;--accent-ink:#a9d4b2;--accent-wash:#1f2b21;--focus:#8fc39a}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-.wrap{max-width:920px;margin:0 auto;padding:32px 16px 64px}
-header h1{margin:0;font-size:1.75rem;letter-spacing:-.01em}
-header p{margin:4px 0 0;color:var(--muted)}
-.key{margin:24px 0;padding:20px 22px;background:var(--key);border:1px solid var(--key-line);border-radius:12px}
-.key .label{font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:var(--muted)}
-.key h2{margin:6px 0 8px;font-size:1.25rem;line-height:1.35}
-.key h2 a{color:inherit}
-.key ul{margin:10px 0 0;padding-left:20px} .key li{margin:4px 0}
-[role=tablist]{display:flex;gap:6px;border-bottom:1px solid var(--line);margin-top:28px;overflow-x:auto}
-[role=tab]{appearance:none;background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;font:inherit;font-weight:600;color:var(--muted);cursor:pointer;white-space:nowrap}
-[role=tab][aria-selected=true]{color:var(--accent);border-bottom-color:var(--accent)}
-[role=tab]:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.count{display:inline-block;margin-left:8px;padding:0 7px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:.75rem}
-section{padding-top:16px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:0 0 12px}
-.meta{display:flex;flex-wrap:wrap;gap:10px;font-size:.8rem;color:var(--muted)}
-.num{font-weight:700;color:var(--accent)}
-.card h3{margin:6px 0 6px;font-size:1.05rem;line-height:1.4}
-.card h3 a{color:var(--ink);text-decoration:none} .card h3 a:hover{color:var(--accent);text-decoration:underline}
-.card p{margin:0;color:var(--ink)}
-footer{margin-top:32px;font-size:.85rem;color:var(--muted)}
-</style></head><body><div class="wrap">
-<header><h1>Daily AgBioTech Briefings</h1><p>Plant Sciences, Biotechnology and Agriculture &middot; 2 briefings</p></header>
-<p><a href="briefings/briefing_2026_10_20.html">Open the latest briefing</a></p>
-<section><article class="card"><div class="meta"><time datetime="2026-10-20">Tuesday, 20 October 2026</time></div><h3><a href="briefings/briefing_2026_10_20.html">USDA announces an $8 billion Harvest Fuel Relief program for US farmers</a></h3></article><article class="card"><div class="meta"><time datetime="2026-10-19">Monday, 19 October 2026</time></div><h3><a href="briefings/briefing_2026_10_19.html">Engineered plant immune receptors recognize two blast fungus effectors at once</a></h3></article></section>
-<footer>Each card shows that day's key takeaway. Compiled automatically by Claude.</footer>
-</div></body></html>
+html{-webkit-text-size-adjust:100%;scroll-padding-top:72px}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.6 var(--serif);font-optical-sizing:auto;text-rendering:optimizeLegibility}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.sc{font:600 .72rem/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.topbar{border-bottom:1px solid var(--rule)}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:48px}
+.topbar a{text-decoration:none;color:var(--muted)} .topbar a:hover{color:var(--ink)}
+.topbar nav{display:flex;align-items:center;gap:18px}
+.theme{appearance:none;border:1px solid var(--rule);background:none;color:var(--muted);border-radius:999px;width:32px;height:32px;display:grid;place-items:center;cursor:pointer}
+.theme:hover{color:var(--ink);border-color:var(--ink-2)}
+.theme svg{width:16px;height:16px}
+.mast{text-align:center;padding:36px 0 18px;border-bottom:3px double var(--rule-strong)}
+.mast .name{margin:0;font:500 clamp(2.1rem,6vw,3.6rem)/1 var(--serif);letter-spacing:-.02em}
+.mast .name a{text-decoration:none}
+.mast .tag{margin:10px 0 0;font-style:italic;color:var(--muted);font-size:1rem}
+.dateline{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;padding:10px 0;border-bottom:1px solid var(--rule);color:var(--muted)}
+.lead{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:40px;padding:40px 0 36px;border-bottom:1px solid var(--rule)}
+.kicker{color:var(--accent)}
+.lead h2{margin:10px 0 14px;font:500 clamp(1.8rem,4.2vw,2.9rem)/1.08 var(--serif);letter-spacing:-.015em;text-wrap:balance}
+.lead h2 a{text-decoration:none} .lead h2 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.lead .dek{margin:0;font-size:1.15rem;line-height:1.55;color:var(--ink-2)}
+.lead .more{display:inline-block;margin-top:16px;color:var(--accent-ink);text-decoration:none}
+.lead .more:hover{text-decoration:underline}
+.also{border-left:1px solid var(--rule);padding-left:28px}
+.also h3{margin:4px 0 14px;color:var(--muted)}
+.also ul{list-style:none;margin:0;padding:0}
+.also li{padding:12px 0;border-top:1px solid var(--rule);font-size:.98rem;line-height:1.5}
+.also li:first-child{border-top:0;padding-top:0}
+.also b{display:block;margin-bottom:3px;color:var(--accent);font:600 .7rem/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.tabs{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:saturate(1.2) blur(8px);-webkit-backdrop-filter:saturate(1.2) blur(8px);border-bottom:1px solid var(--rule)}
+.tabs [role=tablist]{display:flex;gap:28px;overflow-x:auto;scrollbar-width:none}
+.tabs [role=tablist]::-webkit-scrollbar{display:none}
+[role=tab]{appearance:none;background:none;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;padding:16px 0 13px;font:500 1.08rem/1 var(--serif);color:var(--muted);cursor:pointer;white-space:nowrap}
+[role=tab]:hover{color:var(--ink)}
+[role=tab][aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+[role=tab] .n{margin-left:7px;font:600 .68rem/1 var(--sans);color:var(--accent);vertical-align:2px}
+.panel{padding:30px 0 10px}
+.panel>header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 20px;padding-bottom:14px;border-bottom:1px solid var(--rule-strong)}
+.panel>header h2{margin:0;font:400 italic 1.9rem/1.1 var(--serif)}
+.panel>header p{margin:0;color:var(--muted);font-size:.95rem}
+.items{list-style:none;margin:0;padding:0}
+.item{display:grid;grid-template-columns:56px minmax(0,1fr);gap:0 20px;padding:26px 0;border-bottom:1px solid var(--rule)}
+.item .no{font:400 2rem/1 var(--serif);color:var(--accent);font-variant-numeric:oldstyle-nums;padding-top:4px}
+.item .meta{display:flex;flex-wrap:wrap;gap:4px 14px;color:var(--muted)}
+.item .meta time{font-variant-numeric:tabular-nums}
+.item h3{margin:8px 0 8px;font:500 1.38rem/1.25 var(--serif);letter-spacing:-.005em;text-wrap:pretty;max-width:46ch}
+.item h3 a{text-decoration:none;background-image:linear-gradient(currentColor,currentColor);background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .2s}
+.item h3 a:hover{background-size:100% 1px}
+.item p{margin:0;max-width:68ch;color:var(--ink-2)}
+.item .src{display:inline-block;margin-top:10px;color:var(--accent-ink);text-decoration:none;font:500 .8rem/1.2 var(--sans)}
+.item .src:hover{text-decoration:underline}
+.colophon{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:32px;margin:40px 0 0;padding:26px 0 56px;border-top:3px double var(--rule-strong);color:var(--muted);font-size:.95rem}
+.colophon h4{margin:0 0 8px;color:var(--ink)}
+.colophon p{margin:0}
+.issuenav{display:flex;flex-direction:column;gap:10px}
+.issuenav a{display:block;padding:12px 14px;border:1px solid var(--rule);border-radius:6px;text-decoration:none;color:var(--ink)}
+.issuenav a:hover{border-color:var(--accent);background:var(--accent-wash)}
+.issuenav span{display:block;color:var(--muted)}
+.feature{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:40px;padding:40px 0;border-bottom:1px solid var(--rule)}
+.feature .stats{border-left:1px solid var(--rule);padding-left:28px;display:grid;gap:14px;align-content:start}
+.feature .stats div{border-top:1px solid var(--rule);padding-top:12px}
+.feature .stats div:first-child{border-top:0;padding-top:0}
+.feature .stats strong{display:block;font:500 1.9rem/1 var(--serif);letter-spacing:0;text-transform:none;color:var(--ink)}
+.month{padding:30px 0 0}
+.month>h2{margin:0;padding-bottom:12px;border-bottom:1px solid var(--rule-strong);font:400 italic 1.6rem/1.1 var(--serif)}
+.issue{display:grid;grid-template-columns:150px minmax(0,1fr);gap:4px 24px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.issue .when{color:var(--muted)}
+.issue .when strong{display:block;margin-top:4px;font:500 1.05rem/1.2 var(--serif);letter-spacing:0;text-transform:none;color:var(--ink)}
+.issue h3{margin:0;font:500 1.3rem/1.28 var(--serif);text-wrap:pretty}
+.issue h3 a{text-decoration:none} .issue h3 a:hover{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.issue p{margin:6px 0 0;color:var(--muted);font-size:.95rem}
+@media (max-width:760px){
+ body{font-size:17px}
+ .lead,.feature,.colophon{grid-template-columns:1fr;gap:26px}
+ .also,.feature .stats{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+ .item{grid-template-columns:34px minmax(0,1fr);gap:0 12px}
+ .item .no{font-size:1.5rem}
+ .issue{grid-template-columns:1fr}
+ .tabs [role=tablist]{gap:18px}
+ [role=tab]{font-size:.98rem}
+ [role=tab] .n{margin-left:5px}
+}
+@media print{
+ .tabs,.topbar,.issuenav,.theme{display:none!important}
+ [role=tabpanel][hidden]{display:block!important}
+ body{background:#fff;color:#000;font-size:11pt}
+ .item{break-inside:avoid}
+ .item h3 a::after{content:" (" attr(href) ")";font:8pt var(--sans);color:#555;word-break:break-all}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head><body>
+<div class="topbar"><div class="wrap"><a class="sc" href="index.html">The AgBioTech Briefing</a><nav><a class="sc" href="index.html#archive">Archive</a><button class="theme" type="button" aria-label="Toggle theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button></nav></div></div>
+<div class="wrap">
+<header class="mast"><p class="name"><a href="index.html">The AgBioTech Briefing</a></p><p class="tag">Plant sciences, biotechnology and agriculture, read daily</p></header>
+<div class="dateline sc"><span>Updated Tuesday, 20 October 2026</span><span>Published daily at 9:00 CST</span></div>
+<section class="feature"><div><span class="kicker sc">Latest issue &middot; No. 2 &middot; Tuesday, 20 October 2026</span>
+<h2 class="lead-h" style="margin:10px 0 14px;font:500 clamp(1.8rem,4.2vw,2.9rem)/1.08 var(--serif);letter-spacing:-.015em;text-wrap:balance"><a href="briefings/briefing_2026_10_20.html" style="text-decoration:none">USDA announces an $8 billion Harvest Fuel Relief program for US farmers</a></h2>
+<p style="margin:0;font-size:1.15rem;color:var(--ink-2)">Announced 19 October, the one-time payments target higher fuel and input costs this harvest and follow the US$12 billion Farmer Bridge Assistance program earlier in 2026. Payment rates for Title I commodities are due in November; no application window has been set. The program lands as harvest runs behind pace (US corn 44% harvested against a 52% average) and global food prices sit at their highest since late 2022.</p>
+<a class="sc" style="display:inline-block;margin-top:16px;color:var(--accent-ink);text-decoration:none" href="briefings/briefing_2026_10_20.html">Read issue No. 2 &#8594;</a></div>
+<div class="stats sc" style="color:var(--muted)"><div><strong>2</strong>issues</div><div><strong>60</strong>items reviewed</div><div><strong>19 Oct 2026</strong>first issue</div></div></section>
+<main id="archive"><section class="month"><h2>October 2026</h2><article class="issue"><div class="when sc">No. 2<strong>Tue 20 Oct</strong></div><div><h3><a href="briefings/briefing_2026_10_20.html">USDA announces an $8 billion Harvest Fuel Relief program for US farmers</a></h3><p>10 plant sciences &middot; 10 biotechnology &middot; 10 agriculture</p></div></article><article class="issue"><div class="when sc">No. 1<strong>Mon 19 Oct</strong></div><div><h3><a href="briefings/briefing_2026_10_19.html">Engineered plant immune receptors recognize two blast fungus effectors at once</a></h3><p>10 plant sciences &middot; 10 biotechnology &middot; 10 agriculture</p></div></article></section>
+<footer class="colophon"><div><h4 class="sc">About</h4><p>A daily reading list of new research and news in plant sciences, biotechnology and agriculture, with an emphasis on crop genomics and the Canadian prairies. Each source is opened and dated when compiled; summaries flag preprints, company-reported figures and model-system limits. Compiled automatically by Claude.</p></div>
+<nav class="issuenav" aria-label="Latest"><a href="briefings/briefing_2026_10_20.html"><span class="sc">Latest</span>Tuesday, 20 October 2026</a></nav></footer>
+</main></div>
+<script>
+(function(){var r=document.documentElement,b=document.querySelector('.theme');
+try{var t=localStorage.getItem('abt-theme');if(t)r.dataset.theme=t}catch(e){}
+function dark(){return r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches}
+function label(){if(b)b.setAttribute('aria-label',dark()?'Switch to light theme':'Switch to dark theme')}
+label();if(b)b.addEventListener('click',function(){r.dataset.theme=dark()?'light':'dark';try{localStorage.setItem('abt-theme',r.dataset.theme)}catch(e){}label()});})();
+</script></body></html>
