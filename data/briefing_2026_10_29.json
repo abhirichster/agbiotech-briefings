@@ -1,0 +1,94 @@
+{
+ "date": "2026-10-29",
+ "lead": {
+  "title": "Gibberellin can now be switched on in chosen root tissues, a <i>Nature Plants</i> study reports",
+  "url": "https://www.eurekalert.org/news-releases/browse",
+  "summary": "A team including Saitama and Nagoya universities built a system to control where the hormone gibberellin acts in <i>Arabidopsis</i> roots, according to an EurekAlert summary of a 27 October <i>Nature Plants</i> paper. The authors describe it as a tool for understanding how hormones coordinate growth across tissues. The result is in <i>Arabidopsis</i> only, and only the search summary was read, so no effect sizes are given here.",
+  "notes": [
+   {
+    "label": "Plant science",
+    "text": "tissue-specific hormone control in <i>Arabidopsis</i> roots (Nature Plants, 27 October); a basic-research tool, not yet a crop result."
+   },
+   {
+    "label": "Biotech",
+    "text": "only one in-window item was found, a company announcement that is flagged as such below; the Pairwise and Kaveri Seeds deal was already covered on 27 October."
+   },
+   {
+    "label": "Prairies",
+    "text": "no new Saskatchewan crop report could be opened; the latest figure found is 82% harvested at 5 October, 17 points behind the five-year average (8 October report)."
+   }
+  ]
+ },
+ "sections": {
+  "plant": [
+   {
+    "date": "2026-10-27",
+    "source": "EurekAlert / Nature Plants",
+    "url": "https://www.eurekalert.org/news-releases/browse",
+    "title": "Spatial control of gibberellin action in <i>Arabidopsis</i> roots",
+    "summary": "Researchers including teams at Saitama and Nagoya universities used a system to control where gibberellin acts in <i>Arabidopsis</i> roots. They present it as a tool for studying how hormones coordinate growth across tissues. <i>Arabidopsis</i>-only result; effect sizes not seen."
+   },
+   {
+    "date": "2026-10-20",
+    "source": "EurekAlert / The Crop Journal",
+    "url": "https://www.eurekalert.org/news-releases/1148437",
+    "title": "Decoding the genetic mechanism of peanut plant architecture for lodging resistance",
+    "summary": "Chinese researchers identified a branching-habit gene, <i>AhPILS</i>, that affects whether lateral branches of peanut grow spreading or upright. The aim is lodging resistance and safer production. Older than the 48 hour window; only the release summary was read."
+   },
+   {
+    "date": "2026-10-16",
+    "source": "EurekAlert / Food Chemistry",
+    "url": "https://www.eurekalert.org/news-releases/browse",
+    "title": "Higher CO<sub>2</sub> changes wheat protein composition, depending on cultivar",
+    "summary": "A Technical University of Munich-led study found that elevated atmospheric CO<sub>2</sub> can significantly alter the protein composition of wheat, and the size of the change depends on the cultivar. Older than the window; numbers not seen."
+   },
+   {
+    "date": "2026-10-16",
+    "source": "EurekAlert / Science Advances",
+    "url": "https://www.eurekalert.org/news-releases/browse",
+    "title": "A protein complex that may also be needed for plant reproduction",
+    "summary": "A <i>Science Advances</i> release describes a protein complex that may be required for reproduction in plants. Only a one line snippet was visible, so species and effect sizes are unknown. Older than the window."
+   },
+   {
+    "date": "2026-10-14",
+    "source": "Bayer Foundation",
+    "url": "https://www.bayer.com/media/download/6bf9a2d2-bec4-4328-acef-f15144fe8820/2026-0173e.pdf",
+    "title": "Bruno Pok Man Ngou (RIKEN CSRS) wins first Early Excellence in Science Award in Plant Science",
+    "summary": "The Bayer Foundation named Ngou as first recipient of the new award, recognizing work that could help breed disease resistant, higher yielding crops. Funder announcement, not a research result; older than the window."
+   }
+  ],
+  "biotech": [
+   {
+    "date": "2026-10-27",
+    "source": "Pairwise (company release)",
+    "url": "https://www.pairwise.com/insights/wild-bioscience-announcement",
+    "title": "Pairwise licenses its Fulcrum CRISPR platform to Wild Bioscience for AI-driven crop trait development",
+    "summary": "Company announcement: Pairwise says Fulcrum tools will support AI-driven trait development at Wild Bioscience. This is a company claim and the page date could not be confirmed; Pairwise also licensed Fulcrum to Kaveri Seeds on 27 October (covered earlier)."
+   }
+  ],
+  "ag": [
+   {
+    "date": "2026-10-19",
+    "source": "EurekAlert / PNAS",
+    "url": "https://www.eurekalert.org/news-releases/1147899",
+    "title": "Smart farming starts paying off",
+    "summary": "A University of Bonn-led <i>PNAS</i> study estimates high-tech farming already pays off on 42% of the world's cropland. Older than the window; modelled estimate."
+   },
+   {
+    "date": "2026-10-08",
+    "source": "Saskatchewan Ministry of Agriculture",
+    "url": "https://www.saskatchewan.ca/crop-report",
+    "title": "Saskatchewan harvest 82% complete at 5 October, 17 points behind average",
+    "summary": "Southwest and west-central areas were at 92% while east-central and northeast were at 74%. Older than the window and a search-snippet reading; later reports could not be opened."
+   },
+   {
+    "date": "2026-10-02",
+    "source": "EurekAlert / Cell Reports Physical Science",
+    "url": "https://www.eurekalert.org/news-releases/browse",
+    "title": "Broccoli grown under magenta semi-transparent solar panels",
+    "summary": "Light use efficiency rose 4.5-fold and the crop grew as large as conventional broccoli, though it matured 25 days later. Older than the window; small crop-under-panel trial."
+   }
+  ]
+ },
+ "methods": "Last issue was 2026-10-28, so the window is 27 to 29 October 2026. Web fetch failed in this run (DNS not allowed), so no source page was opened; dates and figures come from search results only and are unverified against the pages. Search surfaced few in-window items, so this issue has 5 plant, 1 biotech and 3 ag items rather than 10 each; older items are kept and flagged, and nothing was padded or invented."
+}
