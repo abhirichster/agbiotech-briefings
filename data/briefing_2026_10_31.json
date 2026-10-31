@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-31",
+  "lead": {
+    "title": "AI-designed gene editor used to make rice resistant to bacterial blight",
+    "url": "https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=22071",
+    "summary": "University of Missouri researchers adapted OpenCRISPR-1, an AI-designed gene-editing protein, to make rice resistant to bacterial blight, according to a 28 October Crop Biotech Update summary of a paper in <i>aBIOTECH</i>. The plants still need further testing and regulatory review before any commercial use. Only a search summary was read, so no resistance figures are given here.",
+    "notes": [
+      {"label": "Plant science", "text": "a fern phloem study reports sieve-element radius has shrunk over about 300 million years (<i>Nature Plants</i>, 26 October); basic evolutionary work, not a crop result."},
+      {"label": "Biotech", "text": "AI-designed editors are moving from design to crop traits, here in rice; the result is pre-commercial and the source is a secondary summary."},
+      {"label": "Prairies", "text": "Saskatchewan harvest was 97% complete in the 13 to 19 October report, with the final 2026 crop report due 5 November; no report was issued for 20 to 26 October."}
+    ]
+  },
+  "sections": {
+    "plant": [
+      {"date": "2026-10-26", "source": "Nature Plants (search listing)", "url": "https://www.nature.com/nplants/", "title": "Fern phloem sieve elements have narrowed over 300 million years", "summary": "Researchers measured sieve-element radius in living and fossil ferns and report it has shrunk over about 300 million years, which they suggest likely reduced the phloem's capacity to carry sap. Date taken from a search listing and not confirmed on the paper page; effect sizes not seen."},
+      {"date": "2026-10-29", "source": "Research Square preprint / Nature Plants (unconfirmed)", "url": "https://sciety.org/articles/activity/10.21203/rs.3.rs-8962152/v1", "title": "The SCHENGEN pathway links pathogen recognition to lignin barriers via <i>BIK1</i>", "summary": "Authors report that the peptides CIF1 and CIF2 and their receptor SGN3 are induced by avirulent bacterial infection and are needed for pathogen-induced lignification and disease resistance, with SGN3 phosphorylating BIK1. One search result dated a journal version to 29 October, but the only record found is a preprint, so treat it as a preprint; likely <i>Arabidopsis</i>-based and not a crop result."}
+    ],
+    "biotech": [
+      {"date": "2026-10-28", "source": "ISAAA Crop Biotech Update", "url": "https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=22071", "title": "AI-designed gene editing creates rice plants resistant to bacterial blight", "summary": "University of Missouri researchers adapted OpenCRISPR-1, an AI-designed editor, to make rice resistant to bacterial blight (<i>aBIOTECH</i>). Further testing and regulatory review are needed before commercial use. Resistance levels were not seen; based on a search summary only."},
+      {"date": "2026-10-28", "source": "Briefs (company and press claims)", "url": "https://www.briefs.co/news/bayer-bets-on-gene-edited-corn-wheat-and-rice-that-sip-nitro/", "title": "Bayer licenses UC Davis technology for gene-edited cereals that use less nitrogen fertilizer", "summary": "Bayer licensed a UC Davis technology to edit corn, wheat and rice so roots can work with nitrogen-fixing soil bacteria, and does not expect products before the next decade. These are company plans, not field results. Article date is not confirmed."}
+    ],
+    "ag": [
+      {"date": "2026-10-23", "source": "USDA weekly reports via search summary", "url": "https://www.rfdtv.com/china-purchases-boost-u-s-soybean-export-sales", "title": "US soybean harvest 64% complete as China leads export sales", "summary": "USDA reported 2.84 million tonnes of net 2026/27 soybean export sales in the week ended 15 October, 2.18 million of them to China, and harvest was 64% complete at 23 October. Futures were near US$12.6 per bushel after a two-month low on 21 October. Figures come from a search summary, not the USDA pages."}
+    ]
+  },
+  "methods": "Last issue was 2026-10-29 (no 30 October issue), so the window is 29 to 31 October 2026. Web fetch is blocked in this run (DNS not allowed), so no source page was opened and no date was confirmed against a page; everything comes from search results and is flagged where uncertain. Searches surfaced few verifiable in-window items, so this issue has 2 plant, 2 biotech and 1 ag item rather than 10 each. Nothing was padded or invented; items already covered (Hudson River, Pairwise, the 13 to 19 October Saskatchewan report) were skipped."
+}
