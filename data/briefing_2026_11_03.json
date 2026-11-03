@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-03",
+  "lead": {
+    "title": "USDA Crop Progress, 2 November: US corn and soybean harvest ahead of average",
+    "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/prog4426.pdf",
+    "summary": "USDA's weekly Crop Progress report released 2 November (week ending 1 November) puts the corn harvest at 74% in the 18 corn states against a 2021 to 2025 average of 65%, with soybeans at 77%, also above average. Winter wheat planting is 84% complete and about 50% of the crop is rated good to excellent. The percentages come from an IndexBox summary of the report; the NASS PDF tables did not render fully, so check the report before quoting exact figures.",
+    "notes": [
+      {"label": "Plant science", "text": "Nature Plants (2 November) lists a methods paper on two-colour autoluminescent reporters for quantitative imaging of gene expression in plants; a tool, not a crop result, and only the listing was seen."},
+      {"label": "Biotech", "text": "No in-window biotech or company announcement could be confirmed this run; nothing is reported here rather than relying on undated items."},
+      {"label": "Prairies", "text": "No Saskatchewan crop report dated after 5 October 2026 was found; the final 2026 crop report is expected around 5 November, so check the provincial site."}
+    ]
+  },
+  "sections": {
+    "plant": [
+      {"date": "2026-11-02", "source": "Nature Plants (journal listing, not opened)", "url": "https://www.nature.com/nplants/articles", "title": "Two-colour autoluminescent reporters enable quantitative imaging of gene expression in plants", "summary": "A methods paper in the Nature Plants listing dated 2 November describes autoluminescent reporters in two colours for quantifying gene expression in living plants. It is a tool for researchers rather than a crop trait. Date and content come from a search listing only; no effect sizes or species were seen."}
+    ],
+    "biotech": [],
+    "ag": [
+      {"date": "2026-11-02", "source": "USDA NASS via IndexBox summary", "url": "https://www.indexbox.io/blog/usda-crop-progress-report-harvest-advances-across-corn-soybeans-cotton-and-other-major-crops/", "title": "US corn harvest 74% and soybeans 77% complete, both ahead of average", "summary": "The 2 November Crop Progress report has corn harvest at 74% against a 65% five-year average and soybeans at 77%. Winter wheat planting is 84% done, with about 50% rated good to excellent. Figures are from a secondary summary of the USDA report."},
+      {"date": "2026-11-02", "source": "Nature Food (News &amp; Views, listing only)", "url": "https://www.nature.com/nfood/", "title": "Commentary on compound hot, dry and windy events in China's wheat belt", "summary": "A Nature Food News &amp; Views piece dated 2 November discusses compound hot-dry-windy events affecting wheat in China's wheat belt. It is a commentary rather than a new dataset, and only the listing was seen, so no figures are given."}
+    ]
+  },
+  "methods": "Last issue was 2026-10-31, so the window is 31 October to 3 November 2026 (no 1 or 2 November issue existed). Web fetch is blocked in this run (DNS not allowed), so no source page was opened and dates were taken from search results and journal listings, flagged where uncertain. Searches surfaced few verifiable in-window items, so this issue has 1 plant, 0 biotech and 2 ag items rather than 10 each. Nothing was padded or invented; items from earlier briefings were skipped."
+}
