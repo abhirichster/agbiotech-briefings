@@ -1,0 +1,241 @@
+{
+ "date": "2026-11-04",
+ "lead": {
+  "title": "<i>Fusarium</i> pan-effectome maps 4,057 effector families behind wheat head blight",
+  "url": "https://doi.org/10.1073/pnas.2627912123",
+  "summary": "A PNAS paper released 3 November assembles 4,057 effector families from 188 genomes of 27 <i>Fusarium</i> species, with 235 families conserved in at least 95% of isolates. Of 44 families showing adaptive evolution, most altered wheat immune responses, and CRISPR-Cas9 deletions showed several conserved effectors drive cultivar-dependent head blight severity. This is a basic-science resource, not a resistant variety, but it points breeders to conserved targets. Abstract only was read.",
+  "notes": [
+   {
+    "label": "Plant science",
+    "text": "Mechanism papers dominated the window: <i>FtMYB15</i> in buckwheat cadmium handling, <i>CsLUX</i> in tea cold tolerance, and <i>ZmPHO2</i> linking phosphorus to maize rust resistance."
+   },
+   {
+    "label": "Biotech",
+    "text": "A new AP/Exo-Cas12 rice editing kit (JIPB, 3 November) reports multiplex editing and large deletions; efficiencies were not in the abstract."
+   },
+   {
+    "label": "Prairies",
+    "text": "A barley salinity QTL preprint (3 November) may matter for saline Prairie fields; this link is inferred, and no Saskatchewan crop report was checked this run."
+   }
+  ]
+ },
+ "sections": {
+  "plant": [
+   {
+    "date": "2026-11-03",
+    "source": "PNAS",
+    "url": "https://doi.org/10.1073/pnas.2627912123",
+    "title": "A pan-effectome of <i>Fusarium</i> head blight fungi shows conserved effectors shape host specificity",
+    "summary": "Researchers built a catalogue of 4,057 effector families from 188 genomes across 27 species of the <i>Fusarium</i> complex, including a soft-core set of 235 families found in at least 95% of isolates. Of these, 44 families show signs of adaptive evolution, and most candidates tested changed wheat immune responses. CRISPR-Cas9 deletions showed that several conserved effectors affect head blight severity in a cultivar-dependent way. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Plant, Cell &amp; Environment",
+    "url": "https://doi.org/10.1111/pce.71020",
+    "title": "Tartary buckwheat <i>FtMYB15</i> coordinates cadmium uptake and detoxification",
+    "summary": "The transcription factor FtMYB15 binds the promoters of the zinc transporter-like gene <i>FtZIP3</i> and the glutathione transferase gene <i>FtGSTU19</i>, raising cadmium influx and detoxification together. Evidence comes from buckwheat hairy roots, and <i>FtGSTU19</i> also raised cadmium tolerance in <i>Arabidopsis</i>, so whole-plant field behaviour is untested. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Plant Science",
+    "url": "https://doi.org/10.1016/j.plantsci.2026.113571",
+    "title": "Linker histone variant <i>AtHIS1-3</i> works with <i>AtMYB72</i> to support iron deficiency tolerance in <i>Arabidopsis</i>",
+    "summary": "<i>AtHIS1-3</i> loss-of-function mutants were sensitive to iron deficiency, with shorter roots, lower fresh weight, chlorophyll and iron, while overexpressors tolerated it better. The protein partners with <i>AtMYB72</i> at the <i>AtNAS2</i> promoter to boost its expression. <i>Arabidopsis</i>-only result. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Plant Physiology",
+    "url": "https://doi.org/10.1093/plphys/kiag822",
+    "title": "The clock component <i>CsLUX</i> tunes pectin methylesterification to link cold tolerance and growth in tea",
+    "summary": "Cold lowers pectin methylesterification in tea plants. The authors found 100 pectin methylesterase and 42 inhibitor genes, and showed that <i>CsPME6</i> raises cold tolerance while <i>CsPMEI8</i> and <i>CsPMEI17</i> lower it, all under direct control of <i>CsLUX</i>. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Plant &amp; Cell Physiology",
+    "url": "https://doi.org/10.1093/pcp/pcag150",
+    "title": "Phenotyping, genomics and transcriptomics point to a constitutive drought-ready state in wild rice",
+    "summary": "An unmanned indoor platform tracked drought responses in four rice cultivars and five wild relatives, and the data were joined to chromosome-scale genome assemblies and time-course transcriptomes. The work points to a constitutive drought-responsive regulatory state in wild rice as a source of adaptive variation. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Plant Biotechnology Journal",
+    "url": "https://doi.org/10.1111/pbi.70778",
+    "title": "<i>ZmPHO2</i>-mediated phosphorus homeostasis modulates immunity and disease resistance in maize",
+    "summary": "The maize lesion mimic mutant <i>les33</i>, caused by <i>ZmPHO2</i>, has higher phosphorus and enhanced resistance to southern corn rust and Curvularia leaf spot, with more salicylic acid, lignin and flavonoids. It links phosphorus status to immunity, though yield effects of the mutation are not given in the abstract. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Plant Physiology",
+    "url": "https://doi.org/10.1093/plphys/kiag818",
+    "title": "Jasmonoyl-isoleucine catabolism modulates maize development and defense",
+    "summary": "Single and double loss-of-function mutants of the two maize JA-Ile hydroxylases <i>ZmCYP94B1</i> and a second CYP94B gene were generated to test how hormone turnover shapes growth and defense. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Plant &amp; Cell Physiology",
+    "url": "https://doi.org/10.1093/pcp/pcag153",
+    "title": "Loss of <i>OsNLP4</i> nitrate signaling shifts root exudates and the rice root microbiome",
+    "summary": "<i>osnlp4</i> mutants showed distinct root bacterial communities under no nitrogen fertilizer, with enrichment of <i>Bradyrhizobium</i> and other nitrogen-cycling taxa and altered sugar and phosphoric acid exudation. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-02",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.09.15.751606",
+    "title": "Spatial and developmental reprogramming lets roots keep growing under high salinity",
+    "summary": "Roots of the extremophyte <i>Schrenkiella parvula</i> keep growing at salt levels that normally arrest development, through a spatially organised reprogramming. Version 3 of a preprint from the Dinneny and Dassanayake groups. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-02",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.10.30.762996",
+    "title": "Minimal requirements and evolution of polar membrane targeting in the SOSEKI protein family",
+    "summary": "A dissection of how SOSEKI proteins localise to cell poles across land plants, from the Weijers lab. Mechanism work, mostly in model systems, with no crop trait. Preprint, not peer reviewed."
+   }
+  ],
+  "biotech": [
+   {
+    "date": "2026-11-03",
+    "source": "J. Integrative Plant Biology",
+    "url": "https://doi.org/10.1111/jipb.70440",
+    "title": "AP/Exo-Cas12 toolbox enables multiplex editing and large deletions in rice",
+    "summary": "A modular editing kit pairs Cas12 with AP-repair or exonuclease modules and cell-selection enrichment. The authors report efficient multiplex editing and easily detected large DNA deletions in rice for multigene knockouts. Efficiencies were not in the abstract. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-02",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.10.30.763198",
+    "title": "Machine learning guided design of strong transcriptional activation domains",
+    "summary": "A machine learning approach designs intrinsically disordered activation domains, a harder target than structured proteins. Authors include plant synthetic biology groups, but the abstract preview does not say which species were tested. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.10.31.762157",
+    "title": "Biosensor-guided genome-wide CRISPR screens drive cis,cis-muconic acid overproduction in yeast",
+    "summary": "A biosensor lets genome-wide CRISPR screens find non-obvious edits that raise yeast production of muconic acid, a platform chemical. Yeast metabolic engineering, relevant to bio-based manufacturing rather than crops. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.10.30.762808",
+    "title": "Large-scale forward genetics maps components of plant cell proliferative capacity",
+    "summary": "A forward genetic screen separates the genetic determinants of how well plant cell cultures proliferate, a bottleneck for regeneration, transformation and plant cell agriculture. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.10.30.763161",
+    "title": "CO2-concentrating nanoparticles remodel photosynthesis and cell walls in <i>Arabidopsis</i> cells",
+    "summary": "Nanoparticles that concentrate CO2 drive progressive photosynthetic and cell-wall remodelling in cultured <i>Arabidopsis thaliana</i> cells, a biohybrid engineering concept. Cell culture only, not whole plants. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.11.03.763898",
+    "title": "Multi-metabolite mQTL commonality analysis links genes to metabolism",
+    "summary": "A method for resolving gene to metabolite links by combining many metabolites in metabolite GWAS, from the Brotman, Aharoni and Sade groups. Useful for finding genes behind crop quality traits. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.11.02.763677",
+    "title": "<i>CrJAMs</i> repress the monoterpenoid indole alkaloid pathway in <i>Catharanthus roseus</i>",
+    "summary": "Jasmonate-associated repressors are identified as brakes on the pathway that makes anticancer alkaloid precursors in Madagascar periwinkle, a target for metabolic engineering. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.11.02.763162",
+    "title": "<i>NRT2.2</i> is essential for nitrate uptake and carbon-nitrogen balance in <i>Nannochloropsis oceanica</i>",
+    "summary": "Shows that the nitrate transporter <i>NRT2.2</i> is required for nitrate uptake in this industrially relevant marine microalga. Algal work, not a land crop. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-02",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.10.28.761427",
+    "title": "Time-course transcriptomes of maize leaf primordia reveal regulators of transverse vein development",
+    "summary": "C4 plants like maize have denser veins than C3 plants, and this work looks for the regulators, relevant to efforts to engineer C4-like traits into C3 crops. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.10.31.762479",
+    "title": "Two distinct alleles together cause astringency loss in cultivated polyploid persimmon",
+    "summary": "Accumulation of two distinct alleles explains the non-astringent trait in pollination-constant non-astringent cultivars, giving breeders markers for a fruit quality trait. Preprint, not peer reviewed."
+   }
+  ],
+  "ag": [
+   {
+    "date": "2026-11-03",
+    "source": "Pest Management Science",
+    "url": "https://doi.org/10.1002/ps.71436",
+    "title": "Penoxsulam-resistant barnyardgrass keeps growing under salt plus herbicide stress",
+    "summary": "In <i>Echinochloa crus-galli</i> under 100 mM NaCl plus penoxsulam, a resistant biotype held 3.78-fold more aboveground biomass than a susceptible one. No ALS target-site mutations were found, pointing to metabolic resistance. Greenhouse study. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-02",
+    "source": "Pest Management Science",
+    "url": "https://doi.org/10.1002/ps.71457",
+    "title": "Fendioxypyracil stays potent against PPO-resistant <i>Amaranthus</i> mutants",
+    "summary": "Enzyme assays showed the new PPO inhibitor keeps low IC50 values across resistance mutations including the ΔG210 deletion and G210, R128 and G399 substitutions, where other PPO inhibitors lost activity. Herbicide efficacy data on a new product, so treat as a developer-side characterisation. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-02",
+    "source": "PLoS One",
+    "url": "https://doi.org/10.1371/journal.pone.0359428",
+    "title": "Western corn rootworm lines resistant to non-Cry proteins Mpp75Aa1.1 and Vpb4Da2",
+    "summary": "Resistance has been reported to all five Bt proteins used against rootworm, leaving DvSnf7 dsRNA as the only trait without field resistance. These two newer proteins lack cross-resistance to current Bt traits, and the study develops resistant lines to predict how resistance could evolve. Lab selection, not field data. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Pest Management Science",
+    "url": "https://doi.org/10.1002/ps.71463",
+    "title": "Warming exposure changes brown planthopper fitness and insecticide susceptibility",
+    "summary": "Four warming regimes were tested on <i>Nilaparvata lugens</i>, a major rice pest. Acute warming briefly boosted reproduction, while one or two generations of warming produced a resource trade-off with thermotolerance genes up-regulated. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Pest Management Science",
+    "url": "https://doi.org/10.1002/ps.71413",
+    "title": "Leaf morpho-anatomical traits and plant-arthropod interactions: a meta-analysis",
+    "summary": "A PRISMA-guided meta-analysis tests whether leaf traits consistently shape herbivore preference and performance, aiming to settle inconsistent findings across studies. Effect sizes were not in the portion read. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Global Change Biology",
+    "url": "https://doi.org/10.1111/gcb.71164",
+    "title": "Drought risk for global rainfed maize, soybean and wheat intensifies and shifts spatially",
+    "summary": "Modelling with 12 crop models projects that by 2070 to 2099 opposing-direction drying classes cover 6.8% to 28.4% of rainfed area depending on crop. Rainfed land is about 80% of cropland. Scenario modelling, with the issue dated only as November. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.10.29.762138",
+    "title": "Compost microbiota changes root responses and improves tomato drought resilience",
+    "summary": "Compost supplies nutrients and hosts microbes, and this study links compost-associated microbiota to root transcriptional changes and better tomato drought resilience. Effect sizes not seen. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.11.01.763390",
+    "title": "Candidate genes for a novel barley QTL for root length and diameter under salinity",
+    "summary": "Maps a new QTL and candidate genes for root traits under salt in barley. Barley salinity work may interest breeders on salt-affected Prairie soils, though that link is my inference. Preprint, not peer reviewed."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "PLoS One",
+    "url": "https://doi.org/10.1371/journal.pone.0362007",
+    "title": "Rice yield determinants differ between organic and conventional systems",
+    "summary": "Eighty rice genotypes (62 landraces, 18 modern varieties) were grown over two Kharif seasons. Different trait sets drove yield under each system, and three landraces (Ponmani samba, Varakkal, Sengalapattu sirumani) led under organic management. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "bioRxiv",
+    "url": "https://doi.org/10.64898/2026.11.01.763533",
+    "title": "Genetic basis of DUS characters in Pakistani wheat varieties",
+    "summary": "Looks for the genetics behind distinctness, uniformity and stability traits used for variety registration and plant breeders' rights, which normally rely on field scoring. Preprint, not peer reviewed."
+   }
+  ]
+ },
+ "methods": "Last issue was 2026-11-03 and the window is 2 to 4 November 2026. Web page fetching is blocked in this run (DNS not allowed) and general web search returned nothing in-window, so items come from PubMed (entry dates 2 to 4 November) and the bioRxiv API (posting dates 2 to 3 November), with dates read from those records. Source pages were not opened; only abstracts were read, and details beyond them are not claimed. Company and news items could not be verified, so the biotech and ag sections are research-only. Preprints and <i>Arabidopsis</i>-only results are flagged. Items from earlier briefings were skipped."
+}
