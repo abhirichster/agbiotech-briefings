@@ -1,0 +1,241 @@
+{
+ "date": "2026-11-05",
+ "lead": {
+  "title": "Brown planthopper egg fluid protein <i>NlOFP1</i> switches off rice defences",
+  "url": "https://doi.org/10.1111/nph.71704",
+  "summary": "A New Phytologist paper indexed on 4 November shows that <i>NlOFP1</i>, a protein in the oviposition fluid of the brown planthopper, is deposited into rice tissue, helps eggs resist drying and suppresses plant defence. Rice overexpressing it had less lignin and salicylic acid, more cellulose and weaker resistance gene expression, and the protein binds the photosynthetic component <i>OsFeS</i>. Silencing it lowered the insect's fecundity and egg hatching rate, flagging a possible target for pest control. Peer-reviewed; abstract only read, no percentages were given.",
+  "notes": [
+   {
+    "label": "Plant science",
+    "text": "Also in the window: <i>OsERF27</i> and <i>OsPLT4</i> time rice crown roots, and <i>GmRVE8a</i> delays soybean flowering and maturity."
+   },
+   {
+    "label": "Biotech",
+    "text": "A lychee pangenome (12 haplotype-resolved accessions, 314 resequenced) and a 961.94 Mb T2T Jacktree genome lead, plus a Basmati blight resistance paper whose abstract was unavailable."
+   },
+   {
+    "label": "Prairies",
+    "text": "Soybean virus trials in Korea show early infection costs the most yield; relevance to Prairie soybeans is my inference, and no Saskatchewan crop report was found for this window."
+   }
+  ]
+ },
+ "sections": {
+  "plant": [
+   {
+    "date": "2026-11-04",
+    "source": "New Phytologist",
+    "url": "https://doi.org/10.1111/nph.71704",
+    "title": "Brown planthopper egg fluid protein <i>NlOFP1</i> suppresses rice defences",
+    "summary": "<i>NlOFP1</i> is made in the ovarian follicular cells of <i>Nilaparvata lugens</i> and deposited into rice tissue, where it helps eggs resist desiccation and suppresses plant defence. Transgenic rice overexpressing it had less lignin and salicylic acid, more cellulose and weaker resistance gene expression, and the protein interacted with the photosynthetic component <i>OsFeS</i>. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "New Phytologist",
+    "url": "https://doi.org/10.1111/nph.71721",
+    "title": "<i>OsERF27</i>-<i>OsPLT4</i> module and ROS balance set the timing of rice crown roots",
+    "summary": "The AP2/ERF gene <i>OsERF27</i> is differentially expressed between proximal and distal crown root primordia and is needed for timely proximal root growth, acting upstream of <i>OsPLT4</i>. Loss-of-function mutants showed disturbed ROS patterns and root formation that was sensitised to ROS perturbation. Peer-reviewed rice work; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "The Plant Journal",
+    "url": "https://doi.org/10.1111/tpj.71205",
+    "title": "The clock gene <i>GmRVE8a</i> delays flowering and maturity in soybean",
+    "summary": "A genome-wide association and deep-learning screen of 257 soybean accessions across 14 maturity groups, in two field environments, flagged <i>GmRVE8a</i>, a homolog of <i>Arabidopsis REVEILLE</i>. Knockout accelerated flowering and maturity and overexpression delayed both, a useful handle for adapting soybean to shorter seasons. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Theoretical and Applied Genetics",
+    "url": "https://doi.org/10.1007/s00122-026-05420-5",
+    "title": "Rice amino acid transporter <i>OsGAT2</i> links nitrogen allocation to heading date",
+    "summary": "Four promoter haplotypes of <i>OsGAT2</i> were found in diverse germplasm, and low-expression haplotypes headed earlier, had longer grains and lower nitrogen content. Yeast assays showed it transports several amino acids including GABA, and knockout lines flowered earlier while overexpression lines flowered later. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Plant Physiology",
+    "url": "https://doi.org/10.1093/plphys/kiag779",
+    "title": "Where sodium sits in tomato leaves tracks differences in cell-to-cell transport",
+    "summary": "In domesticated tomato M82, which excludes sodium, Na<sup>+</sup> stayed in the bundle sheath, while salt-including wild relatives accumulated it across the mesophyll. M82 but not <i>Solanum pennellii</i> showed reduced symplastic transport and plasmodesma permeability under salt, and a screen implicated <i>PDLP1</i>. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "PNAS",
+    "url": "https://doi.org/10.1073/pnas.2603915123",
+    "title": "Maize genetic diversity is largely unstructured by human language groups in Mexico",
+    "summary": "Using genotype data on about 2,000 traditional maize varieties, over 500 human genomes from Mexico and indigenous language maps, the study finds little overall structure, which it reads as effective seed exchange and mixing by farmers. Beyond shared geography, human population structure added little explanatory power. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Journal of Agricultural and Food Chemistry",
+    "url": "https://doi.org/10.1021/acs.jafc.6c09661",
+    "title": "<i>DUFB</i> stabilises <i>GS1;1</i> to give broad-spectrum disease resistance in rice",
+    "summary": "Three DUF-domain genes, <i>DUFA</i>, <i>DUFB</i> and <i>DUFC</i>, are induced by <i>Rhizoctonia solani</i> and nitrogen and act redundantly, with mutant and overexpression lines showing resistance to sheath blight, blast and bacterial blight. The proteins protect <i>GS1;1</i> from ubiquitin-mediated degradation, and <i>GS1;1</i> protein is lower under high nitrogen, a possible link between fertiliser and susceptibility. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Plant Physiology",
+    "url": "https://doi.org/10.1093/plphys/kiag821",
+    "title": "A rare T2 RNase in a basal eudicot hints at the origin of self-incompatibility",
+    "summary": "Researchers identified a class TI T2 RNase and F-box locus in <i>Akebia trifoliata</i> as a candidate S-locus for late-acting self-incompatibility. This subfamily forms a gradient between class I and class III T2 RNases, offering an evolutionary bridge. Evolutionary study in a non-crop species; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Journal of Agricultural and Food Chemistry",
+    "url": "https://doi.org/10.1021/acs.jafc.6c06644",
+    "title": "<i>GmPRLP</i> regulates soybean nodule senescence via ethylene signalling",
+    "summary": "QTL mapping and resequencing identified <i>GmPRLP</i> as responsive to the rhizobial effectors NopL and NopP. Hairy-root overexpression accelerated nodule senescence while silencing delayed it, through ethylene genes including <i>GmACS7</i>, <i>GmACO</i> and <i>GmERFs</i>. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Plant Physiology",
+    "url": "https://doi.org/10.1093/plphys/kiag810",
+    "title": "The <i>CsANT1</i> module coordinates leaf margin lobing and cell proliferation",
+    "summary": "A Plant Physiology paper indexed on 4 November reports a <i>CsANT1</i> regulatory module that links leaf margin lobing to cell proliferation. The abstract was not available in the record, so only the title is relied on here and no results are claimed."
+   }
+  ],
+  "biotech": [
+   {
+    "date": "2026-11-03",
+    "source": "Plant Biotechnology Journal",
+    "url": "https://doi.org/10.1111/pbi.70786",
+    "title": "Engineering bacterial blight and leaf streak resistance in Basmati rice",
+    "summary": "A Plant Biotechnology Journal paper (3 November) uses host-pathogen evolutionary dynamics to engineer resistance to bacterial blight and leaf streak in Basmati rice. The abstract was unavailable in the record, so no efficacy numbers or editing method are reported here."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Functional &amp; Integrative Genomics",
+    "url": "https://doi.org/10.1007/s10142-026-02111-8",
+    "title": "Transgenic wheat carrying <i>TtDHN3</i> from <i>Tritipyrum</i> shows drought tolerance",
+    "summary": "<i>TtDHN3</i> was cloned from drought-tolerant <i>Tritipyrum</i> Y1805 and transformed into common wheat 1718 by the coleoptile method. After 24 h of drought the overexpression lines wilted less and had greater root and shoot growth and higher antioxidant enzyme activity than wild type. Peer-reviewed; early lab-stage result, no field data in the abstract."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "PLOS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0360818",
+    "title": "Hairy root cultures of wild lettuce make more phenolics after methyl jasmonate",
+    "summary": "Stable <i>Lactuca serriola</i> hairy roots were induced with <i>Agrobacterium rhizogenes</i> ATCC 15834 and confirmed by PCR for <i>rolC</i>. Methyl jasmonate elicitation reprogrammed phenylpropanoid metabolism to raise phenolic accumulation and antioxidant responses. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Plant Cell Reports",
+    "url": "https://doi.org/10.1007/s00299-026-04030-1",
+    "title": "A hidden T-DNA-linked inversion explains a puzzling <i>Arabidopsis</i> mutant phenotype",
+    "summary": "In <i>Arabidopsis</i> lines lacking mitochondrial malate dehydrogenase and NAD-malic enzyme, <i>mdh1.1 me2</i> plants were unexpectedly smaller than the triple mutant under short-day, low light. Genome sequencing found a 137 kbp inverted duplication next to the T-DNA, a caution for anyone interpreting insertion mutants. <i>Arabidopsis</i>-only; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Plant Physiology",
+    "url": "https://doi.org/10.1093/plphys/kiag756",
+    "title": "Polychrome probe cocktails tell plant cysteine protease isoforms apart",
+    "summary": "Mixing E-64-based probes with different fluorophores gives each papain-like protease family and isoform an apparent colour through differing affinities. It separated <i>RD21</i>-like isoforms, and modelling suggests the C-terminal granulin domain shapes substrate selectivity. A methods paper; abstract only read."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Molecular Plant",
+    "url": "https://doi.org/10.1016/j.molp.2026.10.018",
+    "title": "A haplotype-resolved lychee pangenome links variation to flowering time",
+    "summary": "The team assembled haplotype-resolved genomes for 12 lychee accessions, confirmed the hybrid origin of cultivar Feizixiao, and combined the pangenome with resequencing of 314 accessions to find variants behind agronomic traits including flowering time. Extensive structural and copy number variation was reported. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "The Plant Journal",
+    "url": "https://doi.org/10.1111/tpj.71186",
+    "title": "Telomere-to-telomere genome of the endangered Jacktree maps its centromeres",
+    "summary": "The gap-free assembly is 961.94 Mb with an N50 of 78.05 Mb and 36,446 predicted genes. CENH3 ChIP-seq located centromeres on all 12 chromosomes, and chromosome 1 carries a centromere-like domain with ectopic CENH3. Genomic resource for a non-crop species; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Molecular Plant",
+    "url": "https://doi.org/10.1016/j.molp.2026.10.019",
+    "title": "Review: transporters that shuttle carbon and nitrogen between mitochondria and plastids",
+    "summary": "This review covers mitochondrial and plastid envelope transporters with confirmed substrates and how they coordinate carbon-nitrogen metabolism, flagging major knowledge gaps. It reports no new experiments, so it matters mainly as a map of targets for metabolic engineering."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Current Opinion in Plant Biology",
+    "url": "https://doi.org/10.1016/j.pbi.2026.102994",
+    "title": "Review: how plant cis-regulatory elements evolve",
+    "summary": "The review summarises principles of regulatory evolution and argues plant models are well placed to test them because of their high genetic diversity. Relevant to promoter and enhancer design for genome editing, but it presents no new data."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Plant, Cell &amp; Environment",
+    "url": "https://doi.org/10.1111/pce.71021",
+    "title": "Review: receptor-like kinases in drought signalling from root to stomata",
+    "summary": "The review organises <i>RLK</i> roles across three scales: sensing at the root-soil interface, long-distance peptide and ROS wave signalling, and stomatal control in leaves. It identifies <i>RLK</i> nodes as candidate targets for drought-resilience breeding. No new experiments; abstract only read."
+   }
+  ],
+  "ag": [
+   {
+    "date": "2026-11-04",
+    "source": "Plant Disease",
+    "url": "https://doi.org/10.1094/PDIS-06-26-1239-RE",
+    "title": "Early infection by soybean viruses causes the worst yield loss in Korean field trials",
+    "summary": "Field trials of soybean mosaic virus and soybean yellow mottle mosaic virus infection at three growth stages in three genotypes found that early vegetative infection cut yield most, mainly through fewer pods and seeds. Virus was often found in seeds that looked normal, and seed-to-seedling transmission varied by host-virus pair. Peer-reviewed; abstract only read."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Journal of Agricultural and Food Chemistry",
+    "url": "https://doi.org/10.1021/acs.jafc.6c11543",
+    "title": "Early-stage <i>MoEno1</i>-targeting compound shows promise against rice blast",
+    "summary": "Deleting enolase <i>MoEno1</i> in <i>Magnaporthe oryzae</i> impaired growth, melanin and pathogenicity. Screening plus optimisation of isobavachalcone gave 59 derivatives, and II-24 showed in planta efficacy, low phytotoxicity and extra activity with tebuconazole. This is an early lead from the lab, not a product."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Journal of Agricultural and Food Chemistry",
+    "url": "https://doi.org/10.1021/acs.jafc.6c07324",
+    "title": "Review: biodegradable iron chelates for soybean iron deficiency chlorosis",
+    "summary": "The review covers 3-hydroxy-4-pyridinone iron chelates and nano-delivery systems for iron chlorosis in calcareous, alkaline soils, noting they raise iron bioavailability without evidence of persistence in leaching water. Relevant to Prairie soybean acreage on high-pH soils, though that link is my inference, not the review's."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Journal of Agricultural and Food Chemistry",
+    "url": "https://doi.org/10.1021/acs.jafc.6c06421",
+    "title": "Cytochrome P450 enzymes drive natural florpyrauxifen-benzyl resistance in barnyardgrass",
+    "summary": "A biotype never exposed to the herbicide had a resistance factor of 3.80, falling to 1.49 with a P450 inhibitor, and the factor rose from 2.37 at 25/20 C to 5.22 at 35/30 C. <i>CYP71Z</i>-like, <i>CYP704C</i>-like and <i>CYP81A</i>-like genes are candidates that still need functional validation."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Journal of Agricultural and Food Chemistry",
+    "url": "https://doi.org/10.1021/acs.jafc.6c06074",
+    "title": "Continuous cropping hurts cassava more than drought in a pot experiment",
+    "summary": "In a 2 x 2 x 3 factorial pot trial, continuous cropping raised rhizosphere organic acids, lowered pH and cut bacterial diversity more than drought did. Roots mounted jasmonic and salicylic acid defences at a growth and yield cost. Pot study, not field."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Journal of Agricultural and Food Chemistry",
+    "url": "https://doi.org/10.1021/acs.jafc.6c09395",
+    "title": "<i>CSP10</i> helps fall armyworm resist chlorantraniliprole",
+    "summary": "<i>CSP10</i> was upregulated in a resistant <i>Spodoptera frugiperda</i> strain, and RNAi silencing raised larval susceptibility. Binding assays and docking showed it binds the insecticide, with Phe6, Ile17, Tyr21, Val25 and Phe38 as key residues."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Journal of Agricultural and Food Chemistry",
+    "url": "https://doi.org/10.1021/acs.jafc.6c06526",
+    "title": "Carboxylesterase <i>AgBe10</i> detoxifies abamectin in the soybean aphid",
+    "summary": "Of 26 <i>AgCCE</i> genes found in <i>Aphis glycines</i>, <i>AgBe10</i> was most induced by sublethal abamectin, and RNAi silencing raised aphid mortality. Recombinant <i>AgBe10</i> depleted abamectin in vitro, pointing to metabolic adaptation."
+   },
+   {
+    "date": "2026-11-03",
+    "source": "Pest Management Science",
+    "url": "https://doi.org/10.1002/ps.71460",
+    "title": "Meta-analysis: nano and slow-release antifungals beat plain ones against <i>Colletotrichum</i> in the lab",
+    "summary": "Across 33 studies and 266 effect sizes, formulated products had a pooled lnRR of 0.42 (95% CI 0.22 to 0.63), a ratio of means of 1.52, with very high heterogeneity (I<sup>2</sup> 93.9%). Only one field trial existed and prediction intervals included zero, so field benefit is unproven."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Pest Management Science",
+    "url": "https://doi.org/10.1002/ps.71440",
+    "title": "China's soil-pest insecticide registrations show persistent concentration in a few actives",
+    "summary": "Analysis of 1,513 products approved 2005 to 2025 found a shift from AChE inhibitors toward nAChR-acting insecticides and more mixture products, yet the top 3 actives held 50% to 87% of annual shares. It does not measure real use or resistance."
+   },
+   {
+    "date": "2026-11-04",
+    "source": "Journal of Agricultural and Food Chemistry",
+    "url": "https://doi.org/10.1021/acs.jafc.6c04327",
+    "title": "Cyclodextrin hydrogel cuts glyphosate spray drift in wind tunnel tests",
+    "summary": "At 4 m from the nozzle, drift was 55.7% lower than glyphosate solution and 36.6% lower than a commercial formulation. It stayed effective on barnyardgrass and was safe for glyphosate-resistant cotton. Lab and wind tunnel only."
+   }
+  ]
+ },
+ "methods": "Last issue was 2026-11-04, so the window is 3 to 4 November 2026 with PubMed entry dates of 4 November; each item's date is the publication date in its PubMed record. Web page fetching and general news search returned nothing dated in this window (latest Saskatchewan report found was from September), so all items come from PubMed abstracts and no company or news items could be verified. Source pages were not opened; only abstracts were read, and two items had no abstract, so nothing beyond the title is claimed. Reviews, <i>Arabidopsis</i>-only and early lab-stage results are flagged. Items from earlier briefings (for example <i>FtMYB15</i>, <i>ZmPHO2</i>, the penoxsulam barnyardgrass paper) were skipped."
+}
