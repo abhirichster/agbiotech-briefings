@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-06",
+  "lead": {
+    "title": "Optimized prime editing recreates and stacks disease resistance alleles in tomato",
+    "url": "https://doi.org/10.1093/plcell/koag336",
+    "summary": "A Plant Cell paper published on 5 November describes three tomato prime editors, TomPE2, TomPE6c and TomPE7, that precisely recreated a pepper resistance deletion in <i>SlBs5</i> and <i>SlBs5L</i> and raised resistance to <i>Xanthomonas</i>. Stop codons in <i>SlDMR6</i> gave resistance to both <i>Xanthomonas</i> and <i>Pseudomonas syringae</i>, and a modular system can edit several loci at once. TomPE6c gave the highest share of precise edits. It is peer-reviewed lab and greenhouse work; no field data or yield figures are reported in the abstract.",
+    "notes": [
+      {
+        "label": "Plant science",
+        "text": "Two NLR stories stand out: <i>CAR1</i> prolongs stomatal immunity in Arabidopsis, and <i>Swordholder</i> from <i>Nicotiana tabacum</i> raised field resistance when put into tomato."
+      },
+      {
+        "label": "Biotech",
+        "text": "Gap-free soybean genomes, a rice C4 cycle flux demonstration and a peptide that lifts alfalfa transformation efficiency 1.61 times follow the lead."
+      },
+      {
+        "label": "Prairies",
+        "text": "Seed-applied pydiflumetofen gave 33.6 to 150.4 kg/ha extra soybean yield as cyst nematode pressure rose, but the data are from Ohio, so Prairie relevance is my inference."
+      }
+    ]
+  },
+  "sections": {
+    "plant": [
+      {
+        "date": "2026-11-06",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag836",
+        "title": "<i>OsPIL1</i> trades rice growth and yield against blast resistance via <i>OsINV3</i>",
+        "summary": "Overexpressing <i>OsPIL1</i> in japonica cv. LTH restricted growth, cut yield traits and raised blast susceptibility, the opposite of earlier results in indica cv. Acuce, while knockouts resisted <i>Magnaporthe oryzae</i> better. Combined loss of <i>OsPIL1</i> and <i>OsINV3</i> helped resistance in LTH but hurt it in Acuce, so genetic background matters. Peer-reviewed; abstract only read."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Nature Plants",
+        "url": "https://doi.org/10.1038/s41477-026-02458-7",
+        "title": "Two RNA viruses switch on the 22-nt antiviral silencing pathway in tomato via <i>DCL2b</i>",
+        "summary": "TMV and tomato bushy stunt virus activate <i>DCL2b</i> through the Dof16 transcription factor and push DCL2b out of the nucleus, which blocks processing of the feedback regulator miR6026. The shift is tied to reduced Tyr69 phosphorylation, and Arabidopsis <i>DCL2</i> shows the same relocalization. Peer-reviewed; abstract only read."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Nature Plants",
+        "url": "https://doi.org/10.1038/s41477-026-02444-z",
+        "title": "Phosphorylation of <i>SGS3</i> by TOUSLED flips <i>RDR6</i> between degrading and copying RNA",
+        "summary": "In Arabidopsis, TOUSLED phosphorylates <i>SGS3</i> at Ser65 and Ser68, which drives liquid-like siRNA bodies and favours double-stranded RNA synthesis by <i>RDR6</i>. Virus infection instead drives hypo-phosphorylation and solid aggregates, suppressing viral siRNA production. Arabidopsis-only result; abstract only read."
+      },
+      {
+        "date": "2026-11-04",
+        "source": "Science Advances",
+        "url": "https://doi.org/10.1126/sciadv.aei5129",
+        "title": "The NLR <i>CAR1</i> extends stomatal closure to block bacterial entry into leaves",
+        "summary": "Recognition of the conserved type III effector AvrE1 by <i>CAR1</i>, which is enriched in guard cells, prolongs stomatal immunity against <i>Pseudomonas</i>. It also stopped leaf invasion by natural isolates carrying AvrE1. Arabidopsis-based result; abstract only read, no quantitative values in it."
+      },
+      {
+        "date": "2026-11-04",
+        "source": "Science Advances",
+        "url": "https://doi.org/10.1126/sciadv.aej0978",
+        "title": "Fast-activating NLR <i>Swordholder</i> explains nonhost resistance to an oomycete",
+        "summary": "<i>Nicotiana tabacum</i> <i>NtSwh</i> has weaker autoinhibition than the <i>N. benthamiana</i> version, so it signals fast enough to outrun effector suppression. Putting <i>NtSwh</i> into tomato raised field resistance to the pathogen with no yield penalty, according to the abstract (no figures given). Peer-reviewed."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag823",
+        "title": "<i>SlSTP9</i> and <i>SlDof12</i> control tomato anther elongation and pollination",
+        "summary": "CRISPR/Cas9 <i>slstp9</i> mutants had shortened anthers, premature dehiscence, stigma exsertion and pollination failure, while overexpression raised fruit set. The sugar transporter favours fructose and galactose, and <i>SlDof12</i> directly represses it. Peer-reviewed; abstract only read."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag827",
+        "title": "<i>GmSTF1/2</i> activate <i>GmPsbS</i> photoprotection in soybean under high light",
+        "summary": "CRISPR double mutants of <i>GmPsbS1</i> and <i>GmPsbS2</i> showed strong photoinhibition, impaired non-photochemical quenching and more ROS. Overexpressing <i>GmSTF1</i> improved NPQ and high-light tolerance, with <i>GmGTF3A</i> as a putative co-activator seen in transient assays. Abstract only read."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag826",
+        "title": "<i>SlCOP1</i> proteins restrict plastid development in tomato fruit through <i>SlHY5</i> and <i>GLK2</i>",
+        "summary": "CRISPR-Cas9 <i>Slcop1</i> double mutants had enhanced fruit chloroplast development and more carotenoids, while leaves were unaffected, because <i>SlHY5</i> activates <i>GLK2</i> in fruit only. Peer-reviewed; abstract only read."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Journal of Experimental Botany",
+        "url": "https://doi.org/10.1093/jxb/erag558",
+        "title": "<i>FaWRKY7</i> boosts strawberry fruit resistance to grey mould by repressing <i>FaJAZ4</i> and <i>FaJAZ8</i>",
+        "summary": "Transient overexpression raised resistance to <i>Botrytis cinerea</i> and silencing lowered it; the transcription factor binds the <i>FaJAZ4</i> and <i>FaJAZ8</i> promoters. Part of the evidence comes from transgenic Arabidopsis, and the effect is only partly dependent on JA-Ile."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Plant Communications",
+        "url": "https://doi.org/10.1016/j.xplc.2026.102181",
+        "title": "<i>SiROCX</i> times the cell wall enzyme secretome of the root endophyte <i>Serendipita indica</i>",
+        "summary": "The transcription factor regulates xylan and cellulose degrading enzymes during colonization of barley roots. Premature activation caused early induction of a host immune marker despite similar fungal biomass, suggesting timing keeps the symbiosis compatible. Mostly in vitro and early stage; abstract only read."
+      }
+    ],
+    "biotech": [
+      {
+        "date": "2026-11-05",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag336",
+        "title": "Optimized prime editing recreates and stacks disease resistance alleles in tomato",
+        "summary": "Three tomato prime editors (TomPE2, TomPE6c, TomPE7) recreated a pepper resistance deletion in <i>SlBs5</i> and <i>SlBs5L</i>, raising resistance to <i>Xanthomonas</i>. Stop codons in <i>SlDMR6</i> gave resistance to both <i>Xanthomonas</i> and <i>Pseudomonas syringae</i>, and TomPE6c gave the highest share of precise edits. A modular multiplex system edits several loci at once. Peer-reviewed lab and greenhouse work; abstract only read."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag338",
+        "title": "Gap-free telomere-to-telomere genomes for wild and cultivated soybean",
+        "summary": "Complete nuclear, mitochondrial and chloroplast genomes were assembled for <i>Glycine soja</i> SoyW02 and <i>Glycine max</i> Zhonghuang 13. They reveal a conserved subtelomeric exchange hub, refined satellite repeats and diverged duplicated oxidosqualene cyclases. Peer-reviewed; no yield claims."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag832",
+        "title": "<i>MsPep1</i> peptide lifts alfalfa transformation efficiency 1.61 times and enables <i>FTO</i> overexpression gains",
+        "summary": "The elicitor peptide shortened the transformation cycle by 20 days. Alfalfa overexpressing <i>FTO</i>, an m6A demethylase, had 24.98% more fresh weight per plant and 10% higher relative feed value in the field, plus better drought and salt tolerance. Peer-reviewed but from one study; abstract only read."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Nature Plants",
+        "url": "https://doi.org/10.1038/s41477-026-02430-5",
+        "title": "C4 cycle reactions shown to run in transgenic rice",
+        "summary": "New transgenic lines and assays detected carboxylation, decarboxylation, Rubisco refixation and regeneration of the C3 donor in rice. The authors cite a possible 50% yield gain from a full C4 pathway, but this is a background estimate, not a result, and a working CO2 concentrating mechanism is not yet achieved."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "PNAS",
+        "url": "https://doi.org/10.1073/pnas.2617946123",
+        "title": "Atypical <i>PALnc</i> enzymes debottleneck phenylpropanoid production",
+        "summary": "A screen of PAL enzymes from 14 plant species found a new clade, <i>PALnc</i>, with feedback activation by p-coumaric acid and other metabolites and higher in planta stability. Stable transgenic Arabidopsis with an <i>Eucalyptus grandis</i> <i>PALnc</i> hyperaccumulated hydroxycinnamate derivatives. Arabidopsis and transient leaf results; abstract only read."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Biotechnology Advances",
+        "url": "https://doi.org/10.1016/j.biotechadv.2026.109091",
+        "title": "Review: chloroplast genome engineering heads toward commercialization",
+        "summary": "Covers the first FDA approval of plant-cell-made biopharmaceuticals for human trials, marker-free edible plants and tools for DNA delivery and expression. Review article, not new data, and the plant-cell drug applications are early stage."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Theoretical and Applied Genetics",
+        "url": "https://doi.org/10.1007/s00122-026-05421-4",
+        "title": "Meta-QTL analysis of eggplant finds 97 stable loci",
+        "summary": "Merging 620 QTLs from 23 studies (425 projected onto a consensus map) gave 97 meta-QTLs, narrowing mean confidence intervals from 10.29 to 3.42 cM, and 68 high-confidence candidate genes. Chromosome 6 stands out as a multi-trait hub. Computational meta-analysis, not field validated."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "BMC Genomics",
+        "url": "https://doi.org/10.1186/s12864-026-13542-9",
+        "title": "Organelle genomes of the mycoheterotroph <i>Thismia angustimitra</i> show a tiny plastome",
+        "summary": "The plastome is only 18,215 bp, and the mitogenome has 22 chromosomes totalling 422,400 bp. No fungal DNA was found, though some intergenic DNA resembles distant angiosperms. Basic genomics with no direct crop application."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Journal of Experimental Botany",
+        "url": "https://doi.org/10.1093/jxb/erag442",
+        "title": "Maize lines differ widely in coping with low phosphate and its coupling to nitrogen",
+        "summary": "Two dent-pool lines performed poorly under low P and became N deficient, and only they lacked a robust root phosphate starvation response. Inositol pyrophosphates fell in contrasting lines alike, so they appear necessary but not sufficient. Growth-chamber study; abstract only read."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-07-26-1357-RE",
+        "title": "ITS is a multicopy marker for the turfgrass pathogen, so quantification needs single-copy genes",
+        "summary": "Digital PCR showed ITS at 33 to 48 copies per genome (34 to 52 with another normalizer) across 27 isolates, while calmodulin, EF1-alpha and <i>MCM7</i> were single copy. Pathogen species name was missing in the indexed abstract. Diagnostic methods note."
+      }
+    ],
+    "ag": [
+      {
+        "date": "2026-11-06",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-06-26-1265-RE",
+        "title": "Seed-applied pydiflumetofen gains more yield as soybean cyst nematode pressure rises",
+        "summary": "A network meta-analysis of 21 Ohio trials (787 plots) predicted pydiflumetofen yield gains of 33.6 kg/ha at low pressure to 150.4 kg/ha at high pressure; fluopyram effects were smaller (P = 0.057). Nematode density fell only 4.0 to 12.7% with fluopyram, and not significantly. Peer-reviewed."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-06-26-1253-RE",
+        "title": "Korean apple bitter rot fungi carry resistance to thiophanate-methyl and pyraclostrobin",
+        "summary": "Of 143 <i>Colletotrichum</i> isolates (77 <i>C. fructicola</i>, 66 <i>C. siamense</i>), tebuconazole, fluazinam and iminoctadine worked well. E198A in beta-tubulin and G143A in cytochrome b tracked reduced sensitivity, more often in <i>C. fructicola</i>."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag835",
+        "title": "Detox genes <i>RsCYP3A24</i> and <i>RsGSTF5</i> drive fungicide resistance in <i>Rhizoctonia solani</i>",
+        "summary": "Under SYP-14288 selection, resistant mutants drifted toward homokaryotic allele fixation and upregulated both genes. Enzyme assays confirmed oxidation by <i>RsCYP3A24</i> and glutathione conjugation by <i>RsGSTF5</i>. Lab-derived mutants; field relevance not shown."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Journal of Experimental Botany",
+        "url": "https://doi.org/10.1093/jxb/erag516",
+        "title": "Tea plants defend against <i>Helopeltis theivora</i> with flavonoid chemistry and a repellent volatile",
+        "summary": "Infestation activated jasmonate signalling and the phenylpropanoid-flavonoid pathway, with pinobanksin-3-acetate a candidate resistance compound. Feeding-induced (E)-beta-ocimene repelled adult males in a dose-dependent way. Lab behavioural work."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71462",
+        "title": "Whitefly hijacks tobacco <i>NtWRKY6</i> to switch on a DELLA and stunt growth",
+        "summary": "Silencing <i>NtWRKY6</i> restored gibberellin A3 and growth under <i>Bemisia tabaci</i> feeding, and <i>NtWRKY6</i> directly activates <i>NtRGL2</i>. Tobacco model plant results."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71446",
+        "title": "Lignin-based boscalid microcapsules release on acid or laccase cues",
+        "summary": "The 450 nm capsules had 81.6% encapsulation efficiency and 10.4% loading, and the EC50 against <i>Botrytis cinerea</i> at pH 5.0 was 102.50 mg/L, 16% lower than at pH 7.0. They were less toxic to wheat and zebrafish than a commercial formulation. Early-stage lab formulation."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Environmental Research",
+        "url": "https://doi.org/10.1016/j.envres.2026.126034",
+        "title": "Lignosulfonate-based polymer improves saline-alkali soil structure and maize seedlings",
+        "summary": "At 0.1 wt.% it cut soil column leaching time 29.65%, raised water-stable aggregates 58.15% and cut soluble Na 32.85%. Maize seedling benefits came from a 30-day pot test only, so field results are untested."
+      },
+      {
+        "date": "2026-11-02",
+        "source": "Plant Environment Interactions",
+        "url": "https://doi.org/10.1002/pei3.70214",
+        "title": "Sorghum leaf blight incidence and severity map to different genetics in Niger and Senegal",
+        "summary": "Across 1,339 plot observations and 567,758 SNPs, no marker passed a 10% false discovery rate, and incidence and severity correlated only moderately (r = 0.429). Null genetic result, useful for breeders."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-06-26-1247-RE",
+        "title": "Rapid enzyme-mediated assay detects the clubroot pathogen <i>Plasmodiophora brassicae</i>",
+        "summary": "The assay picked out 157 candidate target regions, used one (<i>Pbspec1</i>), and gave no signal from 12 non-target organisms. Detection limit was in the plasmid copies per microlitre range. Peer-reviewed diagnostic; abstract only read."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Molecular Plant-Microbe Interactions",
+        "url": "https://doi.org/10.1094/MPMI-06-26-0059-R",
+        "title": "Mediator subunit Vmg1 is essential for Verticillium wilt pathogenicity",
+        "summary": "Deleting <i>Vmg1</i> abolished sporulation, produced malformed microsclerotia and caused no wilt symptoms; the mutant stalled outside xylem vessels. Pathogen species name was missing in the indexed abstract; basic biology, not a control product."
+      }
+    ]
+  },
+  "methods": "Last issue was 2026-11-05, so the window is 5 to 6 November 2026, using PubMed entry dates; each item date is the publication date in its PubMed record, and two Science Advances items dated 4 November entered PubMed in the window. Web news search found nothing dated in the window (the latest Saskatchewan crop report found was for the week ended 5 October), so no company or news items could be verified and all items come from PubMed abstracts. Source pages were not opened, only abstracts were read. Reviews, <i>Arabidopsis</i> or tobacco-only, lab-stage and null results are flagged, and no company claims were included. Items from earlier briefings were skipped."
+}
