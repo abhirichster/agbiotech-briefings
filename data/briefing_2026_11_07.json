@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-07",
+  "lead": {
+    "title": "Field-grown GM bananas carry nutritionally relevant iron and zinc, but with a yield cost",
+    "url": "https://doi.org/10.1111/nph.71702",
+    "summary": "A New Phytologist field evaluation in Australia grew 450 genetically modified Cavendish and Lady Finger banana plants carrying six iron-homeostasis transgenes. Fruit iron and zinc reached 45.5 and 51.9 mg per kg dry weight with <i>OsNAS</i> expression, and 28 lines supplied at least 50% of the estimated average requirement of iron for children. Higher mineral content correlated with lower yield, partly eased by co-expressing <i>OsVIT1</i>. Results are from the first planting crop only and are not yet East African field data.",
+    "notes": [
+      {
+        "label": "Plant science",
+        "text": "D14 is shown to stabilise PHR1, tying strigolactone to phosphate signalling in <i>Arabidopsis</i>, and a peanut single-nucleus atlas of 29,308 nuclei flags <i>AhWRKY40</i> for stem rot resistance."
+      },
+      {
+        "label": "Biotech",
+        "text": "A cereal pangene atlas finds 59 to 264% more family members than single genomes, and a review urges CRISPR editing of dual-function susceptibility genes."
+      },
+      {
+        "label": "Prairies",
+        "text": "Barley <i>HvMAPK5</i>-<i>HvWRKY75</i>-<i>HvHKT1;2</i> is a salt tolerance module, and a 19-year wheat trial links salinity to crown rot, so both are relevant to saline Prairie soils (my inference, as the work was done in the lab or in China)."
+      }
+    ]
+  },
+  "sections": {
+    "plant": [
+      {
+        "date": "2026-11-06",
+        "source": "Science Advances",
+        "url": "https://doi.org/10.1126/sciadv.aej2234",
+        "title": "Strigolactone receptor D14 integrates phosphate and strigolactone signaling by stabilizing PHR1",
+        "summary": "Under low phosphate, strigolactone-induced anthocyanin needs PHR1, and the strigolactone receptor D14 binds PHR1 in a strigolactone-dependent way. The interaction promotes PHR1 dimerization, blocks its ubiquitination-mediated degradation and boosts its activity, so the complex switches on strigolactone and anthocyanin biosynthesis genes. This explains why strigolactone has opposite effects on lateral roots under low and high phosphorus. The work is in <i>Arabidopsis</i>; peer-reviewed, abstract read."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant, Cell &amp; Environment",
+        "url": "https://doi.org/10.1111/pce.71037",
+        "title": "HvMAPK5 phosphorylates HvWRKY75 to switch on <i>HvHKT1;2</i> and strengthen barley salt tolerance",
+        "summary": "The kinase HvMAPK5 phosphorylates the transcription factor HvWRKY75 at Ser21, which stabilises it and raises its activation of the sodium transporter gene <i>HvHKT1;2</i>. Overexpression of <i>HvHKT1;2</i> increased sodium efflux at the root apex, cut shoot sodium and raised the K/Na ratio, while knockdown did the opposite. Peer-reviewed lab-scale work in barley, with no field yield data in the abstract."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant, Cell &amp; Environment",
+        "url": "https://doi.org/10.1111/pce.71027",
+        "title": "Single-nucleus atlas of peanut stem rot points to <i>AhWRKY40</i> as a resistance regulator",
+        "summary": "Profiling 29,308 nuclei and 52,819 expressed genes, the study found that infection with <i>Sclerotium rolfsii</i> mostly downregulated genes and shrank every cell population, with epidermal cells carrying the highest share of resistance genes. Overexpressing <i>AhWRKY40</i> raised resistance and increased jasmonic and salicylic acid. Peer-reviewed; transgenic validation was not described as field-scale."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag833",
+        "title": "A potassium channel beta-subunit blocks potyvirus replication and movement by binding 6K2",
+        "summary": "<i>Nicotiana benthamiana</i> NbKNB1 binds the turnip mosaic virus 6K2 protein, disrupting 6K2 self-association and vesicle maturation, and competes with the viral CI protein to limit cell-to-cell movement. A mutant lacking residues 270 to 279 lost both effects, and the maize homolog <i>ZmKZB1</i> also reduced infection by other potyviruses. Peer-reviewed; the core work is in <i>N. benthamiana</i>."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Plant, Cell &amp; Environment",
+        "url": "https://doi.org/10.1111/pce.71036",
+        "title": "Class I TCPs <i>TCP14</i> and <i>TCP15</i> restrain ABA signalling and are themselves destabilised by ABA",
+        "summary": "<i>TCP14</i> and <i>TCP15</i> activate negative regulators of ABA signalling such as <i>AFP2</i>, suppressing <i>ABI5</i> under non-stress conditions, while ABA lowers TCP protein abundance to release the brake in stress. The loop fine-tunes the trade-off between growth and stress responses. <i>Arabidopsis</i>-only, peer-reviewed."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "The Plant Journal",
+        "url": "https://doi.org/10.1111/tpj.71206",
+        "title": "The S-domain receptor-like kinase HIB1 controls auxin distribution and root gravitropism via MPK6",
+        "summary": "A forward screen identified <i>HIB1</i>; mutants show shorter primary roots, fewer lateral roots and weak gravitropism because of abnormal auxin distribution and PIN protein polarity. The gravitropic defect tracks with raised MPK6 activity and is rescued by loss of <i>MPK6</i>. <i>Arabidopsis</i>-only, peer-reviewed."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Plant, Cell &amp; Environment",
+        "url": "https://doi.org/10.1111/pce.71024",
+        "title": "An MdERF4 and MdERF106 switch drives a self-reinforcing <i>MdWRKY33</i> loop behind irreversible apple softening",
+        "summary": "<i>MdWRKY33</i> activates the cell wall gene <i>MdPG</i>, its own promoter and ethylene production. Ethylene represses the repressor <i>MdERF4</i> and induces the activator <i>MdERF106</i>, locking in the softening programme. Peer-reviewed; offers candidate targets for firmness, with no storage trial reported in the abstract."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant Science",
+        "url": "https://doi.org/10.1016/j.plantsci.2026.113581",
+        "title": "Volatiles from salt-stressed rice trigger stress responses in unstressed neighbours",
+        "summary": "Salt-tolerant Pokkali under 200 mM NaCl emitted more dimethyl sulfide and limonene, and neighbouring salt-sensitive Uma showed biochemical and molecular shifts and a changed metabolome. Docking suggests limonene binds putative odorant-binding proteins. Peer-reviewed, airtight chamber lab setup, so field relevance is untested."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Current Opinion in Plant Biology",
+        "url": "https://doi.org/10.1016/j.pbi.2026.102992",
+        "title": "Review: chromatin factors that push back against Polycomb silencing in plants",
+        "summary": "The review collects chromatin factors that restrict, remove or counterbalance Polycomb marks (H2AK121 monoubiquitination and H3K27me3) so that developmental transitions and environmental responses stay reversible. Review article, no new data."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Trends in Plant Science",
+        "url": "https://doi.org/10.1016/j.tplants.2026.10.003",
+        "title": "Review: plant sexual reproduction in a warming world",
+        "summary": "The authors propose that heat stress causes a system-level breakdown of male and female gametophyte development, shared metabolic and proteostatic support, and pollen-pistil interaction, rather than isolated organ failures. Review and conceptual framework, no new data."
+      }
+    ],
+    "biotech": [
+      {
+        "date": "2026-11-06",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71702",
+        "title": "Field-grown GM bananas reach nutritionally relevant iron and zinc, at a yield cost",
+        "summary": "In an Australian field evaluation of 450 plants carrying six iron-homeostasis transgenes, fruit iron and zinc reached 45.5 and 51.9 mg per kg dry weight with <i>OsNAS</i> expression and higher nicotianamine. Twenty-eight lines met 50% of the estimated average requirement for children. Mineral gains correlated with lower yield, partly offset by co-expressing <i>OsVIT1</i>. First planting crop only; peer-reviewed."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Trends in Biotechnology",
+        "url": "https://doi.org/10.1016/j.tibtech.2026.10.006",
+        "title": "Review: editing dual-function susceptibility genes for multistress-resilient crops",
+        "summary": "The authors argue that susceptibility (S) genes whose loss helps both disease resistance and abiotic stress tolerance are priority CRISPR targets, and propose screening candidates in both directions. Opinion and review piece, no new experiments."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Cell Reports",
+        "url": "https://doi.org/10.1016/j.celrep.2026.118264",
+        "title": "A pangene family atlas of four cereals shows large uncharacterised allelic diversity",
+        "summary": "Across nearly 500 pangene families, pangenome-level family membership was 59 to 264% larger than single-genome counts, and many accumulation curves were far from saturation even with 320 rice genomes. Copy-number remodeling is largely hidden when only total family size is counted. Peer-reviewed computational resource."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Science Advances",
+        "url": "https://doi.org/10.1126/sciadv.aee9459",
+        "title": "Explainable AI points to recombination rate and chromatin as predictors of subgenome identity in maize",
+        "summary": "Machine learning models built on 60 genomic and epigenomic features in maize ranked recombination rate as the most influential, with transposon density, chromosome position and active histone marks (H3K9ac, H3K27ac) also high. The same pattern held in a second allopolyploid. Computational and correlative, no editing validation."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Journal of Advanced Research",
+        "url": "https://doi.org/10.1016/j.jare.2026.11.004",
+        "title": "A horizontal transposon transfer atlas across 558 plant genomes",
+        "summary": "Analysing 558 genomes from 352 species, the study found 1,548 putative HTT events involving 684 transposable element families, with chromatin-related and transport-related host genes enriched near HTT regions. The framework is deliberately conservative; peer-reviewed, computational."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71741",
+        "title": "The CitRWP and <i>CsWUS</i> axis governs citrus regeneration with SWI/SNF chromatin remodeling",
+        "summary": "CitRWP binds the <i>CsWUS</i> promoter and teams up with the SWI/SNF ATPase SYD to activate it, and <i>CsWUS</i> feeds back to repress <i>CitRWP</i>. <i>CsWUS</i> overexpression promoted somatic embryogenesis in recalcitrant callus and greatly raised in planta transformation efficiency in a model citrus, but disrupted shoot organogenesis. Peer-reviewed lab work."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Molecular Biology Reports",
+        "url": "https://doi.org/10.1007/s11033-026-12868-7",
+        "title": "Marker-assisted selection of <i>ZmVTE4</i> haplotypes raises alpha-tocopherol in tropical maize",
+        "summary": "Across 70 inbreds, amylose ranged from 14.35 to 46.07% and four <i>ZmVTE4</i> lines with favourable InDel alleles had 116 to 242% more alpha-tocopherol (1.04 to 1.64 mg per 100 g). Index selection of ten genotypes predicted a 27.95% yield gain. The yield figure is a prediction, not a field result."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Molecular Biology Reports",
+        "url": "https://doi.org/10.1007/s11033-026-13101-1",
+        "title": "Sheath blight resistance QTLs mapped from wild rice <i>Oryza rufipogon</i>",
+        "summary": "In backcross populations genotyped at 3,531 SNPs, 26 QTLs were found, six of them major (explaining 9.10 to 14.26% of variance), with a hotspot on chromosome 6. Pre-breeding lines with relative lesion height below 25% were identified. Peer-reviewed; pre-breeding stage."
+      },
+      {
+        "date": "2026-10-22",
+        "source": "Frontiers in Plant Science",
+        "url": "https://doi.org/10.3389/fpls.2026.1926954",
+        "title": "GWAS of pepper fruit and yield traits finds 23 loci and 318 genes",
+        "summary": "Using 195 <i>Capsicum annuum</i> accessions and 76,418 SNPs, the scan found 12 fruit morphology loci and 11 yield loci. Major fruit-length loci contained <i>GA20ox1</i> and an OVATE family gene. Candidates need validation. Published 22 October, entered PubMed in the window."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Molecular Biology Reports",
+        "url": "https://doi.org/10.1007/s11033-026-13037-6",
+        "title": "Maize <i>CBP60</i> family characterised: 13 genes and their stress responses",
+        "summary": "The study re-identified 13 <i>ZmCBP60</i> genes and examined their evolution and abiotic stress responses. Genome-wide and expression analysis only, no functional validation in the abstract I read."
+      }
+    ],
+    "ag": [
+      {
+        "date": "2026-10-23",
+        "source": "Frontiers in Plant Science",
+        "url": "https://doi.org/10.3389/fpls.2026.1992882",
+        "title": "Nineteen years of salinity raise wheat crown rot; non-saline irrigation cut it by 49%",
+        "summary": "Severe salinity raised soil pH from 7.64 to 8.38, cut available phosphorus by 54.11% and available potassium by 37.69%, and lifted the crown rot disease index from 10.51 to 32.88 while shrinking microbial diversity. Three years of non-saline irrigation lowered the index by 49.17%. Field data from China; published 23 October."
+      },
+      {
+        "date": "2026-10-22",
+        "source": "Frontiers in Plant Science",
+        "url": "https://doi.org/10.3389/fpls.2026.1983668",
+        "title": "Straw mulching helps maize under moderate drought but much less under severe drought",
+        "summary": "In a two-year trial at 135, 105 and 75 mm irrigation, mulching kept growth, photosynthesis and carbon-assimilation enzymes steadier and lowered MDA and H2O2 under moderate drought. Benefits were weaker and less consistent at 75 mm. Early-growth physiology, not final yield. Published 22 October."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71467",
+        "title": "New isoxazoline insecticide candidates beat fluxametamide against diamondback moth in the lab",
+        "summary": "Of 28 derivatives, compound Z3 had an LC50 of 0.32 ug/mL against <i>Plutella xylostella</i> versus 1.28 for fluxametamide, and Z2 reached 1.73 and 1.96 ug/mL against <i>Spodoptera frugiperda</i> and <i>Ostrinia furnacalis</i>. Bioassay and modelling only, early discovery stage."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71455",
+        "title": "Thioester fungicide lead B22 is tenfold more potent than fenfuram against <i>Rhizoctonia solani</i>",
+        "summary": "Among 48 derivatives, B22 had an EC50 of 0.124 ug/mL (fenfuram 1.480, fluxapyroxad 0.041) and gave 79.2% protective control of rice sheath blight at 100 ug/mL in the greenhouse. Docking and an assay on porcine succinate dehydrogenase suggest SDH as the target. Early discovery, greenhouse only."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71405",
+        "title": "Pyrimidinamine oxadiazole compound 6g outperforms prothioconazole on kiwifruit soft rot in vitro",
+        "summary": "Compound 6g had an EC50 of 7.38 ug/mL against <i>Botryosphaeria dothidea</i> versus 12.85 for prothioconazole, with 82.21% protective and 85.97% curative activity on kiwifruit at 200 ug/mL. Docking points to CYP51. Early discovery stage."
+      },
+      {
+        "date": "2026-10-22",
+        "source": "Frontiers in Plant Science",
+        "url": "https://doi.org/10.3389/fpls.2026.1905593",
+        "title": "SDI-YOLO11-seg tracks early cotton vigour and salt tolerance from images",
+        "summary": "The model reached mAP box50 of 0.961 and mask50 of 0.937 and was used to score germination, emergence, radicle length and cotyledon area in four Xinjiang varieties under six NaCl levels. Phenotyping method, controlled conditions."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant Methods",
+        "url": "https://doi.org/10.1186/s13007-026-01579-6",
+        "title": "UV autofluorescence imaging spots sweet potato foot rot before symptoms appear",
+        "summary": "Two-band imaging at 460 and 520 nm under 375 nm excitation separated pre-symptomatic samples from controls, and scopoletin injection reproduced the pattern, consistent with phytoalexin fluorescence. It worked on a second cultivar without retuning. Exploratory descriptors, lab stage."
+      },
+      {
+        "date": "2026-11-04",
+        "source": "Microbiological Research",
+        "url": "https://doi.org/10.1016/j.micres.2026.128816",
+        "title": "New wild rice endophyte <i>Magnaporthiopsis oryzae</i> lifted rice yield 12.66% and cut blast disease rate 45.51% in the field",
+        "summary": "The fungus MB-9-27 from <i>Oryza granulata</i> reshaped the rice microbiome. A companion <i>Mortierella</i> strain raised shoot and root growth 55.8% and 51.6% and cut blast severity 18.2%. Peer-reviewed, single-study field result; trial scale not stated in the abstract."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "BMC Plant Biology",
+        "url": "https://doi.org/10.1186/s12870-026-09713-1",
+        "title": "Festulolium yield stability across six Anatolian environments is mostly driven by environment",
+        "summary": "Environment explained about 96% of treatment variation for yield traits; Achillis was the highest yielding, while Perseus (ASV 22.7) and Lofa (ASV 31.8) were the most stable. GEI was significant for crude protein, ADF and NDF. Three-year irrigated trial in Turkey."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-07-26-1372-RE",
+        "title": "<i>Trichoderma harzianum</i> A3.1 inhibits the new fig root rot pathogen <i>Fusarium kazakhstanicum</i> by 72.5%",
+        "summary": "The study reports <i>F. kazakhstanicum</i> as a fig root rot pathogen in China for the first time and found A3.1 inhibited mycelial growth by 72.5% in dual culture. Plate assays only, no field efficacy reported."
+      }
+    ]
+  },
+  "methods": "Last issue was 2026-11-06, so the window is 6 to 7 November 2026, using PubMed entry dates; each item date is the publication date in its PubMed record. Web news searches for gene editing, company and Saskatchewan crop report items found nothing dated in the window (latest Saskatchewan figures found were for early October), so no news or company claims are included and every item comes from PubMed abstracts. Source pages were not opened, only abstracts were read. Four items were published in PubMed records on 22 to 23 October and entered PubMed in the window, and two Plant Methods and BMC items carry journal-issue dates, so their listed date is the entry date. Reviews, <i>Arabidopsis</i> or <i>N. benthamiana</i>-only, lab-stage and discovery-stage chemistry are flagged. Items already in earlier briefings were skipped."
+}
