@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-08",
+  "lead": {
+    "title": "First SDHI fungicide resistance found in the canola blackleg fungus <i>Leptosphaeria maculans</i>",
+    "url": "https://doi.org/10.1111/mpp.70364",
+    "summary": "A decade-long Australian survey has detected the first SDHI-resistant <i>Leptosphaeria maculans</i> reported anywhere. Three single-nucleotide changes, <i>SdhB</i> H277Y, <i>SdhB</i> H277L and <i>SdhD</i> D144G, were each confirmed by genetic mapping, sequencing and functional complementation to reduce SDHI sensitivity. The authors note reliance on fungicides for blackleg has grown and developed molecular markers for all three mutations to monitor resistance. The data are from Australian populations, and field consequences for Prairie canola are not tested.",
+    "notes": [
+      {
+        "label": "Plant science",
+        "text": "<i>FERONIA</i> and <i>LLG1</i> are required for much of the <i>Arabidopsis</i> high-humidity response, and <i>ROP2/4/6</i> control <i>YUC</i> auxin genes for root hair growth (both <i>Arabidopsis</i>)."
+      },
+      {
+        "label": "Biotech",
+        "text": "CRISPR knockout of <i>GhMIK2</i> raised cotton Verticillium wilt resistance, and pennycress gained ALS herbicide tolerance through mutagenesis plus homology-directed repair."
+      },
+      {
+        "label": "Prairies",
+        "text": "Blackleg is a canola disease and SDHI use is rising, so the Australian finding is a useful early warning for fungicide rotation (my inference); a rapeseed seed priming study and a corn stover ethanol study are lab scale."
+      }
+    ]
+  },
+  "sections": {
+    "plant": [
+      {
+        "date": "2026-11-07",
+        "source": "Cell Reports",
+        "url": "https://doi.org/10.1016/j.celrep.2026.118260",
+        "title": "<i>ROP2/4/6</i> GTPases drive <i>YUC</i> auxin biosynthesis genes and root hair growth in <i>Arabidopsis</i>",
+        "summary": "The <i>rop2/4/6</i> triple mutant has shorter root hairs, less auxin and lower transcription of all 11 <i>YUC</i> auxin biosynthesis genes. External auxin or expressing <i>YUC2</i>/<i>YUC8</i> fully restored growth, and a phosphomimetic S5D change in the RNA polymerase II CTD raised <i>YUC2/8</i> expression. <i>Arabidopsis</i> only; peer-reviewed, abstract read."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Cell Reports",
+        "url": "https://doi.org/10.1016/j.celrep.2026.118250",
+        "title": "The receptor kinase <i>FERONIA</i> is needed for high-humidity responses in <i>Arabidopsis</i>",
+        "summary": "<i>FERONIA</i> and its co-receptor <i>LLG1</i> account for a large share of humidity-triggered transcript changes, including <i>CNGC2</i>, CAMTA-regulated genes and cell wall remodelling genes, and for humidity-induced leaf hyponasty. High humidity triggers petiole-localised calcium waves that precede the leaf movement. <i>Arabidopsis</i> only; peer-reviewed, abstract read."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Journal of Experimental Botany",
+        "url": "https://doi.org/10.1093/jxb/erag569",
+        "title": "<i>CSLB4</i> shapes primary cell wall architecture and resistance to the cabbage aphid in <i>Arabidopsis</i>",
+        "summary": "A GWAS locus on chromosome 2 led to <i>CSLB4</i>, a cellulose synthase-like gene. Two T-DNA loss-of-function alleles cut <i>Brevicoryne brassicae</i> offspring by 39 to 56%, while the generalist <i>Myzus persicae</i> was unaffected. <i>Arabidopsis</i> only; peer-reviewed, abstract read."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Molecular Plant Pathology",
+        "url": "https://doi.org/10.1111/mpp.70366",
+        "title": "The LRR kinase <i>MdRLKT23</i> degrades the susceptibility factor <i>MdSTK1</i> to protect apple from Valsa canker",
+        "summary": "<i>MdSTK1</i> is induced by <i>Cytospora mali</i>; overexpression weakens resistance and silencing strengthens it. <i>MdRLKT23</i> binds and phosphorylates <i>MdSTK1</i> and promotes its proteasome-dependent loss, which switches on immunity. Peer-reviewed, abstract read; issue dated November 2026."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Plant Communications",
+        "url": "https://doi.org/10.1016/j.xplc.2026.102182",
+        "title": "Review: lectins as a multilayered signalling system for immunity, stress and development",
+        "summary": "The review argues that plant lectins go beyond passive defence proteins and perceive glycoconjugates, peptides and damage signals, feeding them into conserved downstream networks. It also covers intracellular lectins that restrict pathogens and regulate development. Review; no new data."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Journal of Experimental Botany",
+        "url": "https://doi.org/10.1093/jxb/erag545",
+        "title": "Review: why adaxial stomata deserve as much attention as abaxial ones",
+        "summary": "Many species carry stomata on both leaf surfaces, yet adaxial stomata have been largely ignored. The review covers how different adaxial to abaxial ratios affect gas exchange, water use efficiency and responses to environmental cues. Review; no new data."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Plant Physiology and Biochemistry",
+        "url": "https://doi.org/10.1016/j.plaphy.2026.111933",
+        "title": "An activation-tagging line partly rescues root hair growth in the <i>Arabidopsis</i> <i>p4h5</i> mutant",
+        "summary": "The <i>Sup4h5-L19</i> line restores <i>P4H5</i> transcript to 39 to 59% of wild type, with 18 genes up and 79 down versus <i>p4h5</i>, mostly at 10 °C. Three root-hair tonoplast aquaporin genes (<i>TIP1;1</i>, <i>TIP2;2</i>, <i>TIP2;3</i>) emerged, and two mutants showed weaker cold-driven hair growth. <i>Arabidopsis</i> only; peer-reviewed, abstract read."
+      },
+      {
+        "date": "2026-11-04",
+        "source": "Plant Physiology and Biochemistry",
+        "url": "https://doi.org/10.1016/j.plaphy.2026.111936",
+        "title": "Review: how plants sense and adapt to low potassium via <i>AKT1</i>, <i>HAK5</i> and CBL-CIPK signalling",
+        "summary": "The review describes the two K uptake systems and a sequential tonoplast CBL2/3-CIPK then plasma membrane CBL1/9-CIPK23 calcium module, plus its crosstalk with TORC growth signalling. It lists candidate targets for potassium-efficient breeding. Review; no new data."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Journal of Advanced Research",
+        "url": "https://doi.org/10.1016/j.jare.2026.10.060",
+        "title": "Chromatin dynamics behind seasonal growth in birch along a latitudinal cline",
+        "summary": "Satellite phenology from 96 <i>Betula platyphylla</i> stands was combined with a common-garden comparison against high-latitude <i>B. pendula</i>. Buds were profiled across a year by RNA-seq and CUT&amp;Tag for H3K4me3 and H3K27me3, and <i>BpREF6</i> was tested for effects on growth cessation and bud set. Abstract read in part; tree species, not a crop."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "The Plant Journal",
+        "url": "https://doi.org/10.1111/tpj.71243",
+        "title": "Raising plastidial <i>KASII</i> reshapes membranes and leaf development in <i>Arabidopsis</i>",
+        "summary": "<i>KASII</i> overexpression, but not <i>SSI2</i>, raised C18 lipids, cut plastidial galactolipids and increased extraplastidial phospholipids. Plants had enlarged chloroplasts with disrupted thylakoids, impaired palisade differentiation and less seed coat mucilage. <i>Arabidopsis</i> only; peer-reviewed, abstract read; issue dated November 2026."
+      }
+    ],
+    "biotech": [
+      {
+        "date": "2026-11-06",
+        "source": "Plant Biotechnology Journal",
+        "url": "https://doi.org/10.1111/pbi.70788",
+        "title": "Herbicide tolerance alleles for domesticated pennycress, from EMS mutagenesis and HDR editing",
+        "summary": "Pennycress is highly sensitive to ALS and HPPD inhibitors. ALS tolerance came from EMS mutagenesis and was introduced into advanced germplasm by homology-directed repair, including a <i>P187S</i> change in <i>ALS</i>, while HPPD tolerance was a proof of concept from a microbial enzyme design platform. Abstract read in part."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Molecular Plant Pathology",
+        "url": "https://doi.org/10.1111/mpp.70363",
+        "title": "Knocking out <i>GhMIK2</i> with CRISPR/Cas9 raises cotton resistance to Verticillium wilt",
+        "summary": "Silencing <i>GbMIK2</i> or CRISPR knockout of <i>GhMIK2</i> increased resistance to <i>Verticillium dahliae</i>, whereas expressing it in <i>Arabidopsis</i> reduced resistance. <i>GbMIK2</i> partners with <i>GbBAK1</i> to switch on a MAPK cascade and with <i>GbOCP3</i>. Peer-reviewed, abstract read; issue dated November 2026."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Molecular Genetics and Genomics",
+        "url": "https://doi.org/10.1007/s00438-026-02529-6",
+        "title": "Resequencing 70 Zhejiang japonica rice varieties maps diversity and selection signatures",
+        "summary": "The study resequenced 70 conventional japonica accessions to assess diversity, population structure and selection signatures for precision breeding. Abstract read in part; small regional panel."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Plant Cell Reports",
+        "url": "https://doi.org/10.1007/s00299-026-04026-x",
+        "title": "GWAS of 94 safflower genotypes under copper stress flags 180 significant markers and 10 tolerant lines",
+        "summary": "In a pot experiment at four CuCl&#8322; levels, trait losses ranged from 1.75% (root-shoot ratio) to 57.14% (dry root weight). Ten genotypes tolerated copper consistently, and GWAS detected 180 significant markers. Pot study; candidate genes not field validated."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Current Microbiology",
+        "url": "https://doi.org/10.1007/s00284-026-05217-1",
+        "title": "<i>Bradyrhizobium ottawaense</i> strain RCAM0104 nodulates peanut and cowpea but not cultivated soybean",
+        "summary": "The commercial strain nodulated <i>Arachis hypogaea</i>, <i>Glycine soja</i> and <i>Vigna unguiculata</i> but formed white, ineffective nodules on <i>Glycine max</i>. Predicted type III effectors may explain the promiscuous symbiosis. Peer-reviewed, abstract read in part."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "mSystems",
+        "url": "https://doi.org/10.1128/msystems.00888-26",
+        "title": "A 31-member synthetic community represents the maize rhizosphere of Iowa soils",
+        "summary": "The MARSc community is genome-enabled and built around <i>Pseudomonas putida</i> KT2440. Interactions and biofilm formation across members were largely controlled by nutrient level. Lab synthetic community; field behaviour not shown."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Molecular Microbiology",
+        "url": "https://doi.org/10.1111/mmi.70130",
+        "title": "Genome-anchored toolkit detects vascular streak dieback in US nursery trees",
+        "summary": "The disease affects at least 50 tree and shrub species across 25 genera in at least 12 US states. SSR, TaqMan qPCR and LAMP tools targeting unique genomic regions were tested on 103 samples, 64 from symptomatic plants and 39 non-target outgroups. Ornamentals, not a field crop."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "GM Crops &amp; Food",
+        "url": "https://doi.org/10.1080/21645698.2026.2756004",
+        "title": "Review: molecular, genomic and AI tools against basal stem rot in oil palm",
+        "summary": "The review covers qPCR and LAMP diagnostics, genome sequencing of resistant genotypes and AI remote sensing. CRISPR paper-strip tests detected under 1 pg DNA in the lab, and Trichoderma biofilms and biodegradable fumigants cut soil inoculum by 50 to 75% in controlled studies. Review; lab-scale figures."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Molecular Ecology",
+        "url": "https://doi.org/10.1111/mec.70655",
+        "title": "SNPs inside copy number variants drive climate adaptation in sacred lotus",
+        "summary": "Sequencing 125 wild <i>Nelumbo nucifera</i> accessions separated 388,600 CNV-derived SNPs from 485,982 single-copy SNPs. CNV-SNPs track temperature extremes and rainfall seasonality, and <i>NnPAL2</i> shows a recent sweep with lower copy number in temperate lotus. Wild accessions; association evidence; issue dated November 2026."
+      },
+      {
+        "date": "2026-10-23",
+        "source": "Frontiers in Genetics",
+        "url": "https://doi.org/10.3389/fgene.2026.1984445",
+        "title": "USDA 9,468-SNP array genotypes wheat, barley and oat on one platform",
+        "summary": "The array holds 3,421 wheat, 3,058 barley and 2,989 oat SNPs, and over 10,000 samples were used for validation. 98.7% of barley, 89.0% of wheat and 91.5% of oat SNPs passed all quality thresholds. Published slightly before the window."
+      }
+    ],
+    "ag": [
+      {
+        "date": "2026-11-07",
+        "source": "Molecular Plant Pathology",
+        "url": "https://doi.org/10.1111/mpp.70364",
+        "title": "First SDHI fungicide resistance found in the canola blackleg fungus <i>Leptosphaeria maculans</i>",
+        "summary": "A decade-long Australian survey found isolates with <i>SdhB</i> H277Y, <i>SdhB</i> H277L and <i>SdhD</i> D144G, each confirmed by mapping, sequencing and complementation to reduce SDHI sensitivity. Molecular markers were developed for monitoring. Australian populations; issue dated November 2026."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Journal of Economic Entomology",
+        "url": "https://doi.org/10.1093/jee/toag336",
+        "title": "Cyproflanilide is toxic to Asian corn borer, with an LC50 of 0.17 μg/ml and transgenerational costs",
+        "summary": "Sublethal doses (LC5 to LC30) delayed development, cut survival and reduced female fecundity by 32.84 to 46.70%, lowering r, λ and R0. Lab bioassays on third-instar larvae only."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71466",
+        "title": "Host plant sets how well whiteflies transmit tomato leaf curl New Delhi virus",
+        "summary": "Field surveys found high ToLCNDV prevalence in cucurbits and far less in solanaceous crops. Transmission and viral accumulation were highest from melon, and whitefly host adaptability ranked melon, tomato, then tobacco. Peer-reviewed, abstract read in part."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Evolutionary Applications",
+        "url": "https://doi.org/10.1111/eva.70346",
+        "title": "Modelling suggests mixing azoles with incomplete cross-resistance slows resistance in wheat <i>Zymoseptoria</i> (<i>CYP51</i> haplotypes)",
+        "summary": "A population genetic model tracked known <i>CYP51</i> haplotypes under solo azoles and two to four-way mixes of epoxiconazole, prothioconazole, prochloraz and tebuconazole. Model result only, not field data."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Protoplasma",
+        "url": "https://doi.org/10.1007/s00709-026-02288-6",
+        "title": "Trimetazidine seed treatment boosts drought and salt tolerance in rapeseed seedlings",
+        "summary": "At 80 mg/L, drought-stressed seedlings gained 28.49% in water content and lost 72.83% in relative electrical conductivity versus untreated. Seven days of priming inhibited growth. Seedling lab study on rapeseed."
+      },
+      {
+        "date": "2026-11-05",
+        "source": "Agroforestry Systems",
+        "url": "https://doi.org/10.1007/s10457-026-01720-3",
+        "title": "Fifty years of agroforestry: 1,007 well-cited papers show a shift from farm plots to landscapes and policy",
+        "summary": "Of 1,007 publications (175,081 citations), 64% address plot or farm scale, 19% landscape and 17% policy. Topics such as knowledge, telecoupling and markets are rising. Literature analysis, not field data."
+      },
+      {
+        "date": "2026-10-26",
+        "source": "iScience",
+        "url": "https://doi.org/10.1016/j.isci.2026.118045",
+        "title": "Pre-season bare-soil drone imagery adds modest value to soybean yield prediction",
+        "summary": "Across 101 locations in Northeast China, adding bare-soil proxies raised predictive R&sup2; from 0.240 to 0.325 and cut mean absolute error from 573.06 to 518.76 kg per ha. Authors call it a proof of concept needing multi-year validation. Published before the window."
+      },
+      {
+        "date": "2026-10-10",
+        "source": "Plant Phenomics",
+        "url": "https://doi.org/10.1016/j.plaphe.2026.100290",
+        "title": "Modelling 142 wheat accessions shows modern wheat is near the yield ideotype but architecture can improve",
+        "summary": "A functional-structural model found domestication converged on the ideotype by raising spike, internode and leaf sink capacity. Specific internode length and leaf insertion angle moved the wrong way, so architecture could still improve. Modelling study; published well before the window."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Bioresources and Bioprocessing",
+        "url": "https://doi.org/10.1186/s40643-026-01152-y",
+        "title": "Corn stover biorefinery recovers 98% of ethanol in 15.3 h with fermentation coupled to pervaporation",
+        "summary": "Subcritical water pretreatment gave about 80% glucose yield in 24 h and 91% ethanol yield from fermentation. Coupling fermentation with pervaporation at 38 °C gave 97% overall yield versus 60% recovery in the sequential route. Lab scale."
+      },
+      {
+        "date": "2026-10-22",
+        "source": "Frontiers in Microbiology",
+        "url": "https://doi.org/10.3389/fmicb.2026.1966738",
+        "title": "Long-term manure cut maize-field nitrous oxide 22.9 to 30% and raised soil carbon 16.7 to 46.2%",
+        "summary": "A trial running since 2007 in a wheat-maize rotation compared manure and straw return with conventional fertilisation. Soil carbon gains and lower N&#8322;O were tied to functional genes for carbon and nitrogen cycling. North China site; published before the window."
+      }
+    ]
+  },
+  "methods": "Coverage window: 6 to 8 November 2026, continuing from the 7 November issue (no issue was missing). Items were found by searching PubMed by entry date (web news search returned no dated items for this window) and checked against abstracts, DOIs and publication dates in PubMed records; full texts were not opened, and items marked 'abstract read in part' were truncated. Items covered in the 3 to 7 November issues were skipped. Because few fresh, relevant papers were indexed, some entries are slightly older (10 to 26 October, marked in the summary) or carry a November issue date rather than an online date; these were used to fill the slots. Several items are reviews, Arabidopsis-only, or lab-scale and flagged as such. No preprints or company claims were included."
+}
