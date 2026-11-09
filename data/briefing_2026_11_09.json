@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-09",
+  "lead": {
+    "title": "Stripe rust inoculum in Sichuan may come via a diverse Qamdo population in eastern Tibet",
+    "url": "https://doi.org/10.1094/PHYTO-06-26-0206-R",
+    "summary": "Population genomics and virulence tests on 220 <i>Puccinia striiformis</i> f. sp. <i>tritici</i> isolates from 2025 found 66 known and 76 additional races on the Chinese differentials, and 148 races on single-gene differentials. The Qamdo population in eastern Tibet had the highest diversity and strong gene flow with Sichuan populations, so oversummering southeastern Tibet populations may seed Sichuan epidemics. The data are from Chinese populations, and the link to Prairie stripe rust is not tested.",
+    "notes": [
+      {
+        "label": "Plant science",
+        "text": "<i>SiTIFY9</i> overexpression raised the K/Na ratio and flowered earlier in foxtail millet, and <i>AtATO</i> restrains leaf senescence in <i>Arabidopsis</i> (lab only)."
+      },
+      {
+        "label": "Biotech",
+        "text": "SmartPE is claimed to lift prime editing up to tenfold in tomato, soybean and rapeseed (institute claim, paper not opened), and a <i>Senecio vulgaris</i> editing method reached over 80% GFP-positive transformants."
+      },
+      {
+        "label": "Prairies",
+        "text": "Stripe rust race diversity and long-distance inoculum movement matter for wheat resistance gene deployment (my inference); Q3 results show seed sales holding while crop protection slides."
+      }
+    ]
+  },
+  "sections": {
+    "plant": [
+      {
+        "date": "2026-11-06",
+        "source": "Plant Physiology and Biochemistry",
+        "url": "https://doi.org/10.1016/j.plaphy.2026.111939",
+        "title": "<i>SiTIFY9</i> raises salt tolerance and brings forward flowering in foxtail millet",
+        "summary": "Overexpressing <i>SiTIFY9</i> cut hydrogen peroxide and malondialdehyde, raised catalase and peroxidase activity and proline, and lowered Na accumulation while keeping more K, giving a higher K/Na ratio under salt. Transcriptome data point to changes in redox, ion transport and phenylpropanoid genes, and the lines also flowered earlier. Peer-reviewed, abstract read; lab and controlled conditions, no field data."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Molecular Genetics and Genomics",
+        "url": "https://doi.org/10.1007/s00438-026-02547-4",
+        "title": "<i>AtATO</i> binds the senescence repressor <i>AtWDS1</i> to slow leaf senescence in <i>Arabidopsis</i>",
+        "summary": "The <i>atato</i> T-DNA mutant senesces early, loses chlorophyll faster, shows more H2O2 in the dark and tolerates oxidative stress less well. Yeast two-hybrid and BiFC confirmed the AtATO and AtWDS1 interaction. <i>Arabidopsis</i> only; peer-reviewed, abstract read."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Protein Science",
+        "url": "https://doi.org/10.1002/pro.70828",
+        "title": "Eight crystal structures show how <i>Arabidopsis</i> <i>NATA1</i> and <i>NATA2</i> acetylate polyamines",
+        "summary": "<i>NATA2</i> is markedly more thermostable than <i>NATA1</i>, hinting at a backup role under heat. Glutamate and GABA compete for the active site, which the authors propose lets stressed cells keep their polyamine pools. <i>Arabidopsis</i> only; the exact online date was not shown in the record, so the date is approximate."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "bioRxiv (preprint)",
+        "url": "https://doi.org/10.64898/2026.11.04.763880",
+        "title": "The flowering regulators <i>FUL2</i> and <i>STM3</i> suppress secondary growth in the tomato stem",
+        "summary": "Tomato accumulates substantial secondary xylem in the basal stem, and this preprint ties its suppression at flowering to <i>FUL2</i> and <i>STM3</i>. Preprint, not peer reviewed; only the abstract preview was read."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "bioRxiv (preprint)",
+        "url": "https://doi.org/10.64898/2026.10.22.760881",
+        "title": "Mapping the <i>THESEUS1</i> interactome links cell wall integrity and stress signalling in <i>Arabidopsis</i>",
+        "summary": "The receptor kinase <i>THE1</i> triggers responses to cell wall damage, but its partners were poorly known; this version-2 preprint maps its interactome. <i>Arabidopsis</i> only; preprint, only the abstract preview was read."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "bioRxiv (preprint)",
+        "url": "https://doi.org/10.64898/2026.11.06.761007",
+        "title": "<i>SEC16A</i>/<i>MAG5</i> ER export shapes ABA receptor homeostasis",
+        "summary": "The paper links ER export through <i>SEC16A</i>/<i>MAG5</i> to the turnover and trafficking of PYR/PYL/RCAR abscisic acid receptors that control stress adaptation. Preprint, likely <i>Arabidopsis</i>; only the abstract preview was read."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "bioRxiv (preprint)",
+        "url": "https://doi.org/10.64898/2026.11.05.764497",
+        "title": "Callose-dependent coordination of cell division and growth keeps leaf-like organs flat",
+        "summary": "The preprint asks how plants coordinate division and growth to build planar organs and implicates callose. Preprint, not peer reviewed; only the abstract preview was read."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Journal of Experimental Botany",
+        "url": "https://doi.org/10.1093/jxb/erag567",
+        "title": "Review: transcription factors and jasmonate control of specialised terpenoid biosynthesis",
+        "summary": "bHLH and MYB transcription factors drive most jasmonate-inducible terpenoid pathways, with other hormones tuning them. The review covers mono-, sesqui- and diterpenoid examples and argues for work on less studied regulatory layers to optimise crop metabolites. Review, abstract read."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Functional and Integrative Genomics",
+        "url": "https://doi.org/10.1007/s10142-026-02110-9",
+        "title": "Review: from <i>LOX</i> to <i>JOX</i>, jasmonate biosynthesis and catabolism genes in growth and stress",
+        "summary": "The review covers <i>LOX</i>, <i>AOS</i>, <i>AOC</i>, <i>OPR</i>, <i>JAR1</i>, <i>CYP94</i> and <i>JOX</i>/<i>JAO</i> genes and their links to light, auxin, cytokinin and ethylene signalling. It flags tissue-specific mechanisms and non-model plants as gaps. Review, abstract read."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Plant Physiology and Biochemistry",
+        "url": "https://doi.org/10.1016/j.plaphy.2026.111946",
+        "title": "Review: redox networks and plant growth-promoting bacteria for abiotic stress resilience",
+        "summary": "The review links enzymatic and non-enzymatic antioxidant systems, hormone signalling and PGPB to ROS control under drought, salinity, heat and cold, and discusses synthetic biology and AI for engineering redox networks. Review, abstract read; no new data."
+      }
+    ],
+    "biotech": [
+      {
+        "date": "2026-11-08",
+        "source": "Physiologia Plantarum",
+        "url": "https://doi.org/10.1111/ppl.71177",
+        "title": "Optimised transformation and genome editing in the Asteraceae model <i>Senecio vulgaris</i>",
+        "summary": "An <i>Agrobacterium</i> method using leaf explants with 6 weeks of selection gave more than 80% of transformants with strong GFP, confirmed by Southern blot. The authors silenced the MADS-box gene <i>SnAPETALA1-6</i> and edited <i>SvPDS</i>. Model species, not a crop; peer-reviewed, abstract read; the record gives only November, so the day shown is approximate."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Global Agriculture (news)",
+        "url": "https://www.global-agriculture.com/ag-tech-research-news/chinese-researchers-unveil-prime-editing-tool-that-works-tenfold-better-in-soybean-tomato-crops/",
+        "title": "SmartPE prime-editing system reported up to tenfold better in tomato, soybean and rapeseed",
+        "summary": "A Chinese Academy of Sciences team reports SmartPE in <i>Nature Plants</i> (late October) and claims up to tenfold higher efficiency than conventional prime editing in three dicots. The tenfold figure comes from the institute announcement and coverage, not from the paper, which I could not open. Treat as a claim."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "bioRxiv (preprint)",
+        "url": "https://doi.org/10.64898/2026.11.05.764528",
+        "title": "Maltose and early raffinose synthesis raise maturation efficiency in hybrid fir somatic embryogenesis",
+        "summary": "Somatic embryogenesis is a scalable propagation tool for <i>Abies</i> under climate and demand pressure, and this preprint ties better maturation to carbohydrate status. Preprint, not peer reviewed; only the abstract preview was read."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Probiotics and Antimicrobial Proteins",
+        "url": "https://doi.org/10.1007/s12602-026-11291-5",
+        "title": "Two antimicrobial peptides, P255 and P256, control kiwifruit canker bacterium <i>Pseudomonas syringae</i> pv. <i>actinidiae</i>",
+        "summary": "P256 was more active than P255, both were synergistic with EDTA, blocked biofilm formation and disrupted membranes, and both beat commercial streptomycin on infected leaf discs. Leaf-disc and lab data only, no orchard trial; peer-reviewed, abstract read."
+      },
+      {
+        "date": "2026-11-02",
+        "source": "Science China Life Sciences",
+        "url": "https://doi.org/10.1007/s11427-026-3517-x",
+        "title": "The BAHD enzyme <i>ApAT2</i> acetylates protostane triterpenes, enabling an <i>E. coli</i> semi-synthesis platform",
+        "summary": "<i>ApAT2</i> acetylates alisol B and C but not alisol A, and the <i>M412</i> residue controls substrate choice. An <i>E. coli</i> platform makes alisol B 23-acetate from alisol B. Medicinal plant enzyme, lab scale; slightly older than the window, surfaced late."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "bioRxiv (preprint)",
+        "url": "https://doi.org/10.64898/2026.11.05.764527",
+        "title": "A hierarchical Bayesian model handles dynamic phenotypes in multi-environment trials",
+        "summary": "The model fits growth-curve parameters from longitudinal phenotyping while accounting for genotype by environment interaction, aimed at breeding trials. Preprint, not peer reviewed; only the abstract preview was read."
+      },
+      {
+        "date": "2026-11-03",
+        "source": "Genetic Literacy Project (citing Bloomberg)",
+        "url": "https://geneticliteracyproject.org/2026/11/03/making-fertilizer-from-thin-air-bayers-gene-editing-innovation-could-dramatically-cut-chemical-fertilizer-use-in-growing-food/",
+        "title": "Bayer licenses a UC Davis technology to help cereals partner with nitrogen-fixing soil bacteria",
+        "summary": "Per the search snippet, the technology is early stage, UC Davis has shown the concept in wheat, and the EU's new gene-editing framework could ease market entry. Company and press claim, page not opened, and dated 3 Nov, so outside the 48 h window."
+      }
+    ],
+    "ag": [
+      {
+        "date": "2026-11-08",
+        "source": "Phytopathology",
+        "url": "https://doi.org/10.1094/PHYTO-06-26-0206-R",
+        "title": "Wheat stripe rust migration traced between southeastern Tibet and Sichuan",
+        "summary": "Of 220 isolates from 2025, virulence tests found 66 known and 76 new races on the Chinese differentials, and 148 races on single-gene differentials. Qamdo had the highest diversity and looks like a bridge for inoculum into Sichuan. Peer-reviewed, abstract read; Chinese populations, relevance to Prairie stripe rust is indirect."
+      },
+      {
+        "date": "2026-11-08",
+        "source": "Phytopathology",
+        "url": "https://doi.org/10.1094/PHYTO-04-26-0148-SA",
+        "title": "Bacterial species from onion plants and bulbs across Chile: few isolates are actually pathogenic",
+        "summary": "Only three of 20 isolates tested caused clear bulb damage, even from diseased plants. Genomes of one pathogenic strain per species were sequenced and used to build a PCR-HRM identification system. Peer-reviewed, abstract read."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Plant Science",
+        "url": "https://doi.org/10.1016/j.plantsci.2026.113584",
+        "title": "Oak root extracts show herbicidal activity on weeds, with photosynthesis genes switched down",
+        "summary": "<i>Quercus mongolica</i> root extract at 2 mg/mL suppressed seedling growth, with a 68.92% inhibition rate on <i>Portulaca oleracea</i> at 1 mg/mL; nine photosynthesis genes were down-regulated. Seedling bioassays only, no field test."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Journal of Advanced Research",
+        "url": "https://doi.org/10.1016/j.jare.2026.11.002",
+        "title": "Straw return builds mineral-associated organic carbon in paddy soils, with bacterial and fungal necromass contributing differently",
+        "summary": "A meta-analysis and six field experiments (three short-term, three long-term) found that both short and long-term straw return strongly raised MAOC and that bacterial necromass tracked it. Peer-reviewed, abstract read; rice paddies, not dryland."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Environmental Monitoring and Assessment",
+        "url": "https://doi.org/10.1007/s10661-026-16097-0",
+        "title": "Soil acidity predicts Cd, Mn and Zn in lettuce and chard better than total contamination",
+        "summary": "Across seven Belgian organic market gardens (soil pH 4.6 to 6.4, total Cd 0.74 to 5.13 mg/kg), shoot Cd, Mn and Zn followed soil acidity and extractable pools; chard from the most contaminated, near-neutral plot had among the lowest shoot Cd. Peer-reviewed, abstract read."
+      },
+      {
+        "date": "2026-11-07",
+        "source": "Environmental Management",
+        "url": "https://doi.org/10.1007/s00267-026-02652-5",
+        "title": "Reclaimed and desalinated water could raise irrigation supply and farm income in southeastern Spain",
+        "summary": "A stakeholder fuzzy-cognitive-mapping study found that expanding non-conventional water and investing in renewable energy gave the largest gains in supply guarantee and income, while cost recovery cut desalinated water use. Scenario modelling, not measured outcomes."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Nature Food",
+        "url": "https://doi.org/10.1038/s43016-026-01443-9",
+        "title": "Food production policies could cut up to 41% of Chinese river pollutant loads, or let them rise 63%",
+        "summary": "Across 395 sub-basins and five policy pathways to 2050, loads could rise by up to 63% without effective policy, while ambitious pathways cut most pollutants by up to 41%, mainly through manure and crop management. Microplastics remain hard to control. Modelling study."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "bioRxiv (preprint)",
+        "url": "https://doi.org/10.64898/2026.11.04.764160",
+        "title": "Liquid bio-slurry plus NPS fertiliser rates tested on hot pepper in south Ethiopia",
+        "summary": "A field experiment evaluated growth, yield and quality of hot pepper under combined bio-slurry and NPS rates. Preprint, not peer reviewed; only the abstract preview was read, so no yield numbers are quoted."
+      },
+      {
+        "date": "2026-11-06",
+        "source": "Global Agriculture (news)",
+        "url": "https://www.global-agriculture.com/crop-protection/q3-2026-agribusiness-results-seeds-hold-firm-as-crop-protection-slides/",
+        "title": "Q3 2026 agribusiness results: seed sales hold, crop protection sales slide",
+        "summary": "Per the report, Bayer seed sales were $1.78 billion (up 7.1%), BASF Seeds and Traits rose 3.3% to $313 million, Syngenta Group sales fell 10% to $5.2 billion and BASF Agricultural Solutions fell 19.7%. Company-reported figures via a trade site; page not opened. Corteva reports on 11 Nov."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Western Producer (news)",
+        "url": "https://www.producer.com/news/canola-yields-may-fall-short-of-statistics-canada-estimate/",
+        "title": "Statistics Canada projects 22.05 million tonnes of canola, but provincial reports suggest lower yields",
+        "summary": "The search snippet says provincial reports put Saskatchewan canola near 40 bu/ac, and a separate opinion piece says canola is the only Prairie crop expected to show a positive return this year. Page not opened and article date unverified, so treat as background."
+      }
+    ]
+  },
+  "methods": "Coverage window 2026-11-07 to 2026-11-09 (America/Regina), after the 2026-11-08 issue. Sources were PubMed (entry date and publication date read from article records), bioRxiv metadata and web search. The weekend window was thin: this issue has 10 plant, 7 biotech and 10 agriculture items instead of 10 each, because I would not pad with items already covered in earlier briefings or with unverifiable ones. Web pages (Global Agriculture, Western Producer, Genetic Literacy Project) could not be opened in this session, so their dates and figures come from search snippets and are flagged. Several items are preprints, reviews or Arabidopsis-only, as labelled."
+}
