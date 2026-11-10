@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-10",
+  "lead": {
+    "title": "Strigolactones are needed to keep iron genes switched on in maize",
+    "url": "https://doi.org/10.1111/nph.71719",
+    "summary": "The gene behind the maize mutant <i>interveinal yellow</i> is <i>ZmCCD8</i>, a strigolactone biosynthesis enzyme, and mutant plants show lower expression of iron-regulated genes such as <i>IRO2</i> with chlorosis. The synthetic strigolactone rac-GR24 restores expression and eases chlorosis. Iron-deficiency induction itself works normally, so strigolactones set basal iron gene expression when iron is sufficient. Similar chlorosis in <i>Arabidopsis</i> and rice mutants suggests a conserved role, but the evidence is from controlled-environment plants.",
+    "notes": [
+      {
+        "label": "Plant science",
+        "text": "Chlorophagy removes irreversibly damaged chloroplasts in <i>Arabidopsis</i>, and a calcium module links whitefly feeding to salicylic acid (both <i>Arabidopsis</i> only)."
+      },
+      {
+        "label": "Biotech",
+        "text": "A promoter SNP gives 96.2% prediction of apple blotch susceptibility across 767 accessions, and an AI agent, PGCopilot, is claimed by its authors to beat baseline language models."
+      },
+      {
+        "label": "Prairies",
+        "text": "Sunflower Sclerotinia stalk rot loci were isolate-specific, which caution breeders; the same pathogen hits canola (my inference). Cold-soil pesticide fate is a review-level hypothesis."
+      }
+    ]
+  },
+  "sections": {
+    "plant": [
+      {
+        "date": "2026-11-09",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71719",
+        "title": "Strigolactones are needed for basal iron gene expression in maize via <i>ZmCCD8</i>",
+        "summary": "The iron-deficient maize mutant <i>interveinal yellow</i> (<i>ivy</i>) maps to <i>ZmCCD8</i>, a strigolactone biosynthesis enzyme, and <i>ivy</i>/<i>ccd8</i> plants show reduced expression of <i>IRO2</i> and iron chelator and transporter genes. The synthetic strigolactone rac-GR24 restores expression and eases chlorosis, while the deficiency response itself stays intact. Similar chlorosis in <i>Arabidopsis</i> and rice strigolactone mutants under moderate iron hints at a conserved role, but the data are from lab and greenhouse plants."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Journal of Advanced Research",
+        "url": "https://doi.org/10.1016/j.jare.2026.11.007",
+        "title": "A calcium module links whitefly feeding to salicylic acid in <i>Arabidopsis</i>",
+        "summary": "Whitefly (<i>Bemisia tabaci</i>) feeding raises salicylic acid and <i>PR1</i> expression through ICS1, with the transcription factor CBP60g driving <i>ICS1</i>. Calcium signalling parts BAK1, GLR3.3/3.6 and TPC1 sit upstream, and insect performance assays tested plant resistance. <i>Arabidopsis</i> only."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Plant Science",
+        "url": "https://doi.org/10.1016/j.plantsci.2026.113585",
+        "title": "Evolution of group VII bHLH genes marks <i>AtPIF4</i> as a warm-temperature hub",
+        "summary": "Phylogenetic and synteny analysis places <i>PIF4/5</i> orthologs as an angiosperm-specific innovation under intensified purifying selection, with whole-genome duplications shaping the <i>PIF3</i> and <i>PIF2/6</i> lineages. Co-expression analysis in <i>Arabidopsis thaliana</i> picks <i>AtPIF4</i> as the central hub for elevated temperature, and an intact bHLH domain is needed for warm-temperature hypocotyl elongation. Largely computational, validated in <i>Arabidopsis</i> only."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Molecular Plant",
+        "url": "https://doi.org/10.1016/j.molp.2026.10.015",
+        "title": "Rice chitin immunity needs the kinase RLCK185 to start a MAPK cascade downstream of <i>OsCERK1</i>",
+        "summary": "The title reports that <i>OsCERK1</i>-mediated chitin perception in rice requires receptor-like cytoplasmic kinase 185 to activate a MAPK cascade. The abstract was not available, so no data are quoted here."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71688",
+        "title": "Chlorophagy clears chloroplasts irreversibly damaged by photoinhibition in <i>Arabidopsis</i>",
+        "summary": "Severe photosystem II photoinhibition precedes swollen, nonfunctional chloroplasts that accumulate reactive oxygen species and are then taken up by autophagy. Mutants lacking nonphotochemical quenching or the chloroplast avoidance response form more of these chloroplasts, and their build-up leads to necrotic cell death. <i>Arabidopsis</i> only."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag342",
+        "title": "An auxin and miR167-<i>CmARF6/8.1</i> module elongates chrysanthemum disc florets",
+        "summary": "In anemone-type <i>Chrysanthemum</i> &times; <i>morifolium</i>, <i>CmARF6</i> and <i>CmARF8.1</i> are regulated by miR167 in a dose-dependent manner and directly activate the auxin genes <i>CmYUC2</i> and <i>CmPILS1</i>. They also switch on <i>CmSAUR64</i> and <i>CmSAUR76</i> to drive local tissue growth. Comparisons across Asteraceae suggest, but do not prove, a wider role."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag838",
+        "title": "Sucrose tunes tea theanine through the <i>CsYABBY2</i>-<i>CsMYB5</i>-<i>CsPDX2.1</i> module",
+        "summary": "<i>CsYABBY2</i> and <i>CsMYB5</i> bind distinct promoter elements and together repress the theanine hydrolase gene <i>CsPDX2.1</i>, raising theanine. Exogenous sucrose suppresses both repressors, derepressing <i>CsPDX2.1</i> and lowering theanine. Evidence comes from virus-induced gene silencing and transient overexpression."
+      },
+      {
+        "date": "2026-11",
+        "source": "Molecular Plant Pathology",
+        "url": "https://doi.org/10.1111/mpp.70384",
+        "title": "<i>OsCBP609</i> binds the NLR Pik1-H4 and supports salicylic acid immunity to rice blast",
+        "summary": "CRISPR/Cas9 knockout of <i>OsCBP609</i> increased lesions and fungal biomass for several <i>Magnaporthe oryzae</i> isolates, and loss in a Pik-H4 near-isogenic line also cut blast resistance. Basal salicylic acid was higher in the mutant but SA-responsive defence transcription was weaker, and the protein interacts with Pik1-H4 in the nucleus. Issue date is November 2026, so the exact online date is unconfirmed."
+      },
+      {
+        "date": "2026-11-08",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71733",
+        "title": "<i>FveJAG</i> works with <i>SIMPLE LEAF1</i> to build the strawberry trifoliate leaf",
+        "summary": "The woodland strawberry mutant <i>simple leaf 2</i> lacks both lateral leaflets, and the cause is an intronic point mutation in a <i>JAGGED</i>-like gene, <i>FveJAG</i>, that triggers alternative splicing and a premature stop. SL1 directly activates the <i>FveJAG</i> promoter, and genetics place <i>FveJAG</i> downstream of <i>FveMYB117a</i>."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "PNAS",
+        "url": "https://doi.org/10.1073/pnas.2526434123",
+        "title": "Leaf hydraulic and photosynthetic traits predict productivity and water-use efficiency across eight US forests",
+        "summary": "Community-weighted Rubisco capacity, leaf hydraulic conductance and turgor loss point were strongly associated with productivity and water-use efficiency across eight US forests, and the LM4.1 land model reproduced the trait effects. A forest, not crop, study; the trait approach to drought response is shared with crop physiology."
+      }
+    ],
+    "biotech": [
+      {
+        "date": "2026-11-08",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71738",
+        "title": "PGCopilot: an AI agent for plant functional genomics",
+        "summary": "PGCopilot orchestrates tools over a 1.83 million record knowledge base plus PubMed (over 33 million articles) and STRING protein interaction data. In expert-guided benchmarking it beat the baseline language models on relevance, evidence integration and hallucination control. Benchmark is by the authors, and the tool is untested by independent groups."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71752",
+        "title": "A promoter variant lets watermelon escape waterlogging",
+        "summary": "The title reports a promoter variant that enables watermelon to tolerate waterlogging. The abstract was not available, so no gene name or effect size is quoted here."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag339",
+        "title": "Apple <i>MdWRKY11</i> SNP offers a near-diagnostic marker for blotch susceptibility",
+        "summary": "Fine mapping and a 767-accession panel give a 96.2% prediction accuracy for one SNP, rising to 99.6% with nine more variants. This supports marker-assisted selection against Glomerella leaf blotch in <i>Malus</i> breeding. Accuracy is reported by the authors on their panel."
+      },
+      {
+        "date": "2026-11-08",
+        "source": "Phytopathology",
+        "url": "https://doi.org/10.1094/PHYTO-06-26-0209-R",
+        "title": "GWAS of Sclerotinia basal stalk rot resistance in sunflower finds isolate-specific loci",
+        "summary": "Two panels were tested: the SAM panel (3.2 million SNPs) gave 20 significant associations and an open-pollinated panel across four field environments (3.5 million SNPs) gave 7. No associations overlapped between panels or isolates, although isolate responses correlated (r about 0.74), and 8 loci matched earlier QTL intervals. The pathogen also infects canola, but transfer of any locus is untested."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Acta Biochimica et Biophysica Sinica",
+        "url": "https://doi.org/10.3724/abbs.2026193",
+        "title": "Review: plant molecular farming for therapeutic proteins",
+        "summary": "The review covers gene design, subcellular targeting, vectors such as magnICON, pEAQ-HT and geminiviral replicons, protease knockouts and glycoengineering to remove plant-specific glycans. It flags CRISPR multiplexed chassis engineering and AI vector design as emerging, and notes coordinated multi-protein expression and downstream cost as open problems."
+      },
+      {
+        "date": "2026-11-08",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-07-26-1461-RE",
+        "title": "Genome-informed LAMP marker HL_0354 detects the laurel wilt pathogen in avocado wood",
+        "summary": "The new HL_0354 assay reproducibly detected 0.5 pg of fungal DNA in crude avocado extracts, amplifying in typically 5 to 12 min, against 5 pg for the older beta-tubulin assay, which also gave late nonspecific signals. On field samples it reached a 97% true-positive rate and 98% overall accuracy."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Plant Cell Reports",
+        "url": "https://doi.org/10.1007/s00299-026-04038-7",
+        "title": "A lightweight attention-based AlexNet reports 99.62% accuracy on tomato leaf disease",
+        "summary": "The ACHA model adds coordinate attention after Conv1 and Conv3 and hybrid channel-spatial attention after Conv2 and Conv4 of a streamlined AlexNet. It reports 99.62% average test accuracy and beats MobileNetV3 and ResNet50. Accuracy is on a curated image set, not field conditions."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71476",
+        "title": "Bt-resistant <i>Helicoverpa armigera</i> are less susceptible to three Chinese Bt maize events",
+        "summary": "Cry1Ac-resistant and Cry2Ab-resistant strains showed 3.44 to 8.84 fold and 2.20 to 9.53 fold resistance ratios on leaf powder (over 12.81 fold for 2Ab30 on Ruifeng 125). The pyramided events DBN3601T (Cry1Ab + Vip3Aa) and Ruifeng 125 (Cry1Ab/Cry2Aj) worked better on resistant larvae than single-trait DBN9936. Laboratory bioassays on selected strains."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-07-26-1474-RE",
+        "title": "VANA metagenomics finds 24 viruses, 10 putatively new, in grasses around Florida sugarcane",
+        "summary": "Across 388 plant and 11 aphid samples from 26 species (2017 to 2019), 24 viruses were found, 14 known and 10 putatively new species. Sugarcane mosaic virus and maize chlorotic dwarf virus were most widespread, and sugarcane mosaic virus isolates fell into three lineages."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "AgNavigator (search snippet only)",
+        "url": "https://www.agnavigator.com/Article/2026/11/09/syngenta-deepens-biologicals-push-with-brain-biotech-synthetic-biology-partnership/",
+        "title": "Syngenta and BRAIN Biotech partner on synthetic biology for biologicals",
+        "summary": "Syngenta has signed a strategic partnership with BRAIN Biotech AG to speed up agricultural biologicals, using BRAIN's microbial library and synthetic biology work. Company announcement; I could not open the page, so this rests on a search snippet, and product targets, timelines and terms were not disclosed."
+      }
+    ],
+    "ag": [
+      {
+        "date": "2026-11-09",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71470",
+        "title": "Spiro tetramic acid L2 is a lead HPPD herbicide with weed control matching mesotrione",
+        "summary": "Of 30 new 3-acyl-5-spiro tetramic acids, most gave over 50% inhibition of <i>Portulaca oleracea</i>, and L2 and L3 matched mesotrione post-emergence on <i>Chenopodium album</i>. L2 lowered chlorophyll and carotenoids and altered abscisic acid synthesis, and docking supports binding to <i>At</i>HPPD. Early lead chemistry; pre-emergence tests used 500 g per ha."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Environmental Toxicology",
+        "url": "https://doi.org/10.1002/tox.70210",
+        "title": "Pesticide overuse in Cameroon wetland rice poses risks to natural enemies",
+        "summary": "Across 626 farmers, about 76.46% of 17 pesticides were overused, and the PRIMET model flagged definite or possible risks to a parasitic wasp and a predatory mite for all seven insecticides. Lambda-cyhalothrin (ETR 98,800) and cypermethrin (ETR 122,000) ranked highest. Modelled risk, not measured field mortality."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71483",
+        "title": "Review: predator microbiomes as hidden drivers of biocontrol under pesticide pressure",
+        "summary": "The review builds an evidence hierarchy from descriptive to field-level and finds the strongest links in spiders, where tissue-resident microbes relate to insecticide survival. Causal microbial mechanisms remain largely untested across spiders, ladybirds, lacewings, earwigs and predatory bugs."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Environmental Monitoring and Assessment",
+        "url": "https://doi.org/10.1007/s10661-026-16132-0",
+        "title": "Review: pesticide breakdown in cold agricultural soils often stalls short of mineralization",
+        "summary": "The review proposes, as a testable hypothesis, that thaw and snowmelt may mobilize residues before microbial degraders recover. Direct paired time-course evidence is limited, and the authors argue for tracking transformation products and non-extractable residues rather than half-life alone. Relevant to cold-region farmland, but a hypothesis."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Biomacromolecules",
+        "url": "https://doi.org/10.1021/acs.biomac.6c02133",
+        "title": "Spray-dried cellulose microgels hold water in coarse sand and help drought survival",
+        "summary": "A polycarbodiimide-crosslinked carboxymethyl cellulose microgel swelled over 2000 fold, resisted saline conditions and raised water holding in coarse sand. It increased biomass and drought survival of <i>Amaranthus tricolor</i> seedlings. Seedling pot work only."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Environmental Monitoring and Assessment",
+        "url": "https://doi.org/10.1007/s10661-026-16148-6",
+        "title": "Scrapyard soils in Ghana: metals in pot-grown pepper vary without a clear soil to fruit link",
+        "summary": "Soil arsenic ranged from 14.228 to 41.907 mg/kg and lead up to 130.910 mg/kg across five scrapyards, and fruit lead ranged 0.066 to 4.367 mg/kg versus 4.410 in the control. Authors call the results descriptive and ask for field replication. Eighteen pots, so small."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Environmental Monitoring and Assessment",
+        "url": "https://doi.org/10.1007/s10661-026-16096-1",
+        "title": "Taiwan study: crop production rose 58% in main farm districts while food-energy-water sustainability fell",
+        "summary": "Between 2007 and 2021 in Taoyuan, total ecosystem service value rose despite land-use change, yet integrated sustainability declined in most districts, with food sustainability falling most. Generalized additive models fit best (R 0.945), and sediment retention was the strongest predictor. Urban landscape, modelled indices."
+      },
+      {
+        "date": "2026-12",
+        "source": "Environmental Microbiology Reports",
+        "url": "https://doi.org/10.1111/1758-2229.70457",
+        "title": "A bagasse-supported bacterial bio-product removed 99% of chlorpyrifos at 4500 ppm in 35 days",
+        "summary": "Two biofilm-forming strains, <i>Pseudomonas aeruginosa</i> MD3 and <i>Bacillus toyonensis</i> LD07, were immobilized on sugarcane bagasse. In coffee-growing soil microcosms the amended strains became the dominant taxa. Lab and microcosm result; the listed issue date is December 2026, so the online date is unconfirmed."
+      },
+      {
+        "date": "2026-11-10",
+        "source": "GrowinAgri digest via search snippet",
+        "url": "https://growinagri.substack.com/p/10th-november-2026-growinagri-daily",
+        "title": "COFCO Capital makes its first bio-agriculture investment, in Nanjing Shineking Biotech",
+        "summary": "COFCO Capital took a strategic stake in Nanjing Shineking Biotech, whose gamma-PGA biopolymer is used for water retention and soil improvement. Investment size was not given in the snippet, and I could not open the page, so treat it as unverified."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71456",
+        "title": "Ten commercial gel baits tested against the poultry litter beetle, with toxicology and behaviour",
+        "summary": "Ten insecticidal gel bait formulations were evaluated against <i>Alphitobius diaperinus</i>, a major pest in poultry production, combining toxicological and behavioural analyses. The abstract available to me gave no efficacy figures, so none are quoted. Livestock-pest rather than crop work."
+      }
+    ]
+  },
+  "methods": "Coverage window: 8 to 10 November 2026 (about 48 hours; the 2026-11-09 issue was the previous one). Sources were found mainly by PubMed date-filtered searches and two web searches, and dates come from the PubMed record; I did not open each publisher page. Two items rest on search snippets only (Syngenta and BRAIN Biotech, COFCO Capital), because the news sites were not reachable from this session, and are marked as unverified company or press claims. Two items have an issue date rather than an online date (<i>OsCBP609</i>, November 2026; chlorpyrifos, December 2026) and one abstract (OsCERK1 RLCK185 and the watermelon promoter) was unavailable, so only the title is reported. Items already used in recent briefings were skipped. Few preprints surfaced and none are included. Web news search found little dated 8 to 10 November, so news is thin."
+}
