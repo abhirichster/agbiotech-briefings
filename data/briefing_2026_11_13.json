@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-13",
+  "lead": {
+    "title": "Severe drought could push most cactus species out of their climate space",
+    "url": "https://doi.org/10.1038/s41586-026-11265-1",
+    "summary": "A Nature study that added severe drought and its compounding with warming to distribution models for 993 cactus species, using 648,316 curated records, found these models beat mean-climate models in 91% of cases. Including drought raises the share of species projected to lose suitable climate from 58 to 61% to 69 to 72% across emissions scenarios, and the share losing over four fifths of their range from 1 to 15% to 25 to 35%. If cacti cannot disperse, 84 to 85% lose area, and five bioregions could lose more than a quarter of their species. The work is modelling, but it shows that even a lineage seen as drought tolerant is vulnerable once extremes, not averages, are counted.",
+    "notes": [
+      {
+        "label": "Plant science",
+        "text": "Jasmonate signalling turns up twice today with yield-relevant roles: <i>ZmJAZ14</i> and <i>ZmMYC2</i> set the maize anthesis to silking interval, and in rice a jasmonate, OsMED25 and OsPTB4 axis splices <i>OsWRI1</i> to curb grain oil synthesis."
+      },
+      {
+        "label": "Biotech",
+        "text": "Classical resistance genes are moving into elite backgrounds: <i>Pm36</i> from line N278 gave stable powdery mildew resistance in the cultivar Shixin 828 for three seasons, while spinach joins the crops edited heritably without tissue culture (title-level claim)."
+      },
+      {
+        "label": "Prairies",
+        "text": "Group selection raised barley grain and protein yield above concurrently grown registered cultivars after eight generations, though not in oat; the trials were in Europe, so relevance to prairie barley and oat breeding is my inference."
+      }
+    ]
+  },
+  "sections": {
+    "plant": [
+      {
+        "date": "2026-11-11",
+        "source": "Nature",
+        "url": "https://doi.org/10.1038/s41586-026-11265-1",
+        "title": "Severe drought, not average climate, drives projected losses for 993 cactus species",
+        "summary": "Adding severe drought and its interaction with warming to distribution models for 993 Cactaceae species, built on 648,316 occurrence records, gave better supported models in 91% of cases. With 100 km dispersal, the share of species losing suitable climate rose from 58 to 61% under mean climate to 69 to 72% with drought, and the share losing over four fifths of their area rose from 1 to 15% to 25 to 35%. With no dispersal, 84 to 85% of species lose area, and five bioregions could lose over a quarter of their species; these are model projections, not observed declines."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "Science Advances",
+        "url": "https://doi.org/10.1126/sciadv.aeh7015",
+        "title": "The <i>ZmJAZ14</i> and <i>ZmMYC2</i> jasmonate module keeps maize tassels and silks in sync",
+        "summary": "The core jasmonate module <i>ZmJAZ14</i> and <i>ZmMYC2a/b</i> coordinates genes for the reproductive transition, ear initiation and silk elongation in maize. Disrupting the module, or accumulating the repressor ZmJAZ14, lengthens the anthesis to silking interval, a known cause of poor seed set under stress. The authors frame the repurposing of jasmonate signalling for sex determination as a maize-specific evolutionary cost that breeders might now target."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "Science Advances",
+        "url": "https://doi.org/10.1126/sciadv.aeh6396",
+        "title": "<i>OsIDD</i> and <i>OsSHR</i> genes jointly pattern the rice root cortex and endodermis",
+        "summary": "<i>OsIDD2/3/6/8</i> set the radial symmetry of the rice root cortex independently of the five <i>OsSHR</i> genes, and a quadruple <i>osidd</i> knockout gave asymmetric cortex and reduced root to shoot ion transport without damaging the apoplastic barrier. <i>OsIDD8</i> also sets the number of cortical layers, and <i>OsSHR1</i> to <i>OsSHR5</i> redundantly drive the periclinal divisions that need it. Both families position the Casparian strip protein OsCASP1 and lignin and suberin deposition, giving a genetic framework for the multilayer cortex that supports aerenchyma in flooded soils."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag347",
+        "title": "A single-nucleus atlas of soybean anthers finds a <i>GmKNU</i> switch into meiosis",
+        "summary": "A staged single-nucleus RNA-seq atlas of early soybean anthers resolved 11 cell types and traced microsporocyte, tapetum and middle layer lineages from archesporial cells. Comparing mitotic dividing cells with meiotic microspore mother cells pointed to the C2H2 zinc finger pair <i>GmKNUa/b</i>, homologs of <i>Arabidopsis KNUCKLES</i>, and CRISPR-Cas9 double mutants lacked meiocytes entirely. The genes are proposed as targets for controlling male fertility, for example in hybrid soybean systems, though no breeding application is tested."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag354",
+        "title": "ABA phosphatases ABI1 and ABI2 tune the manganese transporter NRAMP1",
+        "summary": "The PP2C phosphatases ABI1 and ABI2, core parts of ABA signalling, dephosphorylate the manganese transporter NRAMP1 at Thr498 to fine-tune uptake under deficiency and at Ser20 to limit its endocytosis under toxicity. Manganese stress triggers ABA, which first inhibits ABI1/2 and then allows a short reactivation that restrains NRAMP1 overactivation. The abstract does not name the species, which is most likely the model <i>Arabidopsis</i> given the gene names, so the claimed crop relevance is still to be shown."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "PNAS",
+        "url": "https://doi.org/10.1073/pnas.2613044123",
+        "title": "PIF7 holds back phytochrome A under persistent canopy shade",
+        "summary": "Under sustained far-red-rich canopy shade, PHYTOCHROME INTERACTING FACTOR 7 and phyA both accumulate and meet in nuclear photobodies, through the PIF7 C-terminus and the phyA PAS-PAS domain. PIF7 also binds the transport facilitators FHY1 and FHL, interfering with phyA shuttling into the nucleus, and PIF7 overexpression suppresses phyA action. The abstract does not state the species; the gene set is that of <i>Arabidopsis</i>, so treat this as model plant work."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag852",
+        "title": "Photorespiration is not a photoprotective electron sink in unstressed leaves",
+        "summary": "Using chlorophyll fluorescence with gas exchange across a wide range of O<sub>2</sub> and CO<sub>2</sub> mixes, the authors found that the fraction of metabolism poised toward photorespiration was the largest determinant of long-lived downregulation of photosystem II light harvesting. That downregulation did not track D1 protein loss, pointing to a quencher rather than damage. The result contradicts the idea that photorespiration protects the electron transport chain, which matters for efforts to engineer photorespiratory bypasses into crops, and also cautions that O<sub>2</sub> itself confounds such experiments."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Journal of Experimental Botany",
+        "url": "https://doi.org/10.1093/jxb/erag568",
+        "title": "Grasses that flipped from long-day to short-day flowering rewired only a few clock outputs",
+        "summary": "Diel transcriptomes of the short-day flowering <i>Nassella pubiflora</i> and long-day flowering <i>Oloptum miliaceum</i> (tribe Stipeae) showed that photoperiod rewired many genes in both, but species differences were confined to a small set of orthologs. Divergence centred on floral integrators, light signalling genes and clock targets, while core clock gene expression was conserved. The authors suggest these few central genes as candidates for tuning flowering time in temperate cereals."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Journal of Experimental Botany",
+        "url": "https://doi.org/10.1093/jxb/erag572",
+        "title": "<i>Arabidopsis</i> TRB proteins switch on superoxide dismutases for ethanol-enhanced salt tolerance",
+        "summary": "Ethanol treatment improves salt tolerance in <i>Arabidopsis</i> seedlings, and this study finds TELOMERE REPEAT BINDING proteins drive part of that effect by activating <i>AtCSD1</i>, <i>AtCSD2</i> and the copper chaperone <i>AtCCS</i>. AtTRB3 binds these loci, ethanol raises H4K5 acetylation there and global H4 acetylation, and <i>csd1</i> and <i>ccs</i> mutants stay salt sensitive even with ethanol. This is an <i>Arabidopsis</i>-only, seedling-stage result."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag349",
+        "title": "The E3 ligase CRL4<sup>DDRM3</sup> degrades CDT1 to support homologous recombination in <i>Arabidopsis</i>",
+        "summary": "The WD40 protein DDRM3 joins DDB1 to form an E3 ligase that polyubiquitinates and degrades the replication licensing factor CDT1. <i>ddrm3</i> mutants have reduced homologous recombination and are hypersensitive to double-strand break agents, silencing <i>CDT1</i> partly rescues them, and <i>CDT1</i> overexpression lowers recombination efficiency. Higher recombination is a long-sought aid for gene targeting, but this is an <i>Arabidopsis</i>-only mechanistic study."
+      }
+    ],
+    "biotech": [
+      {
+        "date": "2026-11-12",
+        "source": "Plant Cell Reports",
+        "url": "https://doi.org/10.1007/s00299-026-04042-x",
+        "title": "Virus-delivered editing gives heritable mutations in spinach without tissue culture",
+        "summary": "This report describes virus-mediated heritable gene editing in spinach, a crop that is recalcitrant to tissue culture and therefore hard to edit by standard transformation. No abstract was available in PubMed and the publisher page could not be opened from this session, so the virus, target genes and efficiencies are not reported here. Treat it as a title-level claim until the full text is checked."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-04-26-0826-RE",
+        "title": "Wheat line N278 carries <i>Pm36</i>, now bred into an elite cultivar",
+        "summary": "Line N278 resisted all 24 tested <i>Blumeria graminis</i> f. sp. <i>tritici</i> isolates as seedlings and held adult plant resistance for five years. BSR-Seq and genotyping of 8,000 F3 plants narrowed the locus to 882.36 kb on 5BL, matching the cloned tandem kinase gene <i>Pm36</i> (<i>WTK7-TM</i>). Marker-assisted transfer into the susceptible cultivar Shixin 828 produced line NS24, which kept resistance over three field seasons without obvious agronomic penalties."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag351",
+        "title": "Intron retention in <i>OsWRI1</i>, driven by OsMED25, throttles rice grain oil synthesis",
+        "summary": "<i>OsWRI1</i> is spliced into a full activator, OsWRI1&alpha;, and a truncated OsWRI1&beta; that binds OsWRI1&alpha;, blocks its dimerisation and stops activation of targets such as <i>OsACP1</i> and <i>OsFAD2</i>. The Mediator subunit OsMED25 binds a 360 bp intronic region and recruits the splicing factor OsPTB4 to promote intron retention, and jasmonate stabilises OsMED25 to suppress fatty acid synthesis. The axis is a candidate lever for altering grain lipid content, though no engineered line is reported."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag348",
+        "title": "A pathogen-induced UGT locus makes an antifungal glucoside in tea",
+        "summary": "In tea (<i>Camellia sinensis</i>), <i>CsUGT84A22</i> converts sinapic acid into the antifungal sinapoyl-&beta;-D-glucose, and silencing it weakened gray blight resistance. <i>CsMYB73</i>, encoded in the same locus, represses <i>CsUGT84A22</i>, and suppressing <i>CsMYB73</i> raised both resistance and glucoside levels, while the jasmonate repressor CsJAZ14 helps CsMYB73 hold the gene off. The authors propose the locus as a route to engineering natural antifungal compounds."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "Molecular Breeding",
+        "url": "https://doi.org/10.1007/s11032-026-01733-x",
+        "title": "GWAS of 252 Indian wheat varieties finds 13 robust stripe rust loci in a Himalayan hotspot",
+        "summary": "A panel of 252 Indian wheat varieties was scored for stripe rust at seedling and adult stages across eight environments in the Kashmir Valley. GWAS with 1,887 DArT-SNP markers found 26 stable marker-trait associations, 13 of them Bonferroni significant and explaining up to 13.76% of the variation, some apparently novel. Resistant lines also showed higher antioxidant enzyme activity, and 12 candidate genes were prioritised for validation."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "The Plant Genome",
+        "url": "https://doi.org/10.1002/tpg2.70329",
+        "title": "Two major walnut QTL control leafing date and lateral bearing",
+        "summary": "In a Chandler by Kaplan-86 walnut population, a QTL on linkage group 4 explained up to about 69% of variance in leafing date, a proxy for dormancy release and frost avoidance, consistently across four years. A second major QTL on linkage group 8 (chromosome 11) explained up to about 59% of lateral bearing, and was independently confirmed by QTL-seq. The loci give markers for breeding later-leafing, more productive walnut."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "The Plant Genome",
+        "url": "https://doi.org/10.1002/tpg2.70345",
+        "title": "SNP2GPS predicts where barley genebank accessions came from",
+        "summary": "SNP2GPS is a neural network workflow that infers the geographic origin of barley accessions from genome-wide SNPs, trained on the IPK Gatersleben collection. On 200 withheld accessions the median error was 58 km (mean 383 km), and it flags accessions whose recorded origin disagrees with their genotype. Predictions were tighter for wild than for domesticated barley, and the tool is open for curating genebank passport data."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "The Plant Genome",
+        "url": "https://doi.org/10.1002/tpg2.70336",
+        "title": "Genomic structure of 333 Bangladeshi rice accessions tracks ancestry more than ecotype",
+        "summary": "Genotyping 333 Bangladeshi rice accessions at 25,994 SNPs split them into Aromatic, Indica and Aus groups rather than the four traditional seasonal ecotypes (Boro, Aman, Aus, Jhum). Aus showed clear ecotype-linked differentiation, Aromatic partial differentiation between Aman and Boro, and Indica reduced diversity consistent with intensive breeding. The panel is positioned for GWAS and genomic prediction."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "Bioscience, Biotechnology, and Biochemistry",
+        "url": "https://doi.org/10.1093/bbb/zbag170",
+        "title": "A new <i>OsBt1</i> allele gives floury rice suited to bread making",
+        "summary": "The floury rice mutant FloTR2 carries an S331N substitution in <i>OsBrittle1</i>, the amyloplast ADP-glucose transporter, and expresses the gene about 11-fold higher than wild type. Its grains are lighter and smaller, but its flour has smaller particles and significantly less damaged starch. Bread made with the flour had better specific volume, which the authors link to the low starch damage."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Nucleic Acids Research",
+        "url": "https://doi.org/10.1093/nar/gkag1158",
+        "title": "M2iOR collects 30,348 insect odorant receptor and odorant pairs in one database",
+        "summary": "M2iOR compiles 35,891 bioassays covering 30,348 distinct insect odorant receptor and molecule pairs from 41 publications and public databases, with ligand structures, receptor sequences and assay metadata. Users can retrieve agonists and non-agonists for a receptor or activity profiles for a compound across species. The resource supports data-driven design of attractants and repellents for pest management, which is an application the database enables rather than demonstrates."
+      }
+    ],
+    "ag": [
+      {
+        "date": "2026-11-12",
+        "source": "Science",
+        "url": "https://doi.org/10.1126/science.aeg2366",
+        "title": "Climate aridity, not just fertiliser, raises river nitrate worldwide",
+        "summary": "Machine-learning maps of about 2.9 million river segments show aridity is a dominant driver of riverine nitrate, raising concentrations across land uses and creating hotspots away from farm and urban centres. Nitrate exceeds ecological thresholds across about 33% of global land area, affecting about 5.6 billion people (73%), and health thresholds across about 2%, affecting 0.5 billion. The authors argue aridification may raise nitrate exposure even without more inputs, complicating attribution of water quality to farming."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "Evolutionary Applications",
+        "url": "https://doi.org/10.1111/eva.70347",
+        "title": "Eight generations of group selection lifted oat and barley protein yield",
+        "summary": "Selecting the best performing groups of plants rather than individuals for eight generations raised grain and protein yield in oat and barley relative to the first generation, though gains were slowing. Against concurrently grown registered cultivars, group-selected barley outyielded them for grain and protein, while oat did not. Selected plants made fewer roots, more straw and sturdier shoots, and the authors note that drift or heterosis cannot be fully excluded."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "GM Crops &amp; Food",
+        "url": "https://doi.org/10.1080/21645698.2026.2760092",
+        "title": "Dropping the word gene from GM food names raised acceptance in China",
+        "summary": "In an online experiment, 1,217 Chinese participants saw one of four Chinese names for agricultural biotechnology, echoing the US choice of the label bioengineered. The one name without explicit reference to genes produced higher acceptance, lower perceived risk, higher perceived benefit and higher perceived naturalness, while the three gene-explicit names did not differ. The effect ran mainly through perceived benefits and was stronger in people with a strong naturalness orientation."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-06-26-1089-SC",
+        "title": "<i>Eutypa lata</i> completes its sexual cycle in Chilean vineyards",
+        "summary": "Surveys of 36 commercial vineyards in the Maule Region from 2022 to 2025 found <i>Eutypa lata</i> perithecia on dead grapevine wood in one vineyard, the first record in Chile. Ascospores from them caused necrotic lesions in greenhouse and field inoculations, fulfilling Koch's postulates. The finding means airborne ascospores are a local inoculum source, so pruning wounds need protection when wet weather favours release."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-10-25-2082-RE",
+        "title": "Onion <i>Burkholderia</i> strains differ by state in Pennsylvania and New York",
+        "summary": "Typing 89 <i>Burkholderia</i> strains from symptomatic onion bulbs and leaves by <i>recA</i> found five <i>Burkholderia</i> and two <i>Paraburkholderia</i> species. <i>B. cepacia</i> and <i>B. orbicola</i> dominated in New York, while <i>B. gladioli</i> was found only in Pennsylvania. State was the only significant predictor of disease severity on pearl onion bulbs, partly reflecting different species mixes."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-09-26-1803-FE",
+        "title": "Feature: cotton disease complexes need to be managed as co-infections",
+        "summary": "This feature article reviews how multiple pathogens combine in cotton root rot, vascular wilt, leaf spot and boll rot, speeding disease and blunting control measures. It highlights pathogen assemblage profiling and other molecular diagnostics for measuring co-infections, with a focus on Australian cotton. It is a review and argues for managing complexes rather than single pathogens."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Journal of Economic Entomology",
+        "url": "https://doi.org/10.1093/jee/toag341",
+        "title": "Hoverfly biocontrol breaks down at daily heat peaks of 37 &deg;C",
+        "summary": "Under daily 6 h peaks, the aphid predator <i>Eupeodes corollae</i> survived well at 33 &deg;C, declined at 35 &deg;C (29.0% of first instars and 48.0% of pupae survived) and collapsed at 37 &deg;C, with 0% pupal eclosion. Lifetime aphid consumption fell 77% at 35 &deg;C, and at 37 &deg;C adult longevity halved to 8.25 days and fecundity fell to 43.30 eggs per female. The authors advise releasing second and third instars and avoiding heat peaks of 37 &deg;C or more."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Crop Health",
+        "url": "https://doi.org/10.1007/s44297-026-00091-6",
+        "title": "Review: a roadmap for detecting and managing gummy stem blight in cucumber",
+        "summary": "<i>Stagonosporopsis</i> species cause gummy stem blight, which can stay latent in cucumber fruit for days and then cause post-harvest losses. The review argues current diagnostics lack validated species specificity, speed and field usability, and proposes LAMP and CRISPR-Cas assays that also profile fungicide resistance. It also points to effector biology and host resistance as longer-term routes to control."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-09-26-1757-RE",
+        "title": "A new mycovirus weakens the jujube canker fungus and sensitises it to pyraclostrobin",
+        "summary": "The partitivirus LzPV1, with two dsRNA segments of 1,905 and 1,773 bp, is the first mycovirus found in <i>Lasiodiplodia ziziphi</i>, which causes jujube canker. It spreads through hyphal fusion and conidia, reduces the fungus's virulence and increases its sensitivity to the fungicide pyraclostrobin. The authors propose it as a biocontrol resource; field efficacy is not tested."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71474",
+        "title": "Knocking down a microRNA cut sperm counts by 78% in mice, a lead for non-lethal rodent control",
+        "summary": "miR-486-3p restrains the ferroptosis gene <i>Acsl4</i> in mouse testis, and local knockdown of the microRNA triggered ferroptosis, damaged seminiferous tubules, reduced testis weight by 10.8% and cut epididymal sperm count by 78.2%. The authors propose the pathway as a target for fertility control of rodent pests as an alternative to rodenticides. This is a laboratory mouse study with local injection, far from a deployable bait."
+      }
+    ]
+  },
+  "methods": "Coverage window: 11 to 13 November 2026 (about 48 hours; the previous issue was 2026-11-12, so nothing was skipped). Items were found by PubMed searches filtered on entry date (12 to 13 November) and by journal, plus web news searches, and every date comes from the PubMed record rather than an opened publisher page: link.springer.com and www.science.org were unreachable from this session, and news searches turned up nothing reliably dated to the window, so today's briefing is journal-only. Three <i>The Plant Genome</i> papers (walnut, SNP2GPS, Bangladeshi rice) carry only a December 2026 issue date and are dated to their PubMed entry. The spinach editing paper has no abstract and is reported at title level. Two <i>Plant Cell</i> and PNAS papers (ABI1/NRAMP1, PIF7) do not name the species in the abstract and are flagged as probable <i>Arabidopsis</i> work; other <i>Arabidopsis</i>-only results are flagged in the text. A Science item on thermal infrared beetle pollination had no abstract and was left out. No preprints or company claims are included. Items covered in the 9 to 12 November issues (including the rice NIB1 paper, citrus limonoids and the 114-year erosion chronosequence) were skipped."
+}
