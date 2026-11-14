@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-14",
+  "lead": {
+    "title": "A single cotton gene lets breeders make haploids from either parent",
+    "url": "https://doi.org/10.1126/sciadv.aei1433",
+    "summary": "A Science Advances study identified <i>GEX1</i> as the gene behind semigamy, a sixty-year-old puzzle in which egg and sperm nuclei sit side by side without fusing. In cotton, a natural <i>GEX1</i> mutation delays or prevents karyogamy, so each gametic nucleus divides on its own and seeds can carry maternal haploids, paternal haploids or chimeric tissue. CRISPR-Cas9 knockout of <i>GEX1</i> reproduced the defect, giving a route to induce haploids of both origins. Most haploid inducers deliver only maternal haploids, so a dual-origin system could speed doubled haploid breeding and cytoplasm swaps, though induction rates in other crops remain to be shown.",
+    "notes": [
+      {
+        "label": "Plant science",
+        "text": "Genome dosage and chromatin feature today: autotetraploid wild strawberry gained gray mold resistance through dosage-sensitive defence genes in the epidermis, and maize H2A.Z maps flag enhancer-like non-coding transcripts that could improve genome annotation."
+      },
+      {
+        "label": "Biotech",
+        "text": "Resistance biology is getting more scalable: a VIGS screen of 301 NLRs found an antiviral receptor against turnip mosaic virus, and a YOLO11 tool matched human nematode egg counts (R<sup>2</sup> 0.89 to 0.97) while calling the same 44 resistant genotypes."
+      },
+      {
+        "label": "Prairies",
+        "text": "Two canola pathogens appear: methylation-sensitive control of ABA breakdown tunes clubroot resistance in <i>Brassica rapa</i>, and <i>Sclerotinia</i> cell wall integrity kinases worked as HIGS targets against stem rot. Both are lab studies, so field relevance to prairie canola is my inference."
+      }
+    ]
+  },
+  "sections": {
+    "plant": [
+      {
+        "date": "2026-11-13",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71754",
+        "title": "Doubling the strawberry genome toughens the leaf epidermis against gray mold",
+        "summary": "Colchicine-induced autotetraploids of the wild strawberry <i>Fragaria nilgerrensis</i> had larger leaves and stomata and stronger resistance to gray mold than diploids. Multi-omics showed most genes stayed near diploid expression after whole-genome duplication, but defence pathway genes were dosage sensitive, and transposable elements became hypermethylated. Single-cell analysis traced the gain to an epidermal barrier strategy, pointing to polyploidy as a route to cell-type-specific resistance."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71756",
+        "title": "<i>ROOMIE1</i> shapes which bacteria colonise <i>Lotus japonicus</i> roots",
+        "summary": "Inoculating 155 natural <i>Lotus japonicus</i> accessions with a synthetic community of 107 bacterial isolates and running GWAS on rhizosphere traits identified 355 significant loci. Functional tests with mutants and natural alleles confirmed <i>ROOMIE1</i> as a controller of rhizobiome assembly. Microbiome-associated loci carried population-genomic signatures distinct from climate-associated loci, suggesting the two pressures act on the genome in different ways."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71751",
+        "title": "Seedlings and rosettes give different answers in <i>Arabidopsis</i> immunity assays",
+        "summary": "A systematic comparison of responses to the bacterial patterns elf18 and flg22 across concentrations found that soil-grown rosettes were more sensitive than sterile seedlings in reactive oxygen species assays, with other outputs (calcium influx, MAPK activation, growth inhibition) also varying by system. The authors argue that the experimental context can change how immune phenotypes are read. This is an <i>Arabidopsis</i>-only methods study, but it bears on how pattern-triggered immunity results are compared across labs."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag352",
+        "title": "A borrowed brassinosteroid module patterns the <i>Arabidopsis</i> anther",
+        "summary": "The receptor kinase EMS1 recruits BSK kinases, which inactivate BIN2 and release BZR transcription factors, reusing the core brassinosteroid signalling cascade without the brassinosteroid receptors. The module drives tapetum specification and anther locule formation by activating cyclins such as CYCB1;1, while BSL2/3 phosphatases terminate tapetal division by promoting CYCB1;1 degradation. Results are in <i>Arabidopsis</i> only."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71746",
+        "title": "<i>CaLWD1</i> joins an MBW complex to build the pepper pollen wall",
+        "summary": "The WD40 gene <i>CaLWD1</i> is expressed mainly in the tapetum and microspores of pepper (<i>Capsicum annuum</i>) anthers, and silencing it disrupted the outer exine and caused male sterility. CaLWD1 forms an MYB, bHLH and WD40 complex with CaAMS and CaMS188, and its loss reduced expression of exine biosynthesis genes. The gene is a candidate target for male sterility systems in pepper hybrid seed production."
+      },
+      {
+        "date": "2026-11-14",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag854",
+        "title": "H2A.Z maps help annotate the maize genome in leaf and endosperm",
+        "summary": "Genome-wide maps of the histone variant H2A.Z in maize (<i>Zea mays</i>) leaf and endosperm showed it sits mainly around genes and acts with other epigenetic marks to influence expression. Most intergenic H2A.Z peaks were tied to non-coding transcripts likely derived from enhancers, though some marked transcripts with protein-coding potential. The authors propose H2A.Z signals as an aid to genome annotation."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag846",
+        "title": "DNA methylation and ABA breakdown tune clubroot resistance in <i>Brassica rapa</i>",
+        "summary": "Bisulfite sequencing and transcriptomes of resistant and susceptible <i>Brassica rapa</i> lines infected with <i>Plasmodiophora brassicae</i> showed global CHH hypomethylation in the resistant line and progressive hypermethylation in the susceptible one. Methylation-sensitive binding of BraBPC2.A08 to the promoter of the ABA catabolic gene <i>BraCYP707A3.A02</i> links epigenetic state to ABA levels and clubroot outcome. The work adds an epigenetic layer to clubroot resistance in a canola relative."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag849",
+        "title": "A false smut fungus protein triggers rice immunity through <i>OsCPK13</i>",
+        "summary": "UvWSC1, a cell wall localised protein secreted by the rice false smut fungus <i>Ustilaginoidea virens</i>, induces cell death in <i>Nicotiana benthamiana</i>, and a 113 amino acid fragment acts as a minimal immunogenic epitope across several plant species. In rice the response depends on the calcium-dependent kinase <i>OsCPK13</i>. The protein appears to play roles in both virulence and host recognition."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag845",
+        "title": "miR159a and <i>BrMYB12</i> set heat tolerance in flowering Chinese cabbage via raffinose sugars",
+        "summary": "At 42 &deg;C, miR159a-mediated thermotolerance in flowering Chinese cabbage seedlings worked mainly through the raffinose family oligosaccharide pathway, with <i>BrMIPS1</i>, <i>BrGolS1.1</i> and <i>BrRS2</i> strongly downregulated. miR159a cleaves the <i>BrMYB12</i> transcript, and the two act antagonistically on myo-inositol and raffinose biosynthesis. The module is a candidate for breeding heat-tolerant brassica vegetables."
+      },
+      {
+        "date": "2026-11-12",
+        "source": "Nature Plants",
+        "url": "https://doi.org/10.1038/s41477-026-02463-w",
+        "title": "Review: what drives the global distribution of plant diversity",
+        "summary": "This synthesis reviews how remote sensing, machine learning and mechanistic models, combined with new global datasets, show biogeographic history, environment, functional traits and biotic interactions jointly shaping plant diversity patterns. It stresses that gaps and biases in distribution, trait, interaction and phylogenetic data still limit inference, and that technology alone cannot close them. The authors call for coordinated data mobilisation and international collaboration to guide conservation under global change."
+      }
+    ],
+    "biotech": [
+      {
+        "date": "2026-11-13",
+        "source": "Science Advances",
+        "url": "https://doi.org/10.1126/sciadv.aei1433",
+        "title": "<i>GEX1</i> underlies semigamy and gives both maternal and paternal haploids in cotton",
+        "summary": "A natural mutation in <i>GEX1</i> disrupts nuclear membrane fusion at fertilisation in cotton, so the closely apposed gametic nuclei divide independently and yield maternal haploids, paternal haploids and chimeric progeny. CRISPR-Cas9 knockout of <i>GEX1</i> reproduced the defects and enabled haploid induction of both origins. This solves a six-decade question about semigamy and offers a dual-origin haploid inducer for doubled haploid breeding."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Theoretical and Applied Genetics",
+        "url": "https://doi.org/10.1007/s00122-026-05441-0",
+        "title": "k-mer markers track wild <i>Tripidium</i> chromosome segments in sugarcane hybrids",
+        "summary": "Whole-genome k-mer markers, validated by oligo-FISH and sequencing, traced <i>Tripidium arundinaceum</i> segments in sugarcane hybrids and revealed a recurrent translocation between its chromosomes 4 and 6. Breakpoints sat in pericentromeric regions rich in autonomous LTR retrotransposons, where bisulfite sequencing showed reduced CG and CHG methylation. The link between hypomethylation, retrotransposons and rearrangement is correlative."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Phytopathology",
+        "url": "https://doi.org/10.1094/PHYTO-06-26-0188-R",
+        "title": "Rust resistance mapped in hard red winter wheat Green Hammer &times; Lonerider",
+        "summary": "Genotyping 109 doubled haploid lines with 6,078 SNPs and testing them across Oklahoma, Kansas, Texas and Washington identified 14 stripe rust and eight leaf rust QTL. A major Green Hammer stripe rust QTL lies near the 2NvS translocation, Lonerider contributes two major stripe rust QTL on 2AL and 2BS, and two Green Hammer leaf rust QTL likely correspond to known all-stage resistance genes. The loci give Great Plains breeders mapped targets for combining adult plant and seedling resistance."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Phytopathology",
+        "url": "https://doi.org/10.1094/PHYTO-07-26-0237-R",
+        "title": "Two major leaf rust loci found in the Iranian wheat landrace PI 621674",
+        "summary": "In a RIL population tested over two generations against a US leaf rust race, two QTL on 1BS and 5BS each explained about 24 to 28% of phenotypic variance (LOD 8.1 to 10.5). The 1BS locus, mapped to 64.67 to 66.06 Mb, appears to be novel, while the 5BS locus lies near a known gene. KASP markers were developed for marker-assisted selection."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Molecular Plant Pathology",
+        "url": "https://doi.org/10.1111/mpp.70385",
+        "title": "A VIGS screen of 301 NLRs finds an antiviral receptor against turnip mosaic virus",
+        "summary": "Silencing 301 NLR genes in <i>Nicotiana benthamiana</i> and challenging with turnip mosaic virus identified NLR39-2, a TIR-type NLR whose overexpression suppressed virus accumulation and whose CRISPR knockout increased susceptibility. It binds the viral VPg protein and partly relocates to P-bodies near replication complexes, and the effect did not extend to two other viruses. The screen offers a scalable platform for antiviral NLR discovery."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant, Cell &amp; Environment",
+        "url": "https://doi.org/10.1111/pce.71043",
+        "title": "Cell wall integrity kinases of <i>Sclerotinia</i> are workable HIGS targets",
+        "summary": "Mutants in the <i>Sclerotinia sclerotiorum</i> cell wall integrity MAPK cascade (SsBck1, SsMkk1, SsSmk3) and the scaffold SsPro40 lost sclerotia formation, compound appressoria and virulence, with the pheromone MAPK pathway also required. The transcription factor SsAdv1 emerged as a major regulator of sclerotia. Host-induced gene silencing of the cascade kinases suppressed stem rot, giving candidate targets against a pathogen of canola and many vegetable crops."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-01-26-0079-RE",
+        "title": "NemaQuant automates root-knot nematode egg counts for resistance screening",
+        "summary": "A YOLO11 object detector trained on 600 nematologist-annotated images counted <i>Meloidogyne incognita</i> and <i>M. enterolobii</i> eggs from 711 sweetpotato, pepper and watermelon samples. Agreement with human counts gave R<sup>2</sup> of 0.89 to 0.97 across fecundity metrics, and the tool identified the same 44 resistant genotypes as manual counting. The lab has replaced manual counting with the pipeline."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-06-26-1241-RE",
+        "title": "Sequencing beats graft indexing for virus testing in <i>Rubus</i>",
+        "summary": "High throughput sequencing of 71 donor plants detected 20 virus species, up to six in one plant, and found virus in every donor. In parallel graft bioassays on 426 black raspberry indicators, 45% stayed symptomless at eight weeks and 61% after winter dormancy, and the two methods did not correlate well. The authors conclude sequencing is more effective for clean plant certification."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71485",
+        "title": "Vip3Aa resistance from <i>CHS2</i> loss carries heavy fitness costs in cotton bollworm",
+        "summary": "A <i>Helicoverpa armigera</i> strain with chitin synthase 2 knocked out had over 2,852-fold recessive resistance to Vip3Aa but no cross-resistance to Cry1Ac or Cry2Ab. Without Vip3Aa it developed slowly and was less fecund, and only 1% of larvae survived seven days on cotton leaves and 2% five days on corn ears; larvae lacked a peritrophic matrix. Such alleles should be selected against in refuges, supporting pyramided Bt crops."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71479",
+        "title": "A wild soybean endophyte community protects soybean and promotes rice and maize growth",
+        "summary": "Domestication left cultivated soybean with a sharp loss of endophytic fungal diversity and a fragile microbial network, while wild soybean kept a connected cross-kingdom network. A synthetic community of four bacteria and one fungus from wild soybean, SynCom TL, promoted soybean growth and resisted <i>Fusarium solani</i>, and also boosted growth and defence gene expression in rice and maize. Results are from controlled experiments; field performance is untested."
+      }
+    ],
+    "ag": [
+      {
+        "date": "2026-11-13",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-03-26-0536-RE",
+        "title": "SDHI resistance markers in grape powdery mildew track the fungicide used",
+        "summary": "Screening <i>Erysiphe necator</i> from Hungarian vineyards treated with boscalid, fluopyram, fluxapyroxad or no SDHI for four resistance mutations gave the first report of N85S in this pathogen and the first European record of I71F. G169D and I71F were strongly associated with fluxapyroxad and N85S with fluopyram, and mutations were also common in untreated plots. Several co-authors are BASF employees."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-08-26-1592-RE",
+        "title": "<i>Verticillium dahliae</i> alone drives potato early dying in Colorado's San Luis Valley",
+        "summary": "Surveys of 18 potato fields over three seasons found <i>V. dahliae</i> in 100% of early dying samples, with the black dot fungus <i>Colletotrichum coccodes</i> also common. In greenhouse tests <i>V. dahliae</i> alone reproduced the full syndrome, while <i>C. coccodes</i> caused little disease and did not worsen it. Management should centre on <i>V. dahliae</i>."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-08-26-1661-RE",
+        "title": "Non-host rotation cut soybean cyst nematode reproduction by 79% across 185 Ohio fields",
+        "summary": "Spring and fall sampling of 185 Ohio fields in 2023 and 2024 showed soil texture explained little variation in soybean cyst nematode reproduction, while rotation with a non-host crop was linked to a 79% lower reproductive factor. Seasonal changes in permanganate oxidisable carbon, pH and macroaggregates, plus spring potassium, were also associated. A model built on individual soil properties explained 2.8 times more variation than composite soil health indices."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Phytopathology",
+        "url": "https://doi.org/10.1094/PHYTO-08-26-0278-R",
+        "title": "Repeated DMI sprays reshaped Cercospora populations in sugar beet within one season",
+        "summary": "SSR genotyping of 237 <i>Cercospora beticola</i> isolates before and 497 after fungicide exposure in a Minnesota and North Dakota study found 59 and 120 multilocus genotypes. Populations shifted with the DMI used, with prothioconazole and tetraconazole groups clustering apart from mefentrifluconazole and difenoconazole, and dominant genotypes matched treatment sensitivity profiles. Broad-spectrum tank-mix partners did not cause significant differentiation."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Phytopathology",
+        "url": "https://doi.org/10.1094/PHYTO-07-26-0243-R",
+        "title": "Tomato viruses worsen pith necrosis but ease bacterial canker wilt",
+        "summary": "Surveys of Israeli greenhouse tomato outbreaks from 2021 to 2026 linked pith necrosis to a diverse <i>Pseudomonas</i>-dominated community and bacterial canker to a single species. Plants infected with tomato brown rugose fruit virus or pepino mosaic virus had 40 to 100% larger pith necrosis lesions without more bacterial colonisation, yet the same viruses attenuated canker wilt. Mixed infections can push disease severity in either direction."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-08-26-1693-RE",
+        "title": "An eriophyid mite transmits rose yellow mosaic virus",
+        "summary": "RT-PCR of 657 roses from 23 botanical gardens in central Japan detected rose yellow mosaic virus in 30 plants (4.6%) at 12 sites. Laboratory-reared <i>Phyllocoptes</i> mites acquired the virus and transmitted it to rose leaf discs and seedlings at rates of 42 to 81%. This is the first experimental evidence of a vector, pointing to mite control in ornamental rose production."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Global Change Biology",
+        "url": "https://doi.org/10.1111/gcb.71202",
+        "title": "Fire and grazing raise belowground productivity in wetter grasslands and savannas",
+        "summary": "Across seven long-term African and North American sites spanning an aridity index of 0.21 to 0.71, belowground net primary productivity rose with water availability, and frequent fire and large herbivores increased it, most strongly at wetter sites. There, disturbance curbed woody thickening and favoured herbaceous plants that allocate more to roots, while drier sites were largely resilient. The findings matter for carbon accounting in managed rangelands."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant, Cell &amp; Environment",
+        "url": "https://doi.org/10.1111/pce.71029",
+        "title": "Seed mucilage chemistry decides how well seeds stick to soil surfaces",
+        "summary": "Comparing basil, chia, psyllium and flax seeds under hydrostatic pressure, enzymatic removal of pectin caused a marked loss of adhesion in all four, while hemicellulose-rich psyllium mucilage held better than pectin-rich flax on rough and porous substrates. Mucilage transplanted onto non-mucilaginous seeds conferred attachment. The authors suggest the findings could improve seed retention in reforestation and direct seeding."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag844",
+        "title": "Ursolic acid slows fresh-cut apple browning by raising ascorbic acid",
+        "summary": "Exogenous ursolic acid stimulated endogenous ursolic acid synthesis and increased ascorbic acid in fresh-cut apple, alleviating enzymatic browning. Transcriptome and co-expression analyses implicated <i>MdGGP2</i> and <i>MdAPX1</i>, regulated by the transcription factors MdMYB70 and MdbHLH62. The work offers a mechanism for a natural anti-browning treatment in fresh-cut produce."
+      },
+      {
+        "date": "2026-11-13",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag851",
+        "title": "A PUB8, ZAT11/12 and LAC1 module controls gritty stone cells in pear",
+        "summary": "Linking stone cell distribution with reactive oxygen species and programmed cell death in young pear fruit, co-expression analysis identified PbZAT11 and PbZAT12 as regulators that connect ROS signals to the laccase-driven lignin polymerisation step. The E3 ligase PUB8 acts upstream in the module. The genes are targets for reducing grittiness and improving fruit texture."
+      }
+    ]
+  },
+  "methods": "Coverage window: 12 to 14 November 2026 (about 48 hours; the previous issue was 2026-11-13, so nothing was skipped). Items were found by PubMed searches filtered on entry date (13 to 14 November) across plant science, breeding, pathology and pest management journals, plus web news searches; every date comes from the PubMed record rather than an opened publisher page, because NCBI and several publisher sites were not reachable directly from this session. News searches returned nothing reliably dated to the window (the latest relevant item, a Bayer gene-editing licence, was dated 4 November and is outside it), so today's briefing is journal-only. Two Molecular Plant Pathology and Global Change Biology papers carry only a November 2026 issue date and are dated to their PubMed entry. <i>Arabidopsis</i>-only results (immunity assay context, anther brassinosteroid module) are flagged in the text, as are controlled-environment results without field data and an industry co-authored fungicide resistance survey. No preprints are included. Items covered in the 10 to 13 November issues (including <i>OsWRI1</i> intron retention, spinach virus-delivered editing, Indian wheat stripe rust GWAS, SNP2GPS, photorespiration and the hoverfly heat study) were skipped, as was a Nature Communications <i>Striga</i> economics paper whose publication date (15 October) falls well outside the window."
+}
