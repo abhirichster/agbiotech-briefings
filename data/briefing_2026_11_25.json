@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-25",
+  "lead": {
+    "title": "Three-way <i>Brassica</i> hybrids unlock recombination deserts, with crossovers up 13-fold near centromeres",
+    "url": "https://doi.org/10.1073/pnas.2616611123",
+    "summary": "Crossovers in <i>Brassica napus</i> are normally almost absent near centromeres, which locks breeders out of the regions where some resistance genes sit. Crossing <i>B. napus</i> (AACC) with <i>B. oleracea</i> (CC) produced CCA allotriploids, and crossing those back to <i>B. rapa</i> (AA) produced AAC allotriploids; both showed the same meiotic deregulation, with crossover frequency in low-recombining regions rising 9.4-fold in AAC and 13.4-fold in CCA hybrids. Alternating the two hybrid types reshuffled both <i>B. napus</i> subgenomes within two generations, and chromosomes involved in homoeologous pairing shifted crossovers furthest into the usually silent regions. Those deserts carry 21% of all resistance gene analogs, so the route offers canola breeders access to variation that normal crossing cannot move.",
+    "notes": [
+      {
+        "label": "Plant science",
+        "text": "Pathogens and symbionts dominated the plant section: a <i>Verticillium longisporum</i> effector hijacks the host mRNA turnover machinery to convert cells into water-conducting tissue, a family of rice polysaccharide lyases turns out to limit mycorrhizal arbuscules and blast at the same time, and a phosphorylation switch in tomato separates nitrogen-driven growth from nitrogen-driven disease susceptibility."
+      },
+      {
+        "label": "Biotech",
+        "text": "The toolbox news is incremental rather than headline: an inducible transcriptional activator tuned to 130-fold induction in potato and <i>Nicotiana benthamiana</i>, a cryo-EM structure for the miniature Cas effector Cas&delta;-1, a sorghum telomere-to-telomere pangenome of ten genomes, and grafting antibody-producing tobacco onto tomato rootstocks to cut nicotine in the harvested leaf from roughly 400 mg/kg to under 50."
+      },
+      {
+        "label": "Prairies",
+        "text": "Two items land close to home. A University of Saskatchewan group reports 98.3% holdout accuracy detecting pea seed-borne mosaic virus in faba bean seed by hyperspectral imaging, without cutting the seed open, and a USDA model plus web application predicts alfalfa leafcutting bee emergence to within a day so managers can match bees to bloom. The lead item is about canola genetics in all but name."
+      }
+    ]
+  },
+  "sections": {
+    "plant": [
+      {
+        "date": "2026-11-24",
+        "source": "Proceedings of the National Academy of Sciences",
+        "url": "https://doi.org/10.1073/pnas.2616611123",
+        "title": "Interploidy hybrids raise crossovers up to 13.4-fold in <i>Brassica</i> recombination deserts",
+        "summary": "CCA allotriploids from <i>Brassica napus</i> crossed with <i>B. oleracea</i>, and AAC allotriploids made from those with <i>B. rapa</i>, both show heavily deregulated meiosis. Crossover frequency in normally low-recombining pericentromeric regions rose 9.4-fold in AAC and 13.4-fold in CCA plants, and alternating the two reshuffled both <i>B. napus</i> subgenomes in two generations. The authors note those regions hold 21% of resistance gene analogs, and that the genetic factors controlling homoeologous recombination are already present in the diploid progenitors."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Cell Host &amp; Microbe",
+        "url": "https://doi.org/10.1016/j.chom.2026.11.002",
+        "title": "A wilt fungus effector rewires plant cell identity and builds extra water-conducting tissue",
+        "summary": "<i>Verticillium dahliae</i> usually plugs the xylem and causes wilt, but its relative <i>V. longisporum</i> instead induces new tracheary elements and shifts how the plant handles drought. The authors identify the effector TRANSDIFFERENTIATION EFFECTOR, which binds VARICOSE, a conserved component of the mRNA turnover machinery, and is accompanied by SNF1-related kinase dependent phosphorylation and loss of VARICOSE function. That changes the abundance of transcripts controlling xylem differentiation, including <i>WOUND INDUCED DEDIFFERENTIATION 1</i>, so a single effector redirects cell fate."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Proceedings of the National Academy of Sciences",
+        "url": "https://doi.org/10.1073/pnas.2616731123",
+        "title": "Locusts read a rice defence volatile as an invitation to feed together",
+        "summary": "Emission of the volatile S-linalool rises more than 10-fold after gregarious migratory locust nymphs damage rice, and the compound then attracts other nymphs to the already-attacked plants. Editing the olfactory receptor <i>LmOR49</i> in <i>Locusta migratoria</i> abolished both the electrophysiological response and the attraction, and editing the rice genes needed for S-linalool synthesis made plants unattractive. Prior feeding suppressed deterrent metabolites, so the cue appears to point locusts toward more palatable tissue rather than to any direct fitness gain, which makes the receptor a control target."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "The Plant Cell",
+        "url": "https://doi.org/10.1093/plcell/koag365",
+        "title": "Rice polysaccharide lyases cut back mycorrhizal arbuscules and blast alike",
+        "summary": "A bacteria-derived family named chitin-binding and lyase proteins was characterised in rice, where <i>OsCBLP1</i> is induced specifically in arbusculated cells and <i>OsCBLP2</i> in those and neighbouring cells. Knocking out either raised colonisation by <i>Rhizophagus irregularis</i> and the double mutant more so, while overexpression cut arbuscule abundance in rice and <i>Medicago truncatula</i>. Purified OsCBLP1 bound and lysed chitin and inhibited hyphal elongation, and <i>OsCBLP2</i> was also induced in leaves and conferred blast resistance, suggesting arbuscule turnover is active host defence."
+      },
+      {
+        "date": "2026-11-23",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71770",
+        "title": "A phosphorylation switch separates nitrogen-driven growth from nitrogen-driven disease",
+        "summary": "Heavy nitrogen raises yield but also raises susceptibility to pathogens, and in tomato the authors trace that to glutamine synthetase 2, which promotes both biomass and susceptibility to <i>Ralstonia solanacearum</i>. The kinase CPK28 phosphorylates GS2 at serine 334 in a nitrate-dependent way, changing its localisation, disturbing the phenylpropanoid pathway and cutting lignin deposition. A phospho-dead S334A variant removed nitrogen-induced susceptibility without costing growth, which points to an edit that keeps the fertiliser response and drops the disease penalty."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Proceedings of the National Academy of Sciences",
+        "url": "https://doi.org/10.1073/pnas.2633248123",
+        "title": "Cryo-EM catches the chloroplast magnesium channel MGT10 opening asymmetrically",
+        "summary": "Magnesium sits at the centre of chlorophyll and activates RuBisCO, and MGT10 is the only CorA/MRS2 family member on the chloroplast envelope. Structures of the <i>Arabidopsis</i> protein in two conformations show a homopentamer with a central tunnel and a constriction ring of five conserved arginines arranged asymmetrically, which is required for conduction, plus a transition from a symmetric closed state to an asymmetric putatively open one. An intramolecular disulfide bond in each soluble domain proved necessary for structural integrity and for the protein's role in photosynthesis. Structural work in <i>Arabidopsis</i> only."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag877",
+        "title": "Wheat drought tolerance runs partly through m6A marks on lignin genes",
+        "summary": "Comparing the drought-tolerant wheat accession L1773 with the sensitive L98 by methylated RNA immunoprecipitation sequencing and metabolomics, the tolerant line showed global m6A hypermethylation under drought while the sensitive line showed no net change. Differentially modified drought-responsive genes were enriched in photosynthesis, stress signalling and protein homeostasis, and network analysis singled out a lignin biosynthesis module. Virus-induced gene silencing showed <i>TaC3'H1</i> and <i>TaERF160</i> act negatively and <i>TaNAC108</i> positively, and silencing the m6A reader <i>TaECT3-2A</i> improved seedling survival. Seedling-stage silencing, not field tests."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Plant, Cell &amp; Environment",
+        "url": "https://doi.org/10.1111/pce.71080",
+        "title": "Nitrate also controls the anchor roots nobody had looked at",
+        "summary": "Nitrate is known to shape primary and lateral root growth, but anchor roots, which emerge from the collet, had not been placed in that picture. The authors show nitrate regulates anchor root formation, that cytokinin inhibits it as nitrate rises, and that the cytokinin effect depends on conversion of indole-3-butyric acid to indole-3-acetic acid. The work is in <i>Arabidopsis</i> only, so whether crop root systems use the same lever is untested."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "Microbiome",
+        "url": "https://doi.org/10.1186/s40168-026-02570-y",
+        "title": "Endophytic fungi leave a chromatin mark that helps birch survive heat",
+        "summary": "Field surveys along a gradient in maximum temperature of the warmest month found soil fungal diversity falling while some potentially beneficial taxa were enriched. Inoculating birch (<i>Betula platyphylla</i>) with representative endophytes improved growth and photosynthesis even without stress, and under heat the fungi set up a chromatin state at heat-responsive genes that eased their activation. The authors present this as an epigenetic basis for microbe-mediated heat adaptation in trees; the mechanistic part is controlled-environment work behind a field correlation."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "eLife",
+        "url": "https://doi.org/10.7554/eLife.110692",
+        "title": "Simple leaves win because they are easier to build, not only because they are favoured",
+        "summary": "Phylogenetic trees combined with herbarium data confirm that across angiosperm history, complex-to-simple leaf transitions have outpaced the reverse. Feeding random mutations into an established computational model of leaf development, with selection excluded, reproduced transition rates close to the observed ones. The authors read that as strong developmental bias, the gene regulatory network simply reaching simple shapes more readily, and link it to similar biases reported for RNA secondary structures and protein assemblies."
+      }
+    ],
+    "biotech": [
+      {
+        "date": "2026-11-23",
+        "source": "Plant Biotechnology Journal",
+        "url": "https://doi.org/10.1111/pbi.70785",
+        "title": "An inducible activator for plant synthetic biology reaches 130-fold induction in potato",
+        "summary": "A transcriptional activator from <i>Rhodopseudomonas palustris</i>, retooled for plants, was optimised for low background and strong induction by the ligand p-coumaroyl-homoserine lactone. Changes to the activation domain, nuclear localisation signal, DNA operator, minimal promoter and combinations of these spread the dynamic range widely: the lowest basal expression was about 30% of the reference gene elongation factor-1 alpha and the best activated expression about 130-fold induction. It worked both in transient <i>Nicotiana benthamiana</i> assays and in stably transformed potato across several ligand concentrations and application methods."
+      },
+      {
+        "date": "2026-10-25",
+        "source": "Nature Communications",
+        "url": "https://doi.org/10.1038/s41467-026-79084-6",
+        "title": "A structure for the miniature editor Cas&delta;-1 shows how its short guide cuts DNA",
+        "summary": "Cas&delta;-1 is an evolutionarily distinct endonuclease that works across kingdoms with an unusually small guide RNA. Biochemistry confirmed robust double-stranded DNA cleavage plus target-dependent trans-cleavage and mapped the precise cut sites and substrate saturation, and a 3.04 Angstrom cryo-EM structure of the Cas&delta;-1 with crRNA and double-stranded DNA shows protospacer-adjacent motif recognition, heteroduplex assembly and RuvC-mediated cleavage. The authors frame it as groundwork for rational design rather than a working crop editing result."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Planta",
+        "url": "https://doi.org/10.1007/s00425-026-05226-1",
+        "title": "Grafting antibody tobacco onto tomato roots strips out the nicotine problem",
+        "summary": "Molecular farming in <i>Nicotiana</i> is complicated by alkaloids, so the authors grafted transgenic monoclonal antibody expressing <i>N. tabacum</i> onto <i>Solanum lycopersicum</i> rootstocks. Nicotine in leaf extracts fell to 3 to 43 mg/kg against 396 to 483 mg/kg in ungrafted plants, with similar drops for nornicotine, anatabine, anabasine and pseudoxynicotine, and antibody quality and quantity were unaffected. In a model purification, Protein A binding capacity fell to 70% over repeated cycles with normal extracts but held steady with the grafted low-alkaloid material."
+      },
+      {
+        "date": "2026-08-29",
+        "source": "BMC Plant Biology",
+        "url": "https://doi.org/10.1186/s12870-026-09839-2",
+        "title": "Knocking out a soybean phosphatase buys disease resistance without costing nodulation",
+        "summary": "Boosting immunity often risks the beneficial symbionts a legume depends on, so the authors disrupted <i>GmLOPP</i>, a soybean type 2C protein phosphatase, and checked both sides. Mutants resisted bacterial blight and bacterial pustule better, produced more reactive oxygen species after lipopolysaccharide treatment and upregulated <i>GmOXI1</i> and <i>GmWRKY33</i>. No detectable penalty appeared in growth or nodulation, which is the point of interest for editing; the tests are greenhouse-scale rather than field."
+      },
+      {
+        "date": "2026-08-31",
+        "source": "BMC Genomics",
+        "url": "https://doi.org/10.1186/s12864-026-13294-6",
+        "title": "Imazamox tolerant wheat from chemical mutagenesis carries mutations outside the usual hotspots",
+        "summary": "Ethyl methanesulfonate was applied both to 50,000 M1 seeds and to 126,000 calli, and selection across M2 to M4 generations with germination-stage and foliar herbicide treatments yielded four stable lines. Sequencing a 1,123 bp acetolactate synthase fragment found five SNPs, all outside the canonical resistance positions Ala122, Pro197, Ala205, Trp574 and Ser653, including a rare adjacent dual substitution. Mutant lines held acetolactate synthase protein at 4.60 to 4.93 micrograms per millilitre under imazamox against 1.97 in susceptible controls. Non-transgenic, but tolerance was not yet confirmed in field conditions."
+      },
+      {
+        "date": "2026-10-05",
+        "source": "iMetaOmics",
+        "url": "https://doi.org/10.1002/imo2.70144",
+        "title": "A ten-genome telomere-to-telomere sorghum pangenome puts transposons on the map",
+        "summary": "Three new telomere-to-telomere assemblies, from wild, landrace and transformable germplasm, were combined with seven existing ones into a graph pangenome. The comparison found extensive centromere divergence, with distinct CEN137 monomer and CEN274 dimer organisation, and conserved noncoding sequences clustered more around core than dispensable genes. Transposon composition was conserved overall while individual families varied in copy number, and a transposon-based association study linked an LTR/Gypsy insertion upstream of one gene to higher expression and grain yield per plant. The functional test was heterologous overexpression in <i>Setaria viridis</i>, not sorghum."
+      },
+      {
+        "date": "2026-09-14",
+        "source": "iMetaOmics",
+        "url": "https://doi.org/10.1002/imo2.70141",
+        "title": "A maize haplotype lost in modern breeding moves nitrogen from root to shoot",
+        "summary": "The transcription factor NCR1 regulates the nitrate transporter NRT2.3 and so controls root-to-shoot nitrogen transport. The authors report a superior <i>NCR1</i> haplotype that strengthens that transport and that has been lost from modern maize germplasm, and argue it can be bred or engineered back to raise yield at lower fertiliser rates. This is a short report summarising the finding rather than a full account of the field evidence."
+      },
+      {
+        "date": "2026-12-01",
+        "source": "The Plant Genome",
+        "url": "https://doi.org/10.1002/tpg2.70346",
+        "title": "Five Andean lupin genomes turn structural variation into breeding targets for low-alkaloid seed",
+        "summary": "Long-read assemblies of four <i>Lupinus mutabilis</i> accessions, compared with the Inti reference, spanned 431 to 589 Mb with 33,610 to 41,443 protein-coding genes and 56.1% to 66.6% repetitive content. Pairwise comparisons found 10,745 to 15,495 structural variants per accession and 27,418 nonredundant loci overall, 59.1% of them inside or within 3 kb of a gene. Inti lacked the sweet-associated <i>RAP2-7</i> and <i>LaAT</i> states known from other cultivated lupins, and the comparison flagged candidate quinolizidine alkaloid genes, including a Cys118Phe change in lysine/ornithine decarboxylase, for validation."
+      },
+      {
+        "date": "2026-11-23",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-09-26-1855-RE",
+        "title": "A Cas12a dipstick test for wisteria vein mosaic virus reads out in under an hour",
+        "summary": "After sequencing a new isolate of wisteria vein mosaic virus from Guizhou, the authors built an assay pairing reverse transcription recombinase polymerase amplification with CRISPR/Cas12a collateral cleavage, optimised to 10 nM crRNA, 12.5 nM LbCas12a and 400 nM reporter. The limit of detection was 1.55 copies per microlitre, about 10 to the fifth times more sensitive than standard RT-PCR, with no cross-reaction against five other plant viruses. The whole workflow runs in under an hour on a portable transilluminator or lateral flow dipstick, and field samples agreed with RT-PCR."
+      },
+      {
+        "date": "2026-09-01",
+        "source": "Plant Methods",
+        "url": "https://doi.org/10.1186/s13007-026-01588-5",
+        "title": "Hyperspectral imaging spots a seed-borne virus in faba bean without cutting the seed",
+        "summary": "Pea seed-borne mosaic virus cannot be seen by eye and conventional tests destroy the seed, so a University of Saskatchewan group imaged individual faba bean seeds across 400 to 1700 nm. A support vector machine with standard normal variate preprocessing reached 97.2% mean fivefold cross-validation accuracy and 98.3% on an independent holdout, with an ROC-AUC of 0.994; a reduced wavelength set held 96.2% and 90.8%. Nuclear magnetic resonance profiling found raised phenolic signals in infected seeds, which supports a physical basis for the spectral difference."
+      }
+    ],
+    "ag": [
+      {
+        "date": "2026-11-24",
+        "source": "Proceedings of the National Academy of Sciences",
+        "url": "https://doi.org/10.1073/pnas.2617419123",
+        "title": "Forty years of soil acidification doubled the cadmium reaching Chinese rice and wheat grain",
+        "summary": "Reconstructing cropland topsoil cadmium and pH across China from 1980 to 2020, national mean soil cadmium rose from 0.123 to 0.236 mg/kg while mean pH fell from 6.50 to 6.30, and by about 0.5 units in several southern rice provinces. Mean grain cadmium rose from 0.043 to 0.100 mg/kg in rice and 0.017 to 0.032 in wheat, and by 2020 provinces with mean hazard quotients above 1.0 held about 138 million people. Scenario work to 2050 suggests restoring pH to 6.5 would offset about 44% of the projected rise in rice cadmium, and 59% when combined with source control."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Frontiers in Plant Science",
+        "url": "https://doi.org/10.3389/fpls.2026.1983351",
+        "title": "A second wheat dwarfing allele tests out as equivalent to the one breeders already use",
+        "summary": "<i>Rht-B1p</i> had only been compared with the wild type, leaving breeders without the contrast against <i>Rht-B1b</i>, the allele in most semi-dwarf wheats. In one biparental spring wheat population of 3,147 plants and 119 lines over two seasons, no difference was demonstrated for any of 14 traits, with equivalence established at a 5 cm margin for plant height and internode number and at a 10% margin for six more. <i>Rht-B1p</i> cut height 21 to 25 cm against the wild type, and the difference between haplotypes was 0.18 cm. One location, and plot yield, lodging and establishment remain untested."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-03-26-0469-RE",
+        "title": "Tropical maize lines hand temperate breeders new white spot resistance haplotypes",
+        "summary": "A multi-parent population of 904 recombinant inbred lines, from six tropical or subtropical inbreds crossed with a temperate line, was phenotyped for maize white spot over four years and genotyped with 6,390,967 SNPs. Association and linkage analysis converged on five candidate genes, including <i>Zmhsftf25</i>, <i>Zmmpk8</i> and <i>Zmmmp86</i>, whose early induction after infection was confirmed by qRT-PCR. Haplotype analysis identified superior resistance haplotypes from the tropical parents for marker-assisted selection. The candidates themselves are associations, without functional validation."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-05-25-0958-RE",
+        "title": "A symptomless seed-borne virus breaks <i>Ty</i> resistance to tomato yellow leaf curl",
+        "summary": "Of 214 tomato samples collected in Shanxi Province from 2021 to 2024, tomato yellow leaf curl virus turned up in seven of nine cities, and five of six commonly grown cultivars lacked <i>Ty</i> resistance genes altogether. Fifty-seven samples carried <i>Ty</i> genes and 16 of those were mixed infections involving southern tomato virus, which causes no obvious symptoms but promoted infection in <i>Ty-1</i> and <i>Ty-3a</i> backgrounds and induced typical symptoms in <i>Ty-1</i> homozygotes. The authors also flag <i>SlCIPK11</i> and <i>SlSTY46</i> as candidate antiviral genes and argue for pyramiding resistance."
+      },
+      {
+        "date": "2026-11-23",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-09-26-1794-RE",
+        "title": "Low doses of carbendazim stimulate rice false smut, most of all the resistant isolates",
+        "summary": "Testing a sensitive, a moderately resistant and a highly resistant isolate of <i>Ustilaginoidea virens</i>, low fungicide doses promoted mycelial growth in all three: up to 14.47% for the sensitive isolate at 0.003 to 0.03 micrograms per millilitre, 15.38% for the moderately resistant one, and 19.49% across a much wider range of 0.01 to 10.0 for the highly resistant isolate. The stimulation persisted, weaker, in subcultures on fungicide-free medium, and appeared in sporulation and germination too. Low-dose pretreatment raised virulence of the sensitive isolate while both resistant isolates lost pathogenicity."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Phytopathology",
+        "url": "https://doi.org/10.1094/PHYTO-05-26-0163-R",
+        "title": "Copper resistance in California walnut blight evolved several times over",
+        "summary": "Whole-genome sequencing of 115 <i>Xanthomonas arboricola</i> pv. <i>juglandis</i> strains from 12 counties found six genetic clusters with no correlation to geographic origin, and clades that were exclusively Californian alongside others mixing in global strains. A pangenome analysis located copper resistance operons on distinct mobile genetic elements, implying independent acquisition more than once, and 77 strains carried such operons with in vitro assays confirming resistance. Strains encoded 17 to 22 type III effectors, varying by cluster, which bears on how durable any resistant rootstock would be."
+      },
+      {
+        "date": "2026-11-23",
+        "source": "Plant Disease",
+        "url": "https://doi.org/10.1094/PDIS-09-26-1728-SC",
+        "title": "Tomato brown rugose fruit virus found in Hawaii field tomatoes, a first for US open fields",
+        "summary": "Surveys across the state detected tomato brown rugose fruit virus on multiple islands, with repeated detection at the same field over several years suggesting it persists there. Sanger sequencing put the isolates at more than 99.4% identity with published genomes. The authors describe this as the first report for Hawaii and the first official report of the virus in commercial field tomato production in the United States, and say they will work with growers to trace the source."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "BMC Plant Biology",
+        "url": "https://doi.org/10.1186/s12870-026-10165-w",
+        "title": "Cutting irrigation suppresses weeds but costs maize more than the weeds do",
+        "summary": "Two seasons of field trials in El-Nubaria, Egypt, crossed irrigation at 60, 80 and 100% of crop evapotranspiration with rice straw mulch, wheat straw mulch, nicosulfuron at 1 L per hectare, hand hoeing and a weedy control. More water raised growth, yield components, grain yield and grain nitrogen, phosphorus and potassium, but also raised weed density and biomass. At 60% of full irrigation grain yield fell about 17 to 21% even though weed development was suppressed, and weed control improved crop performance across all irrigation levels."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Journal of Economic Entomology",
+        "url": "https://doi.org/10.1093/jee/toag351",
+        "title": "A development model lets alfalfa seed growers hold leafcutting bees back for late bloom",
+        "summary": "Managers who need to delay <i>Megachile rotundata</i> emergence when weather pushes bloom back have had no way to predict the effect of interrupted incubation. Using constant temperatures from 21 to 31 degrees C, the authors estimated developmental thresholds and thermal constants and built a three-phase interrupted development model that predicted median emergence and its distribution within a day for most treatments. The 10th to 90th percentile emergence window compressed nearly six-fold, from 23 days at 21 degrees C to 4 days at 31. Treatments with a one-week thermophase before a two-week cold phase were consistently underpredicted, so they recommend at least two weeks of warmth first, and they released a web application."
+      },
+      {
+        "date": "2026-11-23",
+        "source": "Studies in History and Philosophy of Science",
+        "url": "https://doi.org/10.1016/j.shpsa.2026.102260",
+        "title": "Analysis: precision agriculture raises yields about 1%, so should it be regulated on that claim",
+        "summary": "This philosophy of science paper examines precision agriculture against one of its own stated aims, productivity, and reports that field trials show modest yield gains, estimated at roughly 1% on implementation. The author argues the field should either drop productivity as a headline goal or be held to it, and sketches an oversight regime modelled on medical regulation to verify that specific technologies deliver yield. It is argument rather than new measurement, and the 1% figure is taken from existing literature."
+      }
+    ]
+  },
+  "methods": "Coverage window: 23 to 25 November 2026. The previous issue was 2026-11-23 and no issue was published on 24 November, so the window was widened back to the last issue and covers two days of PubMed entries rather than one. Items were found through PubMed searches filtered on entry date across plant science, biotechnology, genomics, pathology, entomology, weed science and soil journals, and every DOI, journal and date was checked against the PubMed record; doi.org itself does not resolve from this session's network, so publisher pages could not be opened and dates rest on the PubMed metadata. The date shown is the electronic publication date, with these exceptions: the Andean lupin genome paper carries no electronic date, so its December issue date is used; and seven items were published online earlier but only entered PubMed inside this window and were not in earlier issues, namely the <i>Cas&delta;-1</i> structure (25 October), the soybean <i>GmLOPP</i> knockout (29 August), the imazamox wheat lines (31 August), the sorghum pangenome (5 October), the maize <i>NCR1</i> report (14 September), the faba bean hyperspectral paper (1 September) and the wheat <i>Rht-B1p</i> equivalence trial (9 November). Web searches for agricultural and regulatory news from 23 to 25 November returned only older or undated trade pages, and no Prairie or company news could be dated inside the window, so today's briefing is journal-only and no company claims are carried. Flags: <i>Arabidopsis</i>-only results are the MGT10 structure and the nitrate anchor root work; functional tests by heterologous or over-expression rather than natural alleles or edits are the sorghum pangenome candidate in <i>Setaria viridis</i> and the rice <i>OsCBLP</i> overexpression in <i>Medicago</i>; candidates identified by association without functional validation are the maize white spot loci, the Andean lupin alkaloid genes and the tomato antiviral candidates; controlled-environment or seedling-only results are the wheat m6A silencing tests, the birch endophyte mechanism, the soybean <i>GmLOPP</i> tests and the imazamox wheat selection; two items are commentary or analysis rather than primary research and are labelled as such, the precision agriculture regulation paper and the maize <i>NCR1</i> short report. No preprints are included. Items from the 20 to 23 November issues were not repeated, including the cyhalofop-butyl sprangletop survey, the pyroxasulfone field pea trial, the Zheyou 18 heterosis paper, the <i>Bacillus</i> Septoria trials and the wheat drought QTL review."
+}
