@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-26",
+  "lead": {
+    "title": "A sprayed gold nanorod releases a microRNA only once the leaf crosses a set temperature",
+    "url": "https://doi.org/10.1038/s41477-026-02472-9",
+    "summary": "Gold nanorods carrying a tethered double-stranded microRNA stay biologically inert until the leaf reaches a threshold temperature that melts the duplex, freeing the guide strand to load into the RNA-induced silencing complex and repress its target. The platform worked in both <i>Arabidopsis thaliana</i> and rice, and both the activation temperature and the resulting phenotype could be tuned, including regulation of more than one gene and across the two species. Delivery was by ordinary foliar spray, with no tissue damage and no transgene, so the nanoparticle acts as a thermal switch rather than a passive carrier. The work is a laboratory demonstration rather than a field technology, and nothing is yet reported about persistence, dose control in a canopy or regulatory status.",
+    "notes": [
+      {
+        "label": "Plant science",
+        "text": "Water relations ran through the plant section. Rice <i>Osxax1</i> mutants with less wall lignin and softer guard cell walls lost stomatal speed, leaf hydraulic conductance and photosynthesis at once, knocking out tomato <i>SlERF72</i> let plants hold higher stomatal conductance and hydraulic conductance under high vapour pressure deficit, and a C4 forage grass grown 2&deg;C warmer in the field for years respired less through the night with no biomass penalty."
+      },
+      {
+        "label": "Biotech",
+        "text": "Delivery and integration dominated the toolbox news. Alongside the lead item, a cryo-EM study of the type I-F3 CRISPR-associated transposase from <i>Vibrio cholerae</i> shows the conformational licensing steps that arm DNA integration, helped by a computationally redesigned TnsA that raised integration activity nearly 100-fold without losing specificity, and a review sorts virus-induced genome editing into four delivery architectures and their trade-offs."
+      },
+      {
+        "label": "Prairies",
+        "text": "Three items sit close to Prairie cropping. Barley <i>seg3</i> mutants germinated faster despite much less endosperm, with altered root architecture on micro-CT; knocking out <i>TT8</i> in <i>Camelina sativa</i> raised seed oil from 25% to 28 to 30% of dry mass, but only under high nitrogen, which matters for an oilseed pitched at marginal land; and a Canadian oligoprobe sequencing panel for 30 grapevine viruses is aimed squarely at domestic certification and quarantine."
+      }
+    ]
+  },
+  "sections": {
+    "plant": [
+      {
+        "date": "2026-11-25",
+        "source": "The Plant Journal",
+        "url": "https://doi.org/10.1111/tpj.71260",
+        "title": "A metabolite repair enzyme keeps rice and maize from dwarfing",
+        "summary": "A dwarf rice mutant with abnormal panicles was mapped to <i>OsDAP1</i>, an ATP-dependent dehydratase that works with the epimerase <i>OsPDX3</i> to convert damaged NAD(P)H hydrates back into usable NAD(P)H in vitro. Mutating the maize ortholog <i>ZmDAP1</i> reproduced the dwarfism and gave abnormal tassels, so the repair step looks conserved across grasses. Housekeeping enzymes that clear damaged metabolites turn out to set plant architecture."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag869",
+        "title": "Two soybean <i>HAL3</i> genes are both needed for salt tolerance, and the route runs through coenzyme A",
+        "summary": "Overexpressing <i>GmHAL3b</i> held a better Na+/K+ ratio, chlorophyll and shoot biomass under salt, while CRISPR-Cas9 mutants were more sensitive, and <i>GmMYB68</i> directly activates the gene. <i>GmHAL3b</i> binds its homolog <i>GmHAL3a</i>, and overexpression failed in a <i>GmHAL3a</i> knockout background, so the two are not redundant. Acetyl-CoA tracked gene dosage and feeding the coenzyme A precursor pantothenic acid largely rescued the mutants; much of the test was in transgenic hairy roots under controlled conditions."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "Journal of Integrative Plant Biology",
+        "url": "https://doi.org/10.1111/jipb.70449",
+        "title": "A kinase regulator shortens cotton fibre through brassinosteroid signalling, and yields a KASP marker",
+        "summary": "Overexpressing <i>GhKR1</i> in <i>Gossypium hirsutum</i> gave short fibres and dwarf plants resembling brassinosteroid-deficient mutants, while RNAi knockdown did the opposite. The protein binds <i>GhBIN2</i> and raises its kinase activity, inactivating <i>GhBZR3</i> and <i>GhBES1.4</i> in an <i>LBD42</i> to <i>KR1</i> to <i>BIN2</i> cascade that damps wall remodelling and lipid metabolism genes. A SNP in <i>GhKR1</i> was converted into a KASP marker linked to fibre length for selection."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71773",
+        "title": "Strigolactones thicken poplar wood through a transcription factor whose alleles differ in strength",
+        "summary": "Treating <i>Populus tomentosa</i> with the strigolactone analog rac-GR24, or overexpressing the biosynthesis gene <i>PtoMAX1a</i>, promoted secondary xylem, cell wall thickening and lignin, and knockdown reversed it. Association analysis picked out the AP2/ERF factor <i>PtoERF5</i>, which directly activates <i>PtoVND6-C2</i> and <i>PtoXCP1</i>, with downstream activation of <i>PtoMYB20</i>. Natural variants in the activation domain differ in how strongly they switch those targets on, which makes them candidate alleles for wood property breeding."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "Plant Communications",
+        "url": "https://doi.org/10.1016/j.xplc.2026.102203",
+        "title": "Why the high-affinity potassium transporter <i>HAK5</i> switches itself off",
+        "summary": "<i>HAK5</i> sustains <i>Arabidopsis</i> growth at micromolar potassium, yet shuts down after an initial inward current in <i>Xenopus</i> oocytes. Mutants with enhanced uptake were largely kinase-independent and inactivated less while keeping high affinity, native <i>HAK5</i> dimers changed conformation with potassium supply, and <i>CIPK23</i> with <i>CBL1</i> delayed the shutdown, so phosphorylation counteracts it. The authors read self-inactivation as a guard against membrane depolarisation or cytosolic acidification from sustained potassium and proton symport; the work is <i>Arabidopsis</i> and oocytes only."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "The Plant Journal",
+        "url": "https://doi.org/10.1111/tpj.71248",
+        "title": "Knocking out <i>SlERF72</i> helps tomato cope with dry air",
+        "summary": "Transcriptomics identified <i>SlERF72</i>, which represses the antioxidant genes <i>SlSOD2</i> and <i>SlNADPH1</i> and the early auxin gene <i>SlSAUR36</i>. Knockout plants kept higher stomatal conductance, leaf relative water content and whole-plant hydraulic conductance at lower water potential under high vapour pressure deficit, helped by better reactive oxygen control and more root growth. High vapour pressure deficit appears to repress the gene epigenetically through the histone deacetylase <i>SlHDA6.1</i>, shown with a deacetylase inhibitor and ChIP-qPCR in controlled conditions."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "The Plant Journal",
+        "url": "https://doi.org/10.1111/tpj.71264",
+        "title": "Looser guard cell walls slow rice stomata and cut leaf water transport",
+        "summary": "Rice <i>Osxax1</i> mutants, altered in xylan substitution, had less hemicellulose, lignin, ferulic acid and p-coumaric acid, and guard cell walls with loosely packed cellulose and a lower Young's modulus. Stomatal conductance, photosynthetic rate, stomatal response speed, leaf hydraulic conductance and leaf water potential all fell together, and leaf veins were smaller and collapsed with thinner, less lignified vessel walls. The result ties wall chemistry directly to how fast and how far stomata can move water."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "New Phytologist",
+        "url": "https://doi.org/10.1111/nph.71779",
+        "title": "A tropical forage grass fully acclimates its night respiration to 2&deg;C of field warming",
+        "summary": "In a long-term field warming experiment, <i>Brachiaria</i> Mavuno hybrid plants grown 2&deg;C warmer respired less throughout the night and across much of a 25 to 45&deg;C response curve. Acclimation came with different nitrogen allocation, more respiratory protein and engagement of alternative respiratory pathways, while leaf temperature explained only a small part of nightly variation and soluble sugars were weakly associated. Biomass productivity was unchanged, which tempers projections of large extra carbon release from warmed C4 pasture."
+      },
+      {
+        "date": "2026-09-15",
+        "source": "Nature Communications",
+        "url": "https://doi.org/10.1038/s41467-026-77688-6",
+        "title": "<i>Arabidopsis</i> tunes its leaf chemistry to which herbivore is feeding, and how hard",
+        "summary": "Leaf metabolomes of <i>Arabidopsis thaliana</i> exposed to four herbivore species at three attack intensities showed species-specific and intensity-dependent responses that exceed what feeding guild or host range would predict, both across pathways and within glucosinolate biosynthesis. From 520 matched metabolome and bioassay pairs the authors flag putative resistance metabolites preferentially induced by the matching herbivore, and those responses weaken in membrane coreceptor mutants. The paper went online on 15 September and only now entered the index; it is <i>Arabidopsis</i>-only."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "AoB PLANTS",
+        "url": "https://doi.org/10.1093/aobpla/plag058",
+        "title": "Barley <i>seg3</i> mutants germinate faster despite a much smaller endosperm",
+        "summary": "Shrunken endosperm mutations in barley are known to cut grain weight, and the expectation was that less storage tissue would slow establishment. Instead <i>seg3</i> grains showed a higher germination index than wild type, and micro-computed tomography revealed a different root system architecture in early growth. Reduced endosperm volume therefore does not limit germination performance here, though the work stops at early seedlings and says nothing about field establishment or yield."
+      }
+    ],
+    "biotech": [
+      {
+        "date": "2026-11-25",
+        "source": "Nature Plants",
+        "url": "https://doi.org/10.1038/s41477-026-02472-9",
+        "title": "A foliar-sprayed gold nanorod releases a microRNA only above a programmed temperature",
+        "summary": "A tethered double-stranded microRNA on a gold nanorod stays inert until duplex melting at a designed threshold frees the guide strand for loading into the silencing complex, giving sustained repression of the target. It worked in <i>Arabidopsis thaliana</i> and rice, with tunable activation temperature and phenotype and regulation of more than one gene, all delivered by non-invasive foliar spray. The claim is a programmable, transgene-free way to make traits respond to temperature, demonstrated so far in intact laboratory plants."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "Nature",
+        "url": "https://doi.org/10.1038/s41586-026-11287-9",
+        "title": "Cryo-EM catches a CRISPR-associated transposase arming itself for DNA integration",
+        "summary": "Type I-F3 CRISPR-associated transposases insert large DNA cargo with unusually high targeting fidelity, but how integration is switched on was unclear. Structures of the <i>Vibrio cholerae</i> holo integration complex show Cascade-TniQ, TnsC and TnsA-TnsB all changing conformation on assembly, with the catalytically competent state stabilised only in the full complex. Getting there needed a zero-shot computational redesign of TnsA that raised integration activity by nearly two orders of magnitude without hurting specificity, which the authors present as a route to more active cargo-insertion tools."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "Cells",
+        "url": "https://doi.org/10.3390/cells15222053",
+        "title": "Review: four ways to deliver genome editing by virus, and what each costs you",
+        "summary": "Virus-induced genome editing avoids stable transgene integration by using viral replication, movement and phloem transport, but cargo capacity and access to the germline have traded against each other. The review sorts systems along two choices, whether the vector encodes the nuclease and whether an engineered mobility element carries reagents to the germline, giving four architectures assessed against off-target risk from viral amplification, narrow host range and the gap to breeding pipelines. It proposes combining compact nucleases, mobile RNA signals and morphogenic regulators into a single-vector route to edited seed, which remains a proposal."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "Plant Physiology",
+        "url": "https://doi.org/10.1093/plphys/kiag883",
+        "title": "A resistance protein from wild pear works against both a fungus and a bacterium",
+        "summary": "Searching the <i>Pyrus betulifolia</i> genome with <i>AtRPM1</i> turned up <i>PbCNL1</i>, a CC-NB-LRR protein sharing 29.4% identity with it. Overexpression raised resistance to the black spot fungus <i>Alternaria alternata</i> in pear calli, fruit and leaves and in <i>Arabidopsis</i>, and to <i>Pseudomonas syringae</i> pv. tomato DC3000 in pear fruit, tobacco and <i>Arabidopsis</i>, with salicylic acid marker genes up. Unusually, the partner <i>PbRIN4-2</i> enhanced rather than guarded the response, independent of its acylation and phosphorylation; all gains come from overexpression, not native alleles or edits."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "The Plant Genome",
+        "url": "https://doi.org/10.1002/tpg2.70350",
+        "title": "A second kernel gives rice genomic prediction a small, honest lift",
+        "summary": "Genomic prediction usually codes markers as allele counts, so the authors added a kernel built from standardised nucleotide molecular masses alongside the usual genomic relationship matrix, in a multi-kernel Bayesian model tested on seven years of rice breeding data. Accuracy was competitive with or better than single-kernel GBLUP depending on trait, year and validation scheme, with only small differences against an environmental-genomic model. Diagnostics were candid: the new kernel was nearly rank one, correlated 0.998 with a minor-allele-count kernel and insensitive to the mass values, so the gain is a generic extra component rather than nucleotide chemistry."
+      },
+      {
+        "date": "2026-10-27",
+        "source": "Marine Drugs",
+        "url": "https://doi.org/10.3390/md24110381",
+        "title": "Adding one methionine stabilises a chloroplast enzyme and lifts taxadiene output 98-fold",
+        "summary": "Heterologous enzymes expressed in the <i>Chlamydomonas reinhardtii</i> chloroplast are degraded fast, which caps production of taxadiene, the first committed intermediate toward paclitaxel. Swapping the <i>atpA</i> promoter for <i>psaA</i> raised titre 5.6-fold from 1.9 to 10.7 &micro;g/L, and an N-terminal methionine on taxadiene synthase took it to 26.7 &micro;g/L with about 30% of the enzyme still present at day six versus under 10% before. Tuning light, acetate, temperature, inoculum and methyl jasmonate reached 185.5 &micro;g/L, roughly 98 times the starting strain; this entered the index inside the window after an October online date."
+      },
+      {
+        "date": "2026-10-22",
+        "source": "Viruses",
+        "url": "https://doi.org/10.3390/v18111173",
+        "title": "A targeted sequencing panel for 30 grapevine viruses, built for Canadian certification",
+        "summary": "A custom oligoprobe panel targeting 24 RNA and six DNA grapevine viruses was compared against untargeted sequencing on total RNA and on double-stranded RNA from infected vines. The probe-based approach with double-stranded RNA detected all seven viruses present in seven infected plants, including three leafroll-associated viruses, rupestris stem pitting-associated virus, Pinot gris virus, virus H and red blotch virus, against six for probe-based total RNA. The authors position it as a scalable diagnostic for quarantine and domestic certification of planting material in Canada; indexed in this window after an October online date."
+      },
+      {
+        "date": "2026-11-24",
+        "source": "mLife",
+        "url": "https://doi.org/10.1002/mlf2.70111",
+        "title": "Potato late blight pathogen caps a chunk of its RNA with NAD+",
+        "summary": "Using ADP-ribosyl cyclase labelling, the authors show that a substantial fraction of <i>Phytophthora infestans</i> transcripts carry non-canonical 5' NAD+ caps rather than the standard cap. Genome-wide mapping finds the caps enriched on metabolism and virulence genes and links them to transcript architecture and RNA stability. It is a short letter proposing a new regulatory layer in oomycetes rather than a demonstration that the caps change infection."
+      },
+      {
+        "date": "2026-11-19",
+        "source": "Biology",
+        "url": "https://doi.org/10.3390/biology15222135",
+        "title": "Fungi have picked up <i>Agrobacterium</i>-style opine genes, repeatedly",
+        "summary": "A search of 6,123 fungal proteomes and 2,215 genome assemblies for homologs of eleven T-DNA opine synthesis genes, filtered by reverse searches, phylogenies and contamination tests, found seven groups of rhizobial origin embedded in fungal chromosomes rather than carried on bacterial contamination. Three resemble the T-DNA genes <i>sus</i>, <i>cus</i> and <i>chs</i>, and a three-gene opine dehydrogenase island in <i>Fusarium</i> matches an <i>Agrobacterium larrymoorei</i> plasmid locus. Five groups cluster in the ectomycorrhizal Boletaceae and <i>cus</i>-like genes fall into at least five clades, pointing to repeated acquisitions, with purifying selection on some and decay in others."
+      },
+      {
+        "date": "2026-11-18",
+        "source": "Biology",
+        "url": "https://doi.org/10.3390/biology15222116",
+        "title": "A camelina oil-boosting knockout only pays off when nitrogen is plentiful",
+        "summary": "Two <i>tt8</i> knockout lines of <i>Camelina sativa</i> and wild type were grown on nutrient film tables at 6.5 mM and 0.65 mM nitrogen. Under high nitrogen the knockouts raised seed oil concentration to 28 to 30% of dry mass against 25% in wild type, but under low nitrogen the advantage vanished, with a significant genotype by nitrogen interaction. Seed weight was higher than wild type under low nitrogen and residual tissue carbon shifted as well, so the engineered trait reaches into vegetative carbon metabolism; hydroponic conditions, not field."
+      }
+    ],
+    "ag": [
+      {
+        "date": "2026-11-25",
+        "source": "Proceedings of the National Academy of Sciences",
+        "url": "https://doi.org/10.1073/pnas.2634296123",
+        "title": "A gut symbiont lets cotton bollworm beat both a pyrethroid and a plant toxin",
+        "summary": "In <i>Helicoverpa armigera</i>, the symbiont <i>Corynebacterium glyciniphilum</i> rose in strains treated with lambda-cyhalothrin, in resistant strains and in populations exposed to the solanaceous defence compound 2-tridecanone, and was lowest in field populations on non-solanaceous hosts that stayed sensitive to the insecticide. Gene knockouts traced the effect to two symbiont detoxification genes, a cytochrome P450 and an esterase, that break down both the pyrethroid and the plant toxin. One microbial mechanism therefore underwrites resistance to a synthetic insecticide and to host plant chemistry at the same time, which complicates resistance monitoring built on insect genotype alone."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71509",
+        "title": "A rice delphacid invasion would put 313 Brazilian municipalities at risk",
+        "summary": "<i>Tagosodes orizicolus</i> transmits rice hoja blanca virus, and this pest risk analysis combines the probability of occurrence with each municipality's rice production value across Brazil. The authors estimate potential total losses of about US$2.73 billion and identify 313 municipalities at risk, each with its own loss estimate. The figure is a modelled worst case tied to qualitative risk classes and damage coefficients, not an observed loss."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "Pest Management Science",
+        "url": "https://doi.org/10.1002/ps.71513",
+        "title": "A two-fungicide nanocarrier that opens inside the infection site held 53.6% control at 14 days",
+        "summary": "Dendritic mesoporous silica coated with crosslinked carboxymethyl cellulose carried azoxystrobin and boscalid at 15.13% total loading and released 90.5% and 91.9% of them within 72 hours when exposed to glutathione and cellulase, the conditions of an infection front. Against <i>Sclerotinia sclerotiorum</i> in pot trials the formulation kept 53.6% efficacy at 14 days against 24.1% for a commercial suspension concentrate, while raising rapeseed defence enzymes and genes, and it was 2.37 times less acutely toxic to earthworms. Pot trials only, from the laboratory that built the carrier, so field performance and residue behaviour are untested."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "Nature Food",
+        "url": "https://doi.org/10.1038/s43016-026-01471-5",
+        "title": "Perspective: treat field variability as design input for engineered soil microbiomes",
+        "summary": "Synthetic microbial communities assemble beneficial strains rationally but perform inconsistently in the field because environmental heterogeneity, resident microbiota and farm management are left out of the design. The authors propose a synthetic microbiome framing that builds those conditions in, and discuss stability, biosafety and scalability along with monitoring, multi-omics, ecological modelling and artificial intelligence for iterative design. It is a conceptual piece, with no new field data attached."
+      },
+      {
+        "date": "2026-10-27",
+        "source": "Nature Communications",
+        "url": "https://doi.org/10.1038/s41467-026-79083-7",
+        "title": "Antibiotic residues in paddy soils push microbes to make more methylmercury",
+        "summary": "Across 40 paddy soils from China's main rice regions, adding fluoroquinolone antibiotics at 10 mg/kg raised methylmercury content by 2.9 to 19.7% over 21 days of incubation. Inhibitor and microcosm work showed the rise came from stimulated methylation rather than blocked demethylation, and blocking sulfate reduction cut the antibiotic-induced methylation by 31 to 75%, pointing to <i>hgcA</i>-carrying sulfate-reducing bacteria. Exposure suppressed competing groups and favoured tolerant, metabolically active methylators without changing their abundance, linking an emerging contaminant to a food safety risk; soil incubations, not grain measurements."
+      },
+      {
+        "date": "2026-11-11",
+        "source": "Frontiers in Plant Science",
+        "url": "https://doi.org/10.3389/fpls.2026.1965825",
+        "title": "Three seasons of tillage and cover crop trials show the answer changes every year",
+        "summary": "Conventional ploughing, shallow harrowing and no-tillage were crossed with traditional and integrated management in winter wheat from 2022 to 2024, measuring root length density, yield, soil temperature and water, and soil carbon dioxide efflux. Integrated management raised root length density 6% in 2022 and 13% in 2023 and yield 12% in 2022, while no-tillage led on roots in the first two years but significantly cut yield in 2024. Soil respiration tracked May to July rainfall more than root traits, and the authors' main conclusion is that single-season results on these practices do not transfer."
+      },
+      {
+        "date": "2026-11-15",
+        "source": "Plants",
+        "url": "https://doi.org/10.3390/plants15223560",
+        "title": "Barley intercropped with hairy vetch, plus <i>Trichoderma</i>, lifted protein yield on salty land",
+        "summary": "In a two-year field experiment in the Hetao Irrigation District, the barley and hairy vetch intercrop with <i>Trichoderma</i> inoculation yielded 15.14% more dry forage in 2024 and 9.53% more in 2025 than the uninoculated intercrop, with crude protein yield up 16.88% and 21.73%. In 2025 the inoculated intercrop produced 7.68 t/ha of dry forage and 0.81 t/ha of crude protein, beating inoculated barley by 38.97% and inoculated vetch by 17.93% on protein, with more crude protein and less fibre than barley alone. Land equivalent ratios exceeded one for both dry matter and protein, though inoculation did not change those ratios."
+      },
+      {
+        "date": "2026-11-09",
+        "source": "Frontiers in Plant Science",
+        "url": "https://doi.org/10.3389/fpls.2026.1952613",
+        "title": "Why improved cultivars stall: an adoption review across nine African staples",
+        "summary": "The review compiles adoption rates for bred cultivars of banana and plantain, bean, cassava, cowpea, maize, pearl millet, rice, sorghum and sweetpotato in sub-Saharan Africa, grouping drivers into demographic, infrastructure and market, information and support, and crop-related factors. Maize showed comparatively high adoption in most countries surveyed while pearl millet and sweetpotato lagged, with different factor combinations behind each. The authors warn that study quality and coverage vary widely and that most estimates rest on farmer self-report rather than verification, so cross-crop comparisons are shaky."
+      },
+      {
+        "date": "2026-11-25",
+        "source": "Journal of Agricultural and Food Chemistry",
+        "url": "https://doi.org/10.1021/acs.jafc.6c11130",
+        "title": "New auxin herbicide candidates gave full weed control at 37.5 g/ha",
+        "summary": "A series of aminopyridine ethers was built by fragment splicing and screened post-emergence. Compounds C6, C7 and C8 gave 100% control of <i>Echinochloa crus-galli</i>, <i>Eleusine indica</i>, <i>Setaria faberi</i>, <i>Amaranthus retroflexus</i>, <i>Abutilon</i> and <i>Portulaca oleracea</i> at 37.5 g a.i./ha, and C8 held over 70% control of all six at 9.375 g a.i./ha while damaging grass crops less than a commercial comparator at 75 g a.i./ha. Transcriptomics and metabolomics point to disrupted auxin signalling and lower indole-3-acetic acid; these are greenhouse pot assays on a synthetic series, a long way from a product."
+      },
+      {
+        "date": "2026-11-26",
+        "source": "Plant, Cell & Environment",
+        "url": "https://doi.org/10.1111/pce.71070",
+        "title": "Resistant vanilla genotypes recruit different microbes, in both kingdoms, to hold off <i>Fusarium</i>",
+        "summary": "Three vanilla genotypes with field-confirmed differences in resistance to <i>Fusarium oxysporum</i> f. sp. <i>vanillae</i> assembled distinct rhizosphere communities, with resistant lines showing more bacterial diversity but lower fungal diversity than the susceptible one. Network analysis put <i>Acinetobacter</i>, <i>Bosea</i> and <i>Trichoderma</i> in modules negatively correlated with disease index, and <i>Fusarium</i> and <i>Lasiodiplodia</i> in a positively correlated module. Metabolomics found genotype-specific exudate signatures, and in vitro assays showed resistant-genotype metabolites favouring antagonists while susceptible-genotype metabolites fed pathogen-associated fungi."
+      }
+    ]
+  },
+  "methods": "Coverage window: 25 to 26 November 2026, America/Regina. The previous issue was 2026-11-25, so the window is the normal one day of new indexing and no widening was needed. Items were found through PubMed searches filtered on entry date across plant science, biotechnology, genomics, pathology, entomology, weed science, soil and food-systems journals, and every DOI, journal and date was checked against the PubMed record. doi.org and publisher sites such as cell.com do not resolve from this session's network, so publisher pages could not be opened and dates rest on PubMed metadata; one <i>Molecular Plant</i> item on COP1 as a temperature sensor was dropped because no abstract was available and the claim could not be verified from any reachable source. Dates shown are electronic publication dates where PubMed gives one; where a journal records only a month or an issue, the entry date inside this window is shown instead, which applies to the four <i>Plant Journal</i> items and <i>The Plant Genome</i>. Eight items were published online earlier and only entered PubMed inside this window: the herbivore metabolome paper (15 September), the barley <i>seg3</i> paper (11 November), the genome editing delivery review (11 November), the taxadiene work (27 October), the grapevine panel (22 October), the opine gene survey (19 November), the camelina <i>TT8</i> study (18 November) and the paddy methylmercury paper (27 October), plus the three agriculture items dated 9 to 15 November. Flags: <i>Arabidopsis</i>-only or <i>Arabidopsis</i> and oocyte results are the herbivore metabolome study and the <i>HAK5</i> self-inactivation work; gains shown by overexpression or heterologous expression rather than native alleles or edits are the pear <i>PbCNL1</i> resistance protein, the soybean <i>GmHAL3</i> hairy roots and the poplar <i>PtoMAX1a</i> lines; controlled-environment, pot or hydroponic results are the camelina <i>TT8</i> nitrogen experiment, the rapeseed nanofungicide pot trials, the aminopyridine herbicide screens and the tomato vapour pressure deficit work; the <i>Tagosodes</i> loss figure is modelled, not observed. Four items are review, perspective or letter rather than primary research and are labelled as such: the virus-induced editing review, the synthetic microbiome perspective, the cultivar adoption review and the <i>Phytophthora</i> NAD+ cap letter. No preprints are included and no company claims are carried: web searches for agricultural, regulatory and Prairie trade news dated 25 to 26 November returned only older or undated pages, including on reported UK gene-editing approvals, so nothing could be dated inside the window and today's briefing is journal-only. Items from the 20 to 25 November issues were not repeated, including the <i>Brassica</i> interploidy recombination paper, the <i>Verticillium</i> transdifferentiation effector, the California walnut blight copper resistance survey and the alfalfa leafcutting bee emergence model."
+}
